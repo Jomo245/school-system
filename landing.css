@@ -1,0 +1,222 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+  .home_container{
+    width: 100%;
+    background:whitesmoke;
+    min-height: 100vh;
+                 }
+
+  .header_section{
+    width: 100%;
+    background-color: rgb(57, 57, 204);
+    display: flex;
+    justify-content: space-between;
+    padding:30px 30px ;
+    position: fixed;
+   
+                  }
+
+  .logo h3{
+    color: white;
+    cursor: pointer;
+          }
+
+  .nav nav ul{display: flex;
+              gap: 30px;
+              list-style-type: none;}
+
+   .nav nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    transition: 0.5s;}
+
+
+   .nav nav ul li .signIn{color: orangered;}
+
+  .nav nav ul li a::after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:0;
+    height: 2px;
+    background-color: whitesmoke;
+    transition: width 0.3s ease;
+            } 
+
+  nav ul li a:hover::after{
+    width: 100%;
+  }
+
+  
+
+  .content_section{
+    height: calc(100vh - 100px);
+    padding: 30px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./images/school.jpeg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+        }
+
+  .content{ width:90%;      
+            margin:60px auto;
+            color: white;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;}
+
+  .content h1{
+   font-size: 48px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(218, 8, 8, 0.5);
+  }
+
+  .content p{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    max-width: 600px;
+    text-shadow: 1px 1px 3px rgba(5, 5, 5, 0.5);
+  }
+
+  span{color: rgb(238, 72, 12);}
+
+  .btn a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 60px;
+    background-color: rgb(57, 57, 204);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+        }
+
+  .btn a:hover{
+    opacity: 0.6;
+
+  }
+
+  .mission_container{
+    margin-top: 20px;
+  width: 100%;
+  color: white;
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: transparent;
+  }
+
+.mission_box {
+    width: 300px;
+    margin: 20px;
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(151, 109, 109, 0.5);
+    }
+
+.mission_box:hover{
+      background-color: #555;
+      transform: translateY(-5px);
+      transition: 0.5s;
+      cursor: pointer;}
+
+.mission_box h2 {
+    margin-bottom: 15px;
+    font-family: "Montserrat", sans-serif;
+    color: orangered;
+    text-decoration: underline;
+}
+
+.mission_box p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ccc;
+    font-family: "Roboto", sans-serif;}
+
+    
+
+  /*------------FOOTER--------*/
+
+  .footer {
+  background-color: rgb(57, 57, 204);
+  color: #ccc;
+  padding: 40px 20px;
+         }
+
+.footer-container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin: auto;
+}
+
+.footer-box h2,
+.footer-box h3 {
+  color: white;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-box a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.footer-box a:hover {
+  color: #3b82f6;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+i {
+  color: orangered;
+  font-size: 28px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+i:hover {
+  opacity: 0.5;
+  transform: translateY(5px);
+}
+
+.socials {
+  display: flex;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.paragraph {
+  margin-top: 20px;
+  padding-top: 15px;
+}
+
+.content_information {
+  transform: translateY(40px);
+  animation: float 8s ease-in-out infinite;}

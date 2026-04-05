@@ -1,0 +1,95 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+  .home_container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4a47d5, #000);
+}
+
+.portal_login {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.portal_login h2 {
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.login_form {
+  text-align: left;
+}
+
+.login_form label {
+  font-size: 14px;
+  margin-top: 10px;
+  display: block;
+}
+
+.login_form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.login_form input:focus {
+  border-color: #4a47d5;
+}
+
+.login_form button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  background: #4a47d5;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login_form button:hover {
+  background: #2f2cc9;
+}
+
+.login_form p{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.login_form p a {
+  color: #4a47d5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.forget {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.forget a {
+  color: #4a47d5;
+  text-decoration: none;
+  font-size: 13px;
+}
