@@ -74,7 +74,7 @@ nav ul li a:hover::after {
   height: 60vh;
   background:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(143, 137, 137, 0.6)),
-    url("./images/cont.jpeg");
+    url("./images/cnt.jpeg");
   background-size: cover;
   background-position: center;
   display: flex;

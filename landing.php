@@ -23,7 +23,7 @@
           <ul>
             <li><a href="landing.php">HOME</a></li>
             <li><a href="#">ABOUT</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="contact.php">CONTACT</a></li>
             <li><a href="#">STAFF</a></li>
             <li><a href="#">SERVICES</a></li>
             <li><a href="#" class="signIn">SignIn</a></li>
