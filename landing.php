@@ -39,7 +39,7 @@
         <h1><span>WELCOME</span> TO OUR SCHOOL</h1>
         <p>We are here to help you succeed in your educational journey.</p>
         <p>Feel free to reach out if you have any questions or need assistance.</p>
-
+        
         <div class="btn">
           <a href="login.php">Join Us</a>
         </div>

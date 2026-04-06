@@ -61,14 +61,17 @@
     padding: 30px;
     width: 100%;
     margin: auto;
-    flex:1;
-        }
-
+    flex:1;}
+    
   .content{ width: 100%;      
             margin:80px auto;
             color: black;
             display: flex;
             }
+
+            
+
+
 
 /*---------------SIDE NAV---------------*/        
 
