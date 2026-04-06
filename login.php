@@ -25,7 +25,7 @@
             <li><a href="#">ABOUT</a></li>
             <li><a href="#">CONTACT</a></li>
             <li><a href="#">STAFF</a></li>
-            <li><a href="#">CHECK</a></li>
+            <li><a href="portal_login.php">STUDENT PORTAL</a></li>
             <li><a href="#" class="signIn">SignIn</a></li>
           </ul>
         </nav>
