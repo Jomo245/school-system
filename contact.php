@@ -34,37 +34,7 @@
 
     <!-----------CONTENT----------->
     <section class="content_section">
-      <div class="content">
-       
-        <h1><span>WELCOME</span> TO OUR SCHOOL</h1>
-        <p>We are here to help you succeed in your educational journey.</p>
-        <p>Feel free to reach out if you have any questions or need assistance.</p>
-
-        <div class="btn">
-          <a href="login.php">Join Us</a>
-        </div>
-
-        <div class="mission_container">
-          <div class="mission_box">
-            <h2>Our Mission</h2>
-            <p>To provide quality education and support to our students, fostering a nurturing environment for growth
-              and
-              learning.</p>
-          </div>
-
-          <div class="mission_box">
-            <h2>Our Vision</h2>
-            <p>To be a leading institution in providing innovative and accessible education to empower students for
-              future
-              success.</p>
-          </div>
-
-          <div class="mission_box">
-            <h2>Our Motto</h2>
-            <p>Excellence in Education</p>
-          </div>
-        </div>
-      </div>
+      
     </section>
 
 
