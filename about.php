@@ -39,6 +39,9 @@
            <p>Welcome to our school! We are dedicated to providing quality education and fostering a love for learning in our students.</p>
          </section>
 
+         
+          
+
     </section>
 
 
