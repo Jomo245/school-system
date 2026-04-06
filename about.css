@@ -21,8 +21,6 @@
   position: fixed;
   left: 0;
   top: 0;
-
-
 }
 
 .logo h3 {
@@ -63,7 +61,7 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
-.content_section{
+.content_section {
   min-height: 500px;
   width: 90%;
   margin: auto;
@@ -72,34 +70,259 @@ nav ul li a:hover::after {
   flex-direction: column;
 }
 
-.about_section {
+/*--------------ABOUT US PAGE----------------*/
+
+.background {
   width: 100%;
-  height: 50vh;
-  background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("./images/school.jpeg") ;
+  height: 60vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(images/highback.jpg);
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.background h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.background p {
+  width: 80%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1em;
+  color: #fff;
   text-align: center;
 }
 
-.about_section h2 {
-  font-size: 36px;
-  color: rgb(57, 57, 204);
+.main {
+  width: 100%;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+}
+.main1-3 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.main1 {
+  width: 100%;
+  margin: auto;
+  height: 35vh;
   margin-bottom: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.mission {
+  width: 25%;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  background: #fff;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1 1 280px;
+  text-align: center;
+  border-radius: 20px;
+  transition: 0.5s ease;
+}
+.fa-solid {
+  text-align: center;
+  font-size: 40px;
+  color: #36a7c4;
+  margin-bottom: 10px;
+}
+.mission:hover {
+  transform: translateY(-5px);
+}
+
+.main2 {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  background-color: aliceblue;
+  height: 45vh;
+  margin-bottom: 10px;
+}
+.main2-all {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+}
+.history-image {
+  width: 40%;
+}
+.history-image img {
+  width: 100%;
+  height: 100%;
+}
+.history {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.history h2 {
+  padding-bottom: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.history-content {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.history-content1 {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.history-content1 img {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 50%;
+}
+.history1-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.history1-content h3 {
   text-align: center;
 }
-.about_section p {
-  font-size: 18px;
+.history-content h3 {
+  color: #dd340a;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.history-content p {
+  text-align: left;
+}
+.history-content span {
+  color: #dd340a;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.main3 {
+  width: 100%;
+  margin-bottom: 30px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.mainh3-header h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.courses {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.course-content {
+  width: 49%;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.5s ease;
+}
+.course-content:hover {
+  background-color: #f8f8f8;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
+.course-image {
+  width: 35%;
+  height: 100%;
+}
+.course-image img {
+  width: 100%;
+  height: 100%;
+}
+.course-content:nth-child(3),
+.course-content:nth-child(4) {
+  flex-direction: row-reverse;
+}
+.course-text {
+  width: 65%;
+  padding: 20px 20px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main4 {
+  background: aliceblue;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.main4 h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
   color: #333;
-  line-height: 1.6;
-  margin-bottom: 20px;
 }
 
+.testimonial-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
 
+.testimonial-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
 
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
 
 /*------------FOOTER--------*/
 
