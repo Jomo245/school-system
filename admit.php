@@ -172,9 +172,7 @@
 
         </form>
       </div>
-</body>
 
-</html>
 
 
 </section>
