@@ -49,30 +49,30 @@
 
               <div class="form-group">
                 <label for="dob">Date of Birth:</label>
-                <input type="date" id="dob" name="dob">
+                <input type="date" id="dob" name="dob" required>
               </div>
 
               <div class="form-group">
                 <label>Gender:</label>
                 <div class="radio-group">
-                  <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
-                  <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+                  <input type="radio" id="male" name="gender" value="male" required> <label for="male">Male</label>
+                  <input type="radio" id="female" name="gender" value="female" required> <label for="female">Female</label>
                 </div>
               </div>
 
               <div class="form-group">
                 <label for="postal_address">Postal Address:</label>
-                <input type="text" id="postal_address" name="postal_address">
+                <input type="text" id="postal_address" name="postal_address" required>
               </div>
 
               <div class="form-group">
                 <label for="birth_certificate">ID / Birth Cert No:</label>
-                <input type="number" id="birth_certificate" name="birth_certificate">
+                <input type="number" id="birth_certificate" name="birth_certificate"  required>
               </div>
 
               <div class="form-group">
                 <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" required>
               </div>
             </div>
           </div>
@@ -89,20 +89,21 @@
               <div class="form-item">
                 <label for="relationship">Relationship:</label>
                 <select id="relationship">
-                  <option>Father</option>
-                  <option>Mother</option>
-                  <option>Guardian</option>
+                    <option>Select relationship - - -</option>
+                    <option>Father</option>
+                    <option>Mother</option>
+                    <option>Guardian</option>
                 </select>
               </div>
 
               <div class="form-item">
                 <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone">
+                <input type="tel" id="phone" required>
               </div>
 
               <div class="form-item">
                 <label for="email">Email Address:</label>
-                <input type="email" id="email">
+                <input type="email" id="email"  required>
               </div>
 
             </div>
@@ -113,20 +114,20 @@
             <div class="grid-container">
               <div class="form-item">
                 <label for="prev_school">Previous School:</label>
-                <input type="text" id="prev_school">
+                <input type="text" id="prev_school" required>
               </div>
               <div class="form-item">
                 <label for="last-grade">KPSEA Index Number:</label>
-                <input type="number" id="kpsea_index">
+                <input type="number" id="kpsea_index" required>
               </div>
 
               <div class="form-item">
                 <label for="course_pathway">Course Pathway:</label>
-                <input type="text" id="course_pathway">
+                <input type="text" id="course_pathway" required>
               </div>
               <div class="form-item">
                 <label for="admission_year">Year of Admission:</label>
-                <input type="text" id="admission_year">
+                <input type="text" id="admission_year" required>
               </div>
             </div>
           </div>
@@ -136,19 +137,19 @@
             <div class="upload-container">
               <div class="upload-row">
                 <label>Student Photo:</label>
-                <input type="file" name="student_photo">
+                <input type="file" id="my_  photo" name="student_photo" required>
               </div>
               <div class="upload-row">
                 <label>Birth Certificate:</label>
-                <input type="file" name="birth_cert">
+                <input type="file" id="birth_cert" name="birth_cert" required>
               </div>
               <div class="upload-row">
                 <label>Results Slip:</label>
-                <input type="file" name="results_slip">
+                <input type="file" id="results_slip" name="results_slip" required>
               </div>
               <div class="upload-row">
                 <label>Medical Report:</label>
-                <input type="file" name="medical_report">
+                <input type="file" id="medical_report" name="medical_report" required>
               </div>
             </div>
           </div>
@@ -165,8 +166,8 @@
           </div>
 
           <div class="buttons">
-            <button type="submit" class="submit-btn">Submit Application</button>
-            <button type="reset" class="reset-btn">Reset Form</button>
+            <button type="submit" id="my_submit" class="submit-btn">Submit Application</button>
+            <button type="reset" id="my_reset" class="reset-btn">Reset Form</button>
           </div>
 
         </form>
