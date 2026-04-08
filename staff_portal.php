@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="driver_portal.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="staff_portal.css?v=<?php echo time(); ?>">
   <title>JOMO School</title>
 </head>
 
@@ -35,72 +35,10 @@
     <!-----------CONTENT----------->
     <section class="content_section">
 
-
       <div class="container">
-
-        <!-- REPORT SECTION -->
-        <div class="card">
-          <h2>Driver Dashboard</h2>
-
-          <div class="portal-buttons">
-            <button>School Events</button>
-            <button>School Results</button>
-            <button>Transport Reports</button>
-            <button>Profile</button>
-          </div>
-        </div>
-
-        <!-- FORM SECTION -->
-        <div class="card">
-          <h2>Transport Activity Form</h2>
-
-          <form>
-
-            <div class="driver_box">
-              <label for="driver-name">Driver Name</label>
-              <input type="text" id="driver-name" placeholder="Enter driver name" required>
-            </div>
-
-            <div class="driver_box">
-              <label for="destination">Destination</label>
-              <input type="text" id="destination" placeholder="Enter destination" required>
-            </div>
-
-            <div class="driver_box">
-              <label for="expenses">Expenses (KES)</label>
-              <input type="number" id="expenses" placeholder="Enter expenses">
-            </div>
-
-            <div class="driver_box">
-              <label for="date">Date</label>
-              <input type="date" id="date" required>
-            </div>
-
-            <div class="driver_box">
-              <label for="time-out">Time Out</label>
-              <input type="time" id="time-out" required>
-            </div>
-
-            <div class="driver_box">
-              <label for="time-in">Time In</label>
-              <input type="time" id="time-in" required>
-            </div>
-
-            <div class="full">
-              <label for="function-remarks">Function / Remarks</label>
-              <textarea id="function-remarks" rows="4" placeholder="Describe activity or function..."></textarea>
-            </div>
-
-            <div class="sbt">
-              <button type="submit" class="submit-btn">Submit Report</button>
-            </div>
-
-          </form>
-        </div>
-
-
-
-
+        <h2>Student Registration Form</h2>
+        
+      </div>
     </section>
 
 
