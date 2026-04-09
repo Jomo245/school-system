@@ -105,11 +105,7 @@
                 <input type="text" id="username" name="username" autocomplete="off">
               </div>
 
-              <div class="input-group">
-                <label for="Index">Index</label>
-                <input type="text" id="index" name="index" autocomplete="off">
-              </div>
-
+              
               <div class="input-group">
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" autocomplete="off">

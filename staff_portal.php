@@ -32,6 +32,7 @@
       </div>
     </div>
 
+
     <!-----------CONTENT----------->
     <section class="content_section">
 
@@ -41,130 +42,107 @@
         <section class="content">
           <div class="dashboard">
             <div class="boxes">
-              <div class="dashboard-box">
+              <div class="dashboard-box_h2">
                 <i class="fa-solid fa-chart-bar"></i>
-                <a href="#">
-                  <h3>Dashboard</h3>
-                </a>
+                <h2>Dashboard</h2>
               </div>
+
               <div class="dashboard-box">
                 <i class="fa-solid fa-circle-user"></i>
-                <a href="#">
-                  <h3>Profile</h3>
-                </a>
+                <a href="#">Profile</a>
               </div>
+
+
               <div class="dashboard-box">
                 <i class="fa-solid fa-calendar-days"></i>
-                <a href="#">
-                  <h3>Class Schedule</h3>
-                </a>
+                <a href="#">Class Schedule</a>
               </div>
+
               <div class="dashboard-box">
                 <i class="fa-solid fa-jxl"></i>
-                <a href="#">
-                  <h3>GradeBook</h3>
-                </a>
+                <a href="#">Update Grades</a>
               </div>
+
               <div class="dashboard-box">
                 <i class="fa-solid fa-gavel"></i>
-                <a href="#">
-                  <h3>Discipline report</h3>
-                </a>
+                <a href="#">Discipline report</a>
               </div>
+
               <div class="dashboard-box">
                 <i class="fa-solid fa-bullhorn"></i>
-                <a href="#">
-                  <h3>Faculty Announcements</h3>
-                </a>
+                <a href="#">Faculty Announcements</a>
               </div>
+
               <div class="dashboard-box">
                 <i class="fa-solid fa-arrow-trend-up"></i>
-                <a href="#">
-                  <h3>Progress</h3>
-                </a>
+                <a href="#">Newsletter</a>
               </div>
+
               <div class="dashboard-box">
                 <i class="fa-solid fa-graduation-cap"></i>
-                <a href="#">
-                  <h3>Results</h3>
-                </a>
-              </div>
-              <div class="dashboard-box">
-
-              </div>
+                <a href="#">Results</a>
+              </div>  
             </div>
 
             <div class="dashboard-content">
               <div class="dashboard-top">
                 <div class="top">
                   <i class="fa-solid fa-envelope"></i>
-                  <a href="#">
-                    <h3>Messages</h3>
-                  </a>
+                  <a href="#">Messages</a>  
                 </div>
+
                 <div class="top">
                   <i class="fa-solid fa-calendar-days"></i>
-                  <a href="#">
-                    <h3>Upcoming Class</h3>
-                  </a>
-
+                  <a href="#">Upcoming Class</a>                                  
                 </div>
+
                 <div class="top">
                   <i class="fa-solid fa-hexagon-nodes"></i>
-                  <a href="#">
-                    <h3>Assignment grading</h3>
-                  </a>
+                  <a href="#">Assignment grading</a>            
                 </div>
+
                 <div class="top">
                   <i class="fa-brands fa-bitbucket"></i>
-                  <a href="#">
-                    <h3>Repository</h3>
-                  </a>
+                  <a href="#">Repository</a>
                 </div>
+
               </div>
               <div class="dashboard-below">
 
                 <div class="profile">
                   <div class="profile-pic">
-                    <img src="images\contact3.jpeg" alt="">
+                    <img src="" alt="">
                   </div>
 
                   <div class="profile-info">
-                    <div class="info">
-                      <h3>PERSONAL INFO:</h3>
-                      <P>Name: JOHSON MATHEWS, TSC No: 23116, ID: 987334</P>
-                    </div>
-                    <div class="info">
-                      <h3>CONTACT:</h3>
-                      <P>Phone: +2547XXXXXXX, Email: @johnsonmathews.school.ke</P>
-                    </div>
-                    <div class="info">
-                      <h3>ACADEMIC BACKGROUND:</h3>
-                      <P>B.Ed (Science), Diploma in ICT Integration</P>
-                    </div>
-                    <div class="info">
-                      <h3>SUBJECTS ASSIGNED:</h3>
-                      <p>Mathematics, Physics</p>
-                    </div>
+                      <div class="info">
+                        <h3>PERSONAL INFO:</h3>
+                      </div>
+                      
+                      <div class="info">
+                        <h3>CONTACT:</h3>
+                      </div>
+
+                      <div class="info">
+                        <h3>ACADEMIC BACKGROUND:</h3>
+                      </div>
+
+                      <div class="info">
+                        <h3>SUBJECTS ASSIGNED:</h3>                    
+                      </div>
+
                     <div class="info">
                       <h3>EMPLOYMENT STATUS:</h3>
-                      <p>Active, Permanent</p>
                     </div>
 
                   </div>
                 </div>
-
-
               </div>
             </div>
           </div>
-
         </section>
-
       </div>
     </section>
-
-
     <!-------FOOTER----------->
 
     <div class="footer_container">

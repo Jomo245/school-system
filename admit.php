@@ -26,7 +26,7 @@
             <li><a href="contact.php">CONTACT</a></li>
             <li><a href="#">STAFF</a></li>
             <li><a href="#">SERVICES</a></li>
-            <li><a href="#" class="signIn">SignIn</a></li>
+            <li><a href="portal_login.php" class="signIn">SignIn</a></li>
           </ul>
         </nav>
       </div>

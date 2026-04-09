@@ -26,7 +26,7 @@
             <li><a href="#">CONTACT</a></li>
             <li><a href="#">STAFF</a></li>
             <li><a href="#">SERVICES</a></li>
-            <li><a href="#" class="signIn">SignIn</a></li>
+            <li><a href="portal_login.php" class="signIn">Logout</a></li>
           </ul>
         </nav>
       </div>
@@ -43,6 +43,7 @@
             <li><a href="#"><i class="fas fa-gavel"></i> Discipline</a></li>
             <li><a href="#"><i class="fas fa-receipt"></i> Fee Statement</a></li>
             <li><a href="#"><i class="fas fa-calendar-alt"></i> Timetable</a></li>
+            <li><a href="#"><i class="fas fa-graduation-cap"></i> Results</a></li>
             <li><a href="#"><i class="fas fa-newspaper"></i> Newsletter</a></li>
             <li><a href="#"><i class="fas fa-graduation-cap"></i> KCSE</a></li>
             <li><a href="#"><i class="fas fa-users"></i> Staff</a></li>

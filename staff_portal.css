@@ -75,7 +75,7 @@ nav ul li a:hover::after {
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: space-between;
+    gap: 15px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
     margin-top: 20px;
     margin-bottom: 40px;
@@ -85,20 +85,37 @@ nav ul li a:hover::after {
     width: 14%;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(17, 141, 199);
-    background: #fff;
+    
    
 }
 .dashboard-box{
     display: flex;
+    background:#1565b4;
     padding: 15px;
     gap: 10px;
-    border: 1px solid rgb(17, 141, 199);
+    border: 1px solid rgb(118, 126, 129);
+    transition: 0.5s;
+}
+
+.dashboard-box_h2{
+  display: flex;
+    background:#1565b4;
+    padding: 15px;
+    gap: 10px;
+    border: 1px solid rgb(118, 126, 129);
+    
+}
+
+.dashboard-box:hover{
+ transform: translateX(3px);
+ background-color: #517396;;
+
 
 }
+
 .dashboard-box a{
     text-decoration: none;
-    color: #000000;
+    color:white;
 }
 .dashboard-box h3{
     font-size: .9em;
@@ -108,7 +125,7 @@ nav ul li a:hover::after {
     font-size: 1.em;
 }
 .dashboard-box:nth-child(1){
-    background-color: #57b3dd;
+    background-color: #1565b4;
     color: #fff;
 }
 .dashboard-content{
@@ -133,13 +150,14 @@ nav ul li a:hover::after {
     border: 1px solid black;
     width: 23%;
     padding: 10px;
-    background-color:#57b3dd;
+    background-color:#1565b4;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
     border-radius: 10px;
+   
 }
 
 .top .fa-solid{
@@ -151,7 +169,7 @@ nav ul li a:hover::after {
 
 .top a{
     text-decoration: none;
-    color: #000000;
+    color: white;
 }
 .dashboard-below{
     width: 100%;

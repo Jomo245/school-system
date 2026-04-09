@@ -1,3 +1,60 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+  .home_container{
+    width: 100%;
+    background:whitesmoke;
+    min-height: 100vh;
+                 }
+
+  .header_section{
+    width: 100%;
+    background-color: rgb(57, 57, 204);
+    display: flex;
+    justify-content: space-between;
+    padding:30px 30px ;
+    position: fixed;
+                  }
+
+  .logo h3{
+    color: white;
+    cursor: pointer;
+          }
+
+  .nav nav ul{display: flex;
+              gap: 30px;
+              list-style-type: none;}
+
+   .nav nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    transition: 0.5s;}
+
+
+   .nav nav ul li .signIn{color: orangered;}
+
+  .nav nav ul li a::after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:0;
+    height: 2px;
+    background-color: whitesmoke;
+    transition: width 0.3s ease;
+            } 
+
+  nav ul li a:hover::after{
+    width: 100%;
+  }
+
+  
 
 
 .content_section {
@@ -7,13 +64,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-   margin: 80px auto;
+   margin: auto;
 }
 
 .container {
-  margin: 50px auto;
+  margin: 120px auto;
   background-color: whitesmoke;
   display: block;
+
 }
 
 .login-form, .admin_form, .driver_form{
@@ -23,6 +81,7 @@
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }
+
 
 .login-form input, .admin_form input, .driver_form input {
   margin-bottom: 10px;
