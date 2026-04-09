@@ -105,7 +105,7 @@
                 <input type="text" id="username" name="username" autocomplete="off">
               </div>
 
-              
+
               <div class="input-group">
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" autocomplete="off">
@@ -168,6 +168,52 @@
       </div>
 
 
+      <!----------------STAFF LOGINS------------->
+
+      <div class="staff_login">
+        <div class="login-container" id="loginContainer">
+          <div class="driver-image">
+            <div class="image_content ">
+              <h1>School Management System</h1>
+              <p>Login As Staff</p>
+              <p>Manage Bus Routes • Drivers • Students</p>
+            </div>
+          </div>
+          <div class="driver_form">
+            <h2>Staff Login</h2>
+            <form id="loginForm" action="login.php" method="post">
+              <div class="input-group">
+                <label for="driver_name">Username</label>
+                <input type="text" id="driver_name" name="driver_name" autocomplete="off">
+              </div>
+
+              <div class="input-group">
+                <label for="driver_name">TSE NO:</label>
+                <input type="number" id="tse_number" name="tse_number" autocomplete="off">
+              </div>
+
+              <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" autocomplete="off">
+              </div>
+
+              <div class="role">
+                <p>Login as <a href="#" onclick="showAdminLogin()" id="adminLink">Admin </a> Or <a href="#"
+                    onclick="showUserLogin()" id="userLink"> User </a>Or</p>
+              </div>
+              <button type="submit" class="sbt_btn">Login</button>
+              <div class="error">
+                <p id="errorMessage"></p>
+              </div>
+              <div class="or">
+                <p>Do you have account? <a href="#" id="registerLink">Register</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
       <!-- --------FORGOT PASSWORD------------>
       <div class="forgot_password">
         <div class="forgot_password_container">
@@ -198,35 +244,35 @@
       <div class="footer-container">
 
         <div class="footer-box">
-        <h2>School System</h2>
-        <p>Efficient, secure, and easy-to-use school management platform.</p>
-        <p>Empowering education through digital innovation.</p>
-      </div>
+          <h2>School System</h2>
+          <p>Efficient, secure, and easy-to-use school management platform.</p>
+          <p>Empowering education through digital innovation.</p>
+        </div>
 
-      <div class="footer-box">
-        <h3>Quick Links</h3>
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Student Portal</a>
-        <a href="#">Contact</a>
-      </div>
+        <div class="footer-box">
+          <h3>Quick Links</h3>
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Student Portal</a>
+          <a href="#">Contact</a>
+        </div>
 
-      <div class="footer-box">
-        <h3>Services</h3>
-        <p>Student Registration</p>
-        <p>Grade Management</p>
-        <p>Attendance Tracking</p>
-        <p>Parent Communication</p>
-        <p>Academic Records Management</p>
+        <div class="footer-box">
+          <h3>Services</h3>
+          <p>Student Registration</p>
+          <p>Grade Management</p>
+          <p>Attendance Tracking</p>
+          <p>Parent Communication</p>
+          <p>Academic Records Management</p>
 
-      </div>
+        </div>
 
-      <div class="footer-box">
-        <h3>Contact</h3>
-        <p>Email: school@example.co.ke</p>
-        <p><a href="tel:+254123456789" target="_blank">Phone: +254 123 456 789</a> </p>
-        <p><a href="https://maps.google.com/?q=school" target="_blank">Location: 123 School Street, City</a> </p>
-      </div>
+        <div class="footer-box">
+          <h3>Contact</h3>
+          <p>Email: school@example.co.ke</p>
+          <p><a href="tel:+254123456789" target="_blank">Phone: +254 123 456 789</a> </p>
+          <p><a href="https://maps.google.com/?q=school" target="_blank">Location: 123 School Street, City</a> </p>
+        </div>
 
 
       </div>

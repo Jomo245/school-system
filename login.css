@@ -239,6 +239,10 @@ select option {
   display: none;
 }
 
+.staff_login{
+  display: none;
+}
+
 
 
 .forgot_password {
