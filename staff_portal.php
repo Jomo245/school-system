@@ -62,11 +62,7 @@
                 <i class="fa-solid fa-jxl"></i>
                 <a href="#">Update Grades</a>
               </div>
-
-              <div class="dashboard-box">
-                <i class="fa-solid fa-gavel"></i>
-                <a href="#">Discipline report</a>
-              </div>
+              
 
               <div class="dashboard-box">
                 <i class="fa-solid fa-bullhorn"></i>
