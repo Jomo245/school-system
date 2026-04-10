@@ -298,7 +298,7 @@
 
 
         </div>
-
+        
         <div class="footer-bottom">
           <p>© 2026 John Isige Jomo. All rights reserved.</p>
         </div>

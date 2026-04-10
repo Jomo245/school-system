@@ -160,7 +160,7 @@ table {
   width: 100%;
   color: black;
   margin-bottom: 10px;
-}
+                    }
 
 table th {
   background-color: #3b5aa3;
@@ -192,7 +192,8 @@ td {
   border-bottom: 3px solid #2724c0;
   margin-bottom: 30px;
   padding: 10px;
-  background-color: #2724c0;
+  background-color: #3b5aa3;
+  border-radius: 10px;
 }
 
 .school-header p {

@@ -106,6 +106,7 @@
               <div class="dashboard-below">
 
                 <div class="profile">
+
                   <div class="profile-pic">
                     <img src="" alt="">
                   </div>
@@ -132,7 +133,139 @@
                     </div>
 
                   </div>
+
                 </div>
+
+
+                <!----------RESULT REPORT----------->
+
+    <div class="form-container">
+    <header>
+        <h1>Academic Performance Report</h1>
+        <p>EXAM RESULTS - 2026</p>
+    </header>
+
+    <form>
+        <fieldset>
+            <legend>Student Information</legend>
+            <div class="row">
+                <div class="input-group">
+                    <label>Full Name:</label>
+                    <input type="text" placeholder="">
+                </div>
+
+                <div class="input-group">
+                    <label>Admission Number:</label>
+                    <input type="text" placeholder="">
+                </div>
+
+                <div class="input-group">
+                    <label>Class:</label>
+                    <input type="text" placeholder="">
+                </div>
+
+                <div class="input-group">
+                    <label>Term:</label>
+                    <input type="text" placeholder="">
+                </div>
+
+
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Subject Performance</legend>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Score (100)</th>
+                        <th>Grade</th>
+                        <th>Remarks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>MATHEMATICS</td>
+                        <td><input type="number" min="0" max="100"></td>
+                        <td><input type="text" class="small-input"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>ENGLISH</td>
+                        <td><input type="number" min="0" max="100"></td>
+                        <td><input type="text" class="small-input"></td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td>KISWAHILI</td>
+                        <td><input type="number" min="0" max="100"></td>
+                        <td><input type="text" class="small-input"></td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td>CHEMISTRY</td>
+                        <td><input type="number" min="0" max="100"></td>
+                        <td><input type="text" class="small-input"></td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td>BIOLOGY</td>
+                        <td><input type="number" min="0" max="100"></td>
+                        <td><input type="text" class="small-input"></td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td>PHYSICS</td>
+                        <td><input type="number" min="0" max="100"></td>
+                        <td><input type="text" class="small-input"></td>
+                        <td><input type="text"></td>
+                    </tr>
+
+
+                    <tr>
+                        <td>COMPUTER STUDIES</td>
+                        <td><input type="number" min="0" max="100"></td>
+                        <td><input type="text" class="small-input"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+
+        <div class="summary-footer">
+    <div class="summary_row">
+        <div class="summary_group">
+            <label>Mean Grade:</label>
+            <input type="text" placeholder="Grade">
+        </div>
+        <div class="summary_group">
+            <label>Total Marks:</label>
+            <input type="text" placeholder="Total">
+        </div>
+        <div class="summary_group">
+            <label>Class Position:</label>
+            <input type="text" placeholder="Pos">
+        </div>
+        <div class="summary_group">
+            <label>Stream Position:</label>
+            <input type="text" placeholder="Pos">
+        </div>
+    </div>
+    
+
+        <button type="submit" class="submit-btn">Generate Report</button>
+    </form>
+</div>
+
+<!------------END OF RESULTS------------>
+
+
+
               </div>
             </div>
           </div>
