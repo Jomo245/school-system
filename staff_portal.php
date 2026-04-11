@@ -26,7 +26,7 @@
             <li><a href="contact.php">CONTACT</a></li>
             <li><a href="#">STAFF</a></li>
             <li><a href="#">SERVICES</a></li>
-            <li><a href="#" class="signIn">SignIn</a></li>
+            <li><a href="#" class="logout">Logout</a></li>
           </ul>
         </nav>
       </div>
@@ -89,7 +89,7 @@
 
                 <div class="top">
                   <i class="fa-solid fa-calendar-days"></i>
-                  <a href="#">Upcoming Class</a>                                  
+                  <a href="#">Upcoming Events</a>                                  
                 </div>
 
                 <div class="top">
@@ -161,7 +161,7 @@
                 <div class="input-group">
                     <label>Class:</label>
                     <Select>
-                      <option value="">Select Class</option>
+                      <option value="">Select Class---</option>
                       <option value="red">Red</option>
                       <option value="green">Green</option>
                       <option value="blue">Blue</option>
@@ -206,6 +206,7 @@
                           <option value="Fair">Fair</option>
                           <option value="Pass">Pass</option>
                           <option value="Fail">Fail</option>
+                          <option value="Missing Marks">Missing Marks</option>
                         </select>
                       </td>
                     </tr>

@@ -136,9 +136,7 @@ nav ul li a:hover::after {
 
 .main_content {
   flex: 1;
-  background: #f4f6f9;
-  display: none;
-
+  background:white;
   border: 1px solid #ccc;
   border-left: 4px solid #ccc;
 }
@@ -154,7 +152,9 @@ nav ul li a:hover::after {
 table {
   width: 100%;
   border-collapse: collapse;
+
 }
+
 
 .sidebar_result h3 {
   width: 100%;
@@ -185,7 +185,9 @@ td {
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-                  }
+  /*------------HIDE KCSE RESULTS SECTION --------*/
+  display: none;
+               }
 
 .school-header {
   text-align: center;
@@ -260,6 +262,90 @@ tr:hover {
 }
 
 /*------------END OF RESULTS SECTION STYLE--------*/
+
+
+
+/*------------DISCIPLINE SECTION STYLE--------*/
+
+/* FORM CONTAINER */
+.container{
+    width:100%;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+    /*-------HIDE DISCIPLINE SECTION------*/
+    display: none;
+}
+
+.newsletter_container{
+   width:100%;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}
+
+/* TITLE */
+.container h2{
+    text-align:center;
+    color:white;
+    margin-bottom:20px;
+}
+
+/* INPUT GROUP */
+.input-box{
+    margin-bottom:15px;
+}
+
+.input-box label{
+    display:block;
+    font-weight:bold;
+    margin-bottom:5px;
+    color:#333;
+}
+
+/* INPUT STYLE */
+.input-box input,
+.input-box textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    background:#f5f7fa;
+    font-size:14px;
+}
+
+.input-box textarea{
+   resize: none;
+
+}
+
+/* READ ONLY LOOK */
+input[readonly],
+textarea[readonly]{
+    background:#e9eef5;
+}
+
+/* BUTTON */
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#0050b4;
+    color:white;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#003f8a;
+}
+/*------------DISCIPLINE SECTION STYLE  ENDS HERE--------*/
+
+
 
 /*------------FOOTER--------*/
 
