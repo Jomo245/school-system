@@ -104,7 +104,6 @@
 
               </div>
               <div class="dashboard-below">
-
                 <div class="profile">
 
                   <div class="profile-pic">
@@ -189,41 +188,95 @@
                         <td>MATHEMATICS</td>
                         <td><input type="number" min="0" max="100"></td>
                         <td><input type="text" class="small-input"></td>
-                        <td><input type="text"></td>
+                        <td>
+                        <select name="remark" id="my_remark">
+                          <option value="">Select Remark---</option>
+                          <option value="Excellent">Excellent</option>
+                          <option value="Good">Good</option>
+                          <option value="Fair">Fair</option>
+                          <option value="Pass">Pass</option>
+                          <option value="Fail">Fail</option>
+                        </select>
+                      </td>
                     </tr>
                     <tr>
                         <td>ENGLISH</td>
                         <td><input type="number" min="0" max="100"></td>
                         <td><input type="text" class="small-input"></td>
-                        <td><input type="text"></td>
+                     <td>
+                        <select name="remark" id="my_remark">
+                          <option value="">Select Remark---</option>
+                          <option value="Excellent">Excellent</option>
+                          <option value="Good">Good</option>
+                          <option value="Fair">Fair</option>
+                          <option value="Pass">Pass</option>
+                          <option value="Fail">Fail</option>
+                        </select>
+                      </td>
                     </tr>
 
                     <tr>
                         <td>KISWAHILI</td>
                         <td><input type="number" min="0" max="100"></td>
                         <td><input type="text" class="small-input"></td>
-                        <td><input type="text"></td>
+                       <td>
+                        <select name="remark" id="my_remark">
+                          <option value="">Select Remark---</option>
+                          <option value="Excellent">Excellent</option>
+                          <option value="Good">Good</option>
+                          <option value="Fair">Fair</option>
+                          <option value="Pass">Pass</option>
+                          <option value="Fail">Fail</option>
+                        </select>
+                      </td>
                     </tr>
 
                     <tr>
                         <td>CHEMISTRY</td>
                         <td><input type="number" min="0" max="100"></td>
                         <td><input type="text" class="small-input"></td>
-                        <td><input type="text"></td>
+                        <td>
+                        <select name="remark" id="my_remark">
+                          <option value="">Select Remark---</option>
+                          <option value="Excellent">Excellent</option>
+                          <option value="Good">Good</option>
+                          <option value="Fair">Fair</option>
+                          <option value="Pass">Pass</option>
+                          <option value="Fail">Fail</option>
+                        </select>
+                      </td>
                     </tr>
 
                     <tr>
                         <td>BIOLOGY</td>
                         <td><input type="number" min="0" max="100"></td>
                         <td><input type="text" class="small-input"></td>
-                        <td><input type="text"></td>
+                        <td>
+                        <select name="remark" id="my_remark">
+                          <option value="">Select Remark---</option>
+                          <option value="Excellent">Excellent</option>
+                          <option value="Good">Good</option>
+                          <option value="Fair">Fair</option>
+                          <option value="Pass">Pass</option>
+                          <option value="Fail">Fail</option>
+                        </select>
+                      </td>
                     </tr>
 
                     <tr>
                         <td>PHYSICS</td>
                         <td><input type="number" min="0" max="100"></td>
                         <td><input type="text" class="small-input"></td>
-                        <td><input type="text"></td>
+                        <td>
+                        <select name="remark" id="my_remark">
+                          <option value="">Select Remark---</option>
+                          <option value="Excellent">Excellent</option>
+                          <option value="Good">Good</option>
+                          <option value="Fair">Fair</option>
+                          <option value="Pass">Pass</option>
+                          <option value="Fail">Fail</option>
+                        </select>
+                      </td>
                     </tr>
 
 
@@ -231,7 +284,16 @@
                         <td>COMPUTER STUDIES</td>
                         <td><input type="number" min="0" max="100"></td>
                         <td><input type="text" class="small-input"></td>
-                        <td><input type="text"></td>
+                        <td>
+                        <select name="remark" id="my_remark">
+                          <option value="">Select Remark---</option>
+                          <option value="Excellent">Excellent</option>
+                          <option value="Good">Good</option>
+                          <option value="Fair">Fair</option>
+                          <option value="Pass">Pass</option>
+                          <option value="Fail">Fail</option>
+                        </select>
+                      </td>
                     </tr>
                 </tbody>
             </table>
