@@ -55,6 +55,61 @@
         <div class="main_content">
           <h2>Welcome to the Student Portal</h2>
 
+          <!-------PROFILE SECTION STARTS HERE------------>
+
+          <div class="profile_container">
+            <div class="edit">
+              <h3>Student Profile</h3>
+              <button type="" class="edit_btn"><i class="fa-solid fa-pen-to-square"></i> Edit Profile</button>
+            </div>
+            <div class="image_and_class">
+              <div class="students_image">
+                <img src="images\bus.jpeg" alt="">
+              </div>
+              <div class="students_class">
+                <ul>
+                  <li>NAME: <span>JOHN JOMO</span></li>
+                  <li>ADMISSION NO: <span>BBITC01/3242/2022</span></li>
+                  <div class="class_container">
+                    <li class="form_and_class"><i class="fa-solid fa-layer-group"></i>FORM: <strong>3</strong></li>
+                    <li class="form_and_class_2">CLASS: <strong>3 RED </strong></li>
+                  </div>
+                </ul>
+              </div>
+            </div>
+
+            <div class="profile_and_contact">
+              <div class="profile">
+                <h2>Profile</h2>
+                <ul>
+                  <li><i class="fa-sharp fa-solid fa-hashtag"></i> Admission Number <strong>BBITC01/3242/2022</strong></li>
+                  <li><i class="fa-duotone fa-solid fa-person-half-dress"></i> Gender <strong>Male</strong></li>
+                  <li><i class="fa-chisel fa-regular fa-calendar"></i> Date of Birth <strong>March 19, 2001</strong>
+                  </li>
+                  <li><i class="fa-solid fa-flag-usa"></i> Nationality <strong>Kenyan</strong></li>
+                  <li><i class="fa-solid fa-address-book"></i> Home Address <strong>123 Nairobi St, Nairobi
+                      Kenya</strong></li>
+                </ul>
+              </div>
+
+              <div class="profile">
+                <h2>Contact Information</h2>
+                <ul>
+                  <li><i class="fa-solid fa-phone"></i>Phone <strong>0741504282</strong></li>
+                  <li><i class="fa-solid fa-envelope"></i>Phone <strong>johnisige2020@gmail.com</strong></li>
+                  <li><i class="fa-sharp fa-solid fa-person-breastfeeding"></i>Parent/Guardian <span>Joseph Jomo</span>
+                    <strong>0728620910</strong></li>
+                </ul>
+              </div>
+
+            </div>
+
+
+          </div>
+
+          <!-------PROFILE SECTION ENDS HERE------------>
+
+
           <!------RESULT FOR STUDENTS------>
           <div class="report-container">
             <div class="school-header">
@@ -358,66 +413,66 @@ after several consideration the school closing date would be on 27.July.2026
 
             <!---------UPCOMING EVENTS-------------------->
 
-            
-
-              <!---------UPCOMING EVENTS ENDS HERE-------------------->
 
 
-            
+            <!---------UPCOMING EVENTS ENDS HERE-------------------->
+
+
+
 
 
           </div>
           <div class="upcoming_events_container">
 
-              <div class="upcoming-events">
-                <div class="header">
-                  <h2>UPCOMING EVENTS.</h2>
+            <div class="upcoming-events">
+              <div class="header">
+                <h2>UPCOMING EVENTS.</h2>
+              </div>
+
+              <div class="contents">
+                <div class="content-box">
+                  <div class="date">
+                    <h3>3-5 May</h3>
+                    <h3>1900</h3>
+                  </div>
+                  <div class="event">
+                    <h3>Back To School</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum architecto minima quia dolorum
+                      repudiandae temporibus eum officiis rem quas sint.</p>
+                  </div>
                 </div>
 
-                <div class="contents">
-                  <div class="content-box">
-                    <div class="date">
-                      <h3>3-5 May</h3>
-                      <h3>1900</h3>
-                    </div>
-                    <div class="event">
-                      <h3>Back To School</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum architecto minima quia dolorum
-                        repudiandae temporibus eum officiis rem quas sint.</p>
-                    </div>
+                <div class="content-box">
+                  <div class="date">
+                    <h3>15-17 May</h3>
+                    <h3>2100</h3>
                   </div>
+                  <div class="event">
+                    <h3>Parent meeting</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In magnam explicabo illum quod omnis
+                      aut nulla facilis esse fugit at.</p>
+                  </div>
+                </div>
 
-                  <div class="content-box">
-                    <div class="date">
-                      <h3>15-17 May</h3>
-                      <h3>2100</h3>
-                    </div>
-                    <div class="event">
-                      <h3>Parent meeting</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In magnam explicabo illum quod omnis
-                        aut nulla facilis esse fugit at.</p>
-                    </div>
+                <div class="content-box">
+                  <div class="date">
+                    <h3>4-7 june</h3>
+                    <h3>All day</h3>
                   </div>
-
-                  <div class="content-box">
-                    <div class="date">
-                      <h3>4-7 june</h3>
-                      <h3>All day</h3>
-                    </div>
-                    <div class="event">
-                      <h3>Inter Games and music events</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sequi labore quia cum sunt
-                        veniam doloremque ipsum pariatur quaerat fugit.</p>
-                    </div>
+                  <div class="event">
+                    <h3>Inter Games and music events</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sequi labore quia cum sunt
+                      veniam doloremque ipsum pariatur quaerat fugit.</p>
                   </div>
+                </div>
 
 
-                  <div class="newsletter">
-                    <a href="#">Back to Dashboard </a>
-                  </div>
+                <div class="newsletter">
+                  <a href="#">Back to Dashboard </a>
                 </div>
               </div>
-           </div>
+            </div>
+          </div>
 
 
     </section>

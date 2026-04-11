@@ -351,7 +351,7 @@ button:hover{
 .fee_statement_container{
     width: 100%;
     /*--------HIDE THE FEE STATEMENT SECTION-------*/
-    display: none;
+    display:none ;
    
 }
 
@@ -406,6 +406,7 @@ table tr td{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    display: none;
 }
 .header{
     width: 100%;
@@ -474,6 +475,106 @@ table tr td{
 }
 
 /*---------UPCOMING EVENTS ENDS HERE--------------------*/
+
+
+/*------------PROFILE SECTION STARTS HERE--------------*/
+
+.profile_container{
+  min-height: 100vh;
+}
+
+.image_and_class{
+  padding: 20px;
+   display: flex;
+  align-items: center;   
+  gap: 15px;             
+  background-color: #e2e2eb;
+  padding: 20px;
+  border-radius: 10px;
+  width: 95%;
+  margin: auto;
+}
+
+.edit{display: flex;
+  width: 95%;
+  margin: auto;
+  background-color: #2742b9;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.edit h3{
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.edit_btn{width:150px;
+  background-color: #2724c0
+
+  ;}
+
+.students_image img{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.class_container{display: flex;
+gap: 15px;}
+
+.form_and_class li strong{color: white;}
+
+.form_and_class{background-color:  #2742b9;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;     
+  margin: auto;        
+              }
+
+.form_and_class_2{
+  background-color:  #e01717;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.students_class ul li span{
+  color: #0050b4;
+  font-weight: bold;
+}
+           
+
+.students_class ul li{list-style-type: none;
+padding: 10px;}
+
+.profile_and_contact{width: 95%;
+  margin: auto;
+  padding:20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;}
+
+
+  
+.profile{background-color: #dddddd; 
+  width: 100%;
+  border-radius: 10px;}
+
+.profile ul i{padding: 10px;}
+
+.profile ul li{list-style-type: none;}
+
+
+
+.class_container ul li strong{color:white ;}       
+
+
+/*------------PROFILE SECTION ENDS HERE HERE--------------*/
 
 
 /*------------FOOTER--------*/

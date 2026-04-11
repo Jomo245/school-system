@@ -142,7 +142,6 @@
 
 
                 <!----------RESULT REPORT----------->
-
                 <div class="form-container">
                   <header>
                     <h1>Academic Performance Report</h1>
