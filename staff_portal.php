@@ -160,12 +160,22 @@
 
                 <div class="input-group">
                     <label>Class:</label>
-                    <input type="text" placeholder="">
+                    <Select>
+                      <option value="">Select Class</option>
+                      <option value="red">Red</option>
+                      <option value="green">Green</option>
+                      <option value="blue">Blue</option>
+                    </Select>                 
                 </div>
 
                 <div class="input-group">
                     <label>Term:</label>
-                    <input type="text" placeholder="">
+                    <Select>
+                      <option value="">Select Term---</option>
+                      <option value="term one">Term One</option>
+                      <option value="term two">Term Two</option>
+                      <option value="Term Three">Term Three</option>
+                    </Select> 
                 </div>
 
 
