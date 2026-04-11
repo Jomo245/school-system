@@ -284,6 +284,8 @@ tr:hover {
     padding:30px;
     border-radius:10px;
     box-shadow:0 5px 20px rgba(0,0,0,0.2);
+     /*-------HIDE NEWSLETTER SECTION------*/
+     display: none;
 }
 
 /* TITLE */
@@ -344,6 +346,36 @@ button:hover{
     background:#003f8a;
 }
 /*------------DISCIPLINE SECTION STYLE  ENDS HERE--------*/
+
+/*----------FEE STATEMENTS STYLE STARTS HERE----------*/
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.fee-table{
+    width: 90%;
+    margin:20px auto;
+    background-color: white;
+}
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table tr th{
+    background-color: #2828d1;
+    color: #fff;
+    text-align: left;
+    padding: 9px;
+}
+table tr td{
+    border: 1px solid #8aaff3;
+    text-align: left;
+     padding: 3PX;
+}
+
+/*----------FEE STATEMENTS STYLE ENDS HERE----------*/
 
 
 

@@ -46,7 +46,8 @@
             <li><a href="#"><i class="fas fa-graduation-cap"></i> Results</a></li>
             <li><a href="#"><i class="fas fa-newspaper"></i> Newsletter</a></li>
             <li><a href="#"><i class="fas fa-graduation-cap"></i> KCSE</a></li>
-            <li><a href="#"><i class="fas fa-users"></i>Fee Payment</a></li>
+            <li><a href="#"><i class="fa-solid fa-file-pen"></i> Assignments</a></li>
+            <li><a href="#"><i class="fa-solid fa-money-bill"></i>  Fee Payment</a></li>
           </ul>
         </aside>
 
@@ -299,6 +300,59 @@ after several consideration the school closing date would be on 27.July.2026
           </div>
 
            <!--------NEWSLETTER SECTION ENDS HERE--------->
+
+
+           <!---------FEE STATEMENTS STARTS HERE---------->
+<div class="fee_statement_container">
+        <div class="fee-table">
+        <table>
+            
+             <tr>
+                <th>References</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Debit</th>
+                <th>Credit</th>
+                <th>Total</th>
+             </tr>
+             
+             <tr>
+                <td>0DR2RD3</td>
+                <td>7/1/2024</td>
+                <td>FEE-INVOICE</td>
+                <td>10000.00</td>
+                <td>0.00</td>
+                <td>10000</td>
+             </tr>
+              <tr>
+                <td>OBGDHWED</td>
+                <td>25/1/2024</td>
+                <td>MPESA-RECEIPT</td>
+                <td>0.00</td>
+                <td>5000.00</td>
+                <td>5000.00</td>
+             </tr>
+              <tr>
+                <td>OFGRTYRG</td>
+                <td>4/2/2024</td>
+                <td>BURSARY-RECEIPT</td>
+                <td>0.00</td>
+                <td>5500.00</td>
+                <td>-500.00</td>
+             </tr>
+             <tr>
+                <td>OGTREASI</td>
+                <td>4/5/2024</td>
+                <td>FEE-INVOICE</td>
+                <td>7000.00</td>
+                <td>0.00</td>
+                <td>6500.00</td>
+             </tr>
+        </table>
+
+    </div>
+
+           <!---------FEE STATEMENTS ENDS HERE------------>
 
 
 </div>
