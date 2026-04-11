@@ -62,7 +62,7 @@
                 <i class="fa-solid fa-jxl"></i>
                 <a href="#">Update Grades</a>
               </div>
-              
+
 
               <div class="dashboard-box">
                 <i class="fa-solid fa-bullhorn"></i>
@@ -75,26 +75,31 @@
               </div>
 
               <div class="dashboard-box">
+                <i class="fa-solid fa-arrow-trend-up"></i>
+                <a href="#">Indiscipline Report</a>
+              </div>
+
+              <div class="dashboard-box">
                 <i class="fa-solid fa-graduation-cap"></i>
-                <a href="#">Results</a>
-              </div>  
+                <a href="#">School Performance</a>
+              </div>
             </div>
 
             <div class="dashboard-content">
               <div class="dashboard-top">
                 <div class="top">
                   <i class="fa-solid fa-envelope"></i>
-                  <a href="#">Messages</a>  
+                  <a href="#">Messages</a>
                 </div>
 
                 <div class="top">
                   <i class="fa-solid fa-calendar-days"></i>
-                  <a href="#">Upcoming Events</a>                                  
+                  <a href="#">Upcoming Events</a>
                 </div>
 
                 <div class="top">
                   <i class="fa-solid fa-hexagon-nodes"></i>
-                  <a href="#">Assignment grading</a>            
+                  <a href="#">Assignment grading</a>
                 </div>
 
                 <div class="top">
@@ -111,21 +116,21 @@
                   </div>
 
                   <div class="profile-info">
-                      <div class="info">
-                        <h3>PERSONAL INFO:</h3>
-                      </div>
-                      
-                      <div class="info">
-                        <h3>CONTACT:</h3>
-                      </div>
+                    <div class="info">
+                      <h3>PERSONAL INFO:</h3>
+                    </div>
 
-                      <div class="info">
-                        <h3>ACADEMIC BACKGROUND:</h3>
-                      </div>
+                    <div class="info">
+                      <h3>CONTACT:</h3>
+                    </div>
 
-                      <div class="info">
-                        <h3>SUBJECTS ASSIGNED:</h3>                    
-                      </div>
+                    <div class="info">
+                      <h3>ACADEMIC BACKGROUND:</h3>
+                    </div>
+
+                    <div class="info">
+                      <h3>SUBJECTS ASSIGNED:</h3>
+                    </div>
 
                     <div class="info">
                       <h3>EMPLOYMENT STATUS:</h3>
@@ -138,208 +143,414 @@
 
                 <!----------RESULT REPORT----------->
 
-    <div class="form-container">
-    <header>
-        <h1>Academic Performance Report</h1>
-        <p>EXAM RESULTS - 2026</p>
-    </header>
+                <div class="form-container">
+                  <header>
+                    <h1>Academic Performance Report</h1>
+                    <p>EXAM RESULTS - 2026</p>
+                  </header>
 
-    <form>
-        <fieldset>
-            <legend>Student Information</legend>
-            <div class="row">
-                <div class="input-group">
-                    <label>Full Name:</label>
-                    <input type="text" placeholder="">
+                  <form>
+                    <fieldset>
+                      <legend>Student Information</legend>
+                      <div class="row">
+                        <div class="input-group">
+                          <label>Full Name:</label>
+                          <input type="text" placeholder="">
+                        </div>
+
+                        <div class="input-group">
+                          <label>Admission Number:</label>
+                          <input type="text" placeholder="">
+                        </div>
+
+                        <div class="input-group">
+                          <label>Class:</label>
+                          <Select>
+                            <option value="">Select Class---</option>
+                            <option value="red">Red</option>
+                            <option value="green">Green</option>
+                            <option value="blue">Blue</option>
+                          </Select>
+                        </div>
+
+                        <div class="input-group">
+                          <label>Term:</label>
+                          <Select>
+                            <option value="">Select Term---</option>
+                            <option value="term one">Term One</option>
+                            <option value="term two">Term Two</option>
+                            <option value="Term Three">Term Three</option>
+                          </Select>
+                        </div>
+
+
+                      </div>
+                    </fieldset>
+
+                    <fieldset>
+                      <legend>Subject Performance</legend>
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>Subject</th>
+                            <th>Score (100)</th>
+                            <th>Grade</th>
+                            <th>Remarks</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>MATHEMATICS</td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="text" class="small-input"></td>
+                            <td>
+                              <select name="remark" id="my_remark">
+                                <option value="">Select Remark---</option>
+                                <option value="Excellent">Excellent</option>
+                                <option value="Good">Good</option>
+                                <option value="Fair">Fair</option>
+                                <option value="Pass">Pass</option>
+                                <option value="Fail">Fail</option>
+                                <option value="Missing Marks">Missing Marks</option>
+                              </select>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>ENGLISH</td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="text" class="small-input"></td>
+                            <td>
+                              <select name="remark" id="my_remark">
+                                <option value="">Select Remark---</option>
+                                <option value="Excellent">Excellent</option>
+                                <option value="Good">Good</option>
+                                <option value="Fair">Fair</option>
+                                <option value="Pass">Pass</option>
+                                <option value="Fail">Fail</option>
+                              </select>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>KISWAHILI</td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="text" class="small-input"></td>
+                            <td>
+                              <select name="remark" id="my_remark">
+                                <option value="">Select Remark---</option>
+                                <option value="Excellent">Excellent</option>
+                                <option value="Good">Good</option>
+                                <option value="Fair">Fair</option>
+                                <option value="Pass">Pass</option>
+                                <option value="Fail">Fail</option>
+                              </select>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>CHEMISTRY</td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="text" class="small-input"></td>
+                            <td>
+                              <select name="remark" id="my_remark">
+                                <option value="">Select Remark---</option>
+                                <option value="Excellent">Excellent</option>
+                                <option value="Good">Good</option>
+                                <option value="Fair">Fair</option>
+                                <option value="Pass">Pass</option>
+                                <option value="Fail">Fail</option>
+                              </select>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>BIOLOGY</td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="text" class="small-input"></td>
+                            <td>
+                              <select name="remark" id="my_remark">
+                                <option value="">Select Remark---</option>
+                                <option value="Excellent">Excellent</option>
+                                <option value="Good">Good</option>
+                                <option value="Fair">Fair</option>
+                                <option value="Pass">Pass</option>
+                                <option value="Fail">Fail</option>
+                              </select>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>PHYSICS</td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="text" class="small-input"></td>
+                            <td>
+                              <select name="remark" id="my_remark">
+                                <option value="">Select Remark---</option>
+                                <option value="Excellent">Excellent</option>
+                                <option value="Good">Good</option>
+                                <option value="Fair">Fair</option>
+                                <option value="Pass">Pass</option>
+                                <option value="Fail">Fail</option>
+                              </select>
+                            </td>
+                          </tr>
+
+
+                          <tr>
+                            <td>COMPUTER STUDIES</td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="text" class="small-input"></td>
+                            <td>
+                              <select name="remark" id="my_remark">
+                                <option value="">Select Remark---</option>
+                                <option value="Excellent">Excellent</option>
+                                <option value="Good">Good</option>
+                                <option value="Fair">Fair</option>
+                                <option value="Pass">Pass</option>
+                                <option value="Fail">Fail</option>
+                              </select>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </fieldset>
+
+                    <div class="summary-footer">
+                      <div class="summary_row">
+                        <div class="summary_group">
+                          <label>Mean Grade:</label>
+                          <input type="text" placeholder="Grade">
+                        </div>
+                        <div class="summary_group">
+                          <label>Total Marks:</label>
+                          <input type="text" placeholder="Total">
+                        </div>
+                        <div class="summary_group">
+                          <label>Class Position:</label>
+                          <input type="text" placeholder="Pos">
+                        </div>
+                        <div class="summary_group">
+                          <label>Stream Position:</label>
+                          <input type="text" placeholder="Pos">
+                        </div>
+                      </div>
+
+
+                      <button type="submit" class="submit-btn">Generate Report</button>
+                  </form>
                 </div>
-
-                <div class="input-group">
-                    <label>Admission Number:</label>
-                    <input type="text" placeholder="">
-                </div>
-
-                <div class="input-group">
-                    <label>Class:</label>
-                    <Select>
-                      <option value="">Select Class---</option>
-                      <option value="red">Red</option>
-                      <option value="green">Green</option>
-                      <option value="blue">Blue</option>
-                    </Select>                 
-                </div>
-
-                <div class="input-group">
-                    <label>Term:</label>
-                    <Select>
-                      <option value="">Select Term---</option>
-                      <option value="term one">Term One</option>
-                      <option value="term two">Term Two</option>
-                      <option value="Term Three">Term Three</option>
-                    </Select> 
-                </div>
+              </div>
 
 
-            </div>
-        </fieldset>
+                <!------------END OF RESULTS------------>
 
-        <fieldset>
-            <legend>Subject Performance</legend>
-            <table>
-                <thead>
-                    <tr>
+                <!---------------KCSE RESULTS----------->
+                <div class="report-container">
+                  <div class="school-header">
+                    <h1>KCSE RESULTS SUMMARY 2026</h1>
+                    <p><strong>School Code:</strong> 12345678</p>
+                  </div>
+
+                  <div class="summary-cards">
+                    <div class="card">
+                      <h3>School Mean Grade</h3>
+                      <p class="stat">B+</p>
+                    </div>
+                    <div class="card">
+                      <h3>School Mean Score</h3>
+                      <p class="stat">9.42</p>
+                    </div>
+                    <div class="card">
+                      <h3>Entry</h3>
+                      <p class="stat">142</p>
+                    </div>
+                  </div>
+
+
+                  <table>
+                    <thead>
+                      <tr>
                         <th>Subject</th>
-                        <th>Score (100)</th>
-                        <th>Grade</th>
-                        <th>Remarks</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>MATHEMATICS</td>
-                        <td><input type="number" min="0" max="100"></td>
-                        <td><input type="text" class="small-input"></td>
-                        <td>
-                        <select name="remark" id="my_remark">
-                          <option value="">Select Remark---</option>
-                          <option value="Excellent">Excellent</option>
-                          <option value="Good">Good</option>
-                          <option value="Fair">Fair</option>
-                          <option value="Pass">Pass</option>
-                          <option value="Fail">Fail</option>
-                          <option value="Missing Marks">Missing Marks</option>
-                        </select>
-                      </td>
-                    </tr>
-                    <tr>
-                        <td>ENGLISH</td>
-                        <td><input type="number" min="0" max="100"></td>
-                        <td><input type="text" class="small-input"></td>
-                     <td>
-                        <select name="remark" id="my_remark">
-                          <option value="">Select Remark---</option>
-                          <option value="Excellent">Excellent</option>
-                          <option value="Good">Good</option>
-                          <option value="Fair">Fair</option>
-                          <option value="Pass">Pass</option>
-                          <option value="Fail">Fail</option>
-                        </select>
-                      </td>
-                    </tr>
+                        <th>A</th>
+                        <th>A-</th>
+                        <th>B+</th>
+                        <th>B</th>
+                        <th>C+</th>
+                        <th>C</th>
+                        <th>C-</th>
+                        <th>D+</th>
+                        <th>D</th>
+                        <th>D-</th>
+                        <th>E</th>
+                        <th>Mean Score</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Mathematics</td>
+                        <td>24</td>
+                        <td>30</td>
+                        <td>15</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>24</td>
+                        <td>30</td>
+                        <td>15</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>10.2</td>
+                      </tr>
+                      <tr>
+                        <td>English</td>
+                        <td>12</td>
+                        <td>40</td>
+                        <td>20</td>
+                        <td>12</td>
+                        <td>2</td>
+                        <td>24</td>
+                        <td>30</td>
+                        <td>15</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>9.8</td>
+                      </tr>
 
-                    <tr>
-                        <td>KISWAHILI</td>
-                        <td><input type="number" min="0" max="100"></td>
-                        <td><input type="text" class="small-input"></td>
-                       <td>
-                        <select name="remark" id="my_remark">
-                          <option value="">Select Remark---</option>
-                          <option value="Excellent">Excellent</option>
-                          <option value="Good">Good</option>
-                          <option value="Fair">Fair</option>
-                          <option value="Pass">Pass</option>
-                          <option value="Fail">Fail</option>
-                        </select>
-                      </td>
-                    </tr>
+                      <tr>
+                        <td>Kiswahili</td>
+                        <td>12</td>
+                        <td>40</td>
+                        <td>20</td>
+                        <td>12</td>
+                        <td>2</td>
+                        <td>24</td>
+                        <td>30</td>
+                        <td>15</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>9.8</td>
+                      </tr>
 
-                    <tr>
-                        <td>CHEMISTRY</td>
-                        <td><input type="number" min="0" max="100"></td>
-                        <td><input type="text" class="small-input"></td>
-                        <td>
-                        <select name="remark" id="my_remark">
-                          <option value="">Select Remark---</option>
-                          <option value="Excellent">Excellent</option>
-                          <option value="Good">Good</option>
-                          <option value="Fair">Fair</option>
-                          <option value="Pass">Pass</option>
-                          <option value="Fail">Fail</option>
-                        </select>
-                      </td>
-                    </tr>
+                      <tr>
+                        <td>Chemistry</td>
+                        <td>12</td>
+                        <td>40</td>
+                        <td>20</td>
+                        <td>12</td>
+                        <td>2</td>
+                        <td>24</td>
+                        <td>30</td>
+                        <td>15</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>9.8</td>
+                      </tr>
 
-                    <tr>
-                        <td>BIOLOGY</td>
-                        <td><input type="number" min="0" max="100"></td>
-                        <td><input type="text" class="small-input"></td>
-                        <td>
-                        <select name="remark" id="my_remark">
-                          <option value="">Select Remark---</option>
-                          <option value="Excellent">Excellent</option>
-                          <option value="Good">Good</option>
-                          <option value="Fair">Fair</option>
-                          <option value="Pass">Pass</option>
-                          <option value="Fail">Fail</option>
-                        </select>
-                      </td>
-                    </tr>
+                      <tr>
+                        <td>Biology</td>
+                        <td>12</td>
+                        <td>40</td>
+                        <td>20</td>
+                        <td>12</td>
+                        <td>2</td>
+                        <td>24</td>
+                        <td>30</td>
+                        <td>15</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>9.8</td>
+                      </tr>
 
-                    <tr>
-                        <td>PHYSICS</td>
-                        <td><input type="number" min="0" max="100"></td>
-                        <td><input type="text" class="small-input"></td>
-                        <td>
-                        <select name="remark" id="my_remark">
-                          <option value="">Select Remark---</option>
-                          <option value="Excellent">Excellent</option>
-                          <option value="Good">Good</option>
-                          <option value="Fair">Fair</option>
-                          <option value="Pass">Pass</option>
-                          <option value="Fail">Fail</option>
-                        </select>
-                      </td>
-                    </tr>
+                      <tr>
+                        <td>Physics</td>
+                        <td>12</td>
+                        <td>40</td>
+                        <td>20</td>
+                        <td>12</td>
+                        <td>2</td>
+                        <td>24</td>
+                        <td>30</td>
+                        <td>15</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>9.8</td>
+                      </tr>
 
+                      <tr>
+                        <td>Geography</td>
+                        <td>12</td>
+                        <td>40</td>
+                        <td>20</td>
+                        <td>12</td>
+                        <td>2</td>
+                        <td>24</td>
+                        <td>30</td>
+                        <td>15</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>9.8</td>
+                      </tr>
 
-                    <tr>
-                        <td>COMPUTER STUDIES</td>
-                        <td><input type="number" min="0" max="100"></td>
-                        <td><input type="text" class="small-input"></td>
-                        <td>
-                        <select name="remark" id="my_remark">
-                          <option value="">Select Remark---</option>
-                          <option value="Excellent">Excellent</option>
-                          <option value="Good">Good</option>
-                          <option value="Fair">Fair</option>
-                          <option value="Pass">Pass</option>
-                          <option value="Fail">Fail</option>
-                        </select>
-                      </td>
-                    </tr>
-                </tbody>
-            </table>
-        </fieldset>
+                      <tr>
+                        <td>Computer Studies</td>
+                        <td>12</td>
+                        <td>40</td>
+                        <td>20</td>
+                        <td>12</td>
+                        <td>2</td>
+                        <td>24</td>
+                        <td>30</td>
+                        <td>15</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>9.8</td>
+                    </tbody>
+                  </table>
+                </div>
+                <!---------------END OF KCSE RESULTS--------->
 
-        <div class="summary-footer">
-    <div class="summary_row">
-        <div class="summary_group">
-            <label>Mean Grade:</label>
-            <input type="text" placeholder="Grade">
-        </div>
-        <div class="summary_group">
-            <label>Total Marks:</label>
-            <input type="text" placeholder="Total">
-        </div>
-        <div class="summary_group">
-            <label>Class Position:</label>
-            <input type="text" placeholder="Pos">
-        </div>
-        <div class="summary_group">
-            <label>Stream Position:</label>
-            <input type="text" placeholder="Pos">
-        </div>
-    </div>
-    
+                <!------------REPORT DISCIPLINE  CASES----------->
+<form>
 
-        <button type="submit" class="submit-btn">Generate Report</button>
-    </form>
+<h2>Displinary Form</h2>
+
+<div class="input-box">
+<input type="text" required>
+<label>Full Name</label>
 </div>
 
-<!------------END OF RESULTS------------>
+<div class="input-box">
+<input type="number" required>
+<label>Admission Number </label>
+</div>
+
+<div class="input-box">
+<textarea required></textarea>
+<label>Case Description </label>
+</div>
 
 
+<div class="input-box">
+<input type="text" required>
+<label>Punishment type</label>
+</div>
 
+<button type="submit">Report Case</button>
+
+</form>
+
+                <!------------REPORT DISCIPLINE  CASES ENDS HERE----------->
+
+               
               </div>
+              
             </div>
           </div>
         </section>

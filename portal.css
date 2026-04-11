@@ -186,7 +186,7 @@ td {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   /*------------HIDE KCSE RESULTS SECTION --------*/
-  display: none;
+  display:none ;
                }
 
 .school-header {
@@ -348,13 +348,21 @@ button:hover{
 /*------------DISCIPLINE SECTION STYLE  ENDS HERE--------*/
 
 /*----------FEE STATEMENTS STYLE STARTS HERE----------*/
-.container{
+.fee_statement_container{
     width: 100%;
-    min-height: 100vh;
+    /*--------HIDE THE FEE STATEMENT SECTION-------*/
+    display: none;
+   
 }
 
+.fee_header{width: 100%;
+background-color:#3b5aa3;
+padding: 20px;
+text-align: center;
+color: white;}
+
 .fee-table{
-    width: 90%;
+    width: 100%;
     margin:20px auto;
     background-color: white;
 }
@@ -364,7 +372,7 @@ table{
     border-collapse: collapse;
 }
 table tr th{
-    background-color: #2828d1;
+    background-color: #3b5aa3;
     color: #fff;
     text-align: left;
     padding: 9px;
@@ -374,9 +382,98 @@ table tr td{
     text-align: left;
      padding: 3PX;
 }
-
 /*----------FEE STATEMENTS STYLE ENDS HERE----------*/
 
+
+
+/*---------UPCOMING EVENTS--------------------*/
+.upcoming_events_container{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.upcoming-events{
+    width: 100%;
+    margin: auto;
+     border: 1px solid #cecaca;
+    background: #e2e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.contents{
+    width: 100%;
+}
+.content-box{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #fff;
+    gap: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.date{
+    width: 10%;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    background-color:  #3b5aa3 ;
+    transition: .3s ease;
+    
+    
+  
+}
+
+.date h3{ 
+        padding: 10px;
+        border-radius: 10px;}
+
+.date:hover{
+    transform: translateX(4px);
+    opacity: .8;
+}
+.event{
+    width: 80%;
+}
+
+.newsletter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   
+}
+.newsletter a{
+    border-radius: 5px;
+    padding: 15px;
+     background-color: #2742b9;
+    text-decoration: none;
+     text-align: center;
+     color: #fff;
+     font-size: 1.2em;
+     transition: .3s ease;
+}
+.newsletter a:hover{
+    opacity: .8;
+    transform: translateX(5px);
+}
+
+/*---------UPCOMING EVENTS ENDS HERE--------------------*/
 
 
 /*------------FOOTER--------*/

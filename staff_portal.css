@@ -175,7 +175,7 @@ nav ul li a:hover::after {
 .dashboard-below{
     width: 100%;
     min-height: 100vh;
-    background-color: #f0f8ff;
+    background-color: white;
     border: 1px solid rgb(37, 39, 39);
     
 }
@@ -217,6 +217,9 @@ nav ul li a:hover::after {
     background-color: #d7d9da;
 }
 
+
+
+
 /*------------RESULT REPORT STYLE-----------*/
 
 .form-container {
@@ -226,6 +229,8 @@ nav ul li a:hover::after {
     padding: 30px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 8px;
+/*---HIDE RESULTS UPDATE----*/
+    display:none ;
 }
 
 header {
@@ -357,6 +362,97 @@ th {
 
 /*------------RESULT REPORT STYLE-----------*/
 
+
+/*--------------KCSE RESULTS---------------*/
+.report-container {
+  width: 100%;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  /*------------HIDE KCSE RESULTS SECTION --------*/
+  display: none;
+               }
+
+.school-header {
+  text-align: center;
+  border-bottom: 3px solid #2724c0;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: #3b5aa3;
+  border-radius: 10px;
+}
+
+.school-header p {
+  color: white;
+  padding: 10px;
+}
+
+strong {
+  color: white;
+}
+
+.school-header h1 {
+  color: white;
+  margin: 0;
+}
+
+.summary-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  gap: 15px;
+}
+
+.card {
+  background: #eef1ff;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1;
+  border: 1px solid #2724c0;
+}
+
+.stat {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2724c0;
+  margin: 5px 0 0 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #2724c0;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+/*--------------KCSE RESULTS ENDS HERE---------------*/
+
+
+
+/*----------CASES REPORT STARTS HERE--------------*/
+
+/*----------CASES REPORT ENDS HERE---------------*/
 
 
 

@@ -47,7 +47,7 @@
             <li><a href="#"><i class="fas fa-newspaper"></i> Newsletter</a></li>
             <li><a href="#"><i class="fas fa-graduation-cap"></i> KCSE</a></li>
             <li><a href="#"><i class="fa-solid fa-file-pen"></i> Assignments</a></li>
-            <li><a href="#"><i class="fa-solid fa-money-bill"></i>  Fee Payment</a></li>
+            <li><a href="#"><i class="fa-solid fa-money-bill"></i> Fee Payment</a></li>
           </ul>
         </aside>
 
@@ -299,117 +299,176 @@ after several consideration the school closing date would be on 27.July.2026
 
           </div>
 
-           <!--------NEWSLETTER SECTION ENDS HERE--------->
+          <!--------NEWSLETTER SECTION ENDS HERE--------->
 
 
-           <!---------FEE STATEMENTS STARTS HERE---------->
-<div class="fee_statement_container">
-        <div class="fee-table">
-        <table>
+          <!---------FEE STATEMENTS STARTS HERE---------->
+          <div class="fee_statement_container">
+            <div class="fee-table">
+              <div class="fee_header">
+                <h3>FEE STATEMENTS</h3>
+              </div>
+              <table>
+
+                <tr>
+                  <th>References</th>
+                  <th>Date</th>
+                  <th>Description</th>
+                  <th>Debit</th>
+                  <th>Credit</th>
+                  <th>Total</th>
+                </tr>
+
+                <tr>
+                  <td>0DR2RD3</td>
+                  <td>7/1/2024</td>
+                  <td>FEE-INVOICE</td>
+                  <td>10000.00</td>
+                  <td>0.00</td>
+                  <td>10000</td>
+                </tr>
+                <tr>
+                  <td>OBGDHWED</td>
+                  <td>25/1/2024</td>
+                  <td>MPESA-RECEIPT</td>
+                  <td>0.00</td>
+                  <td>5000.00</td>
+                  <td>5000.00</td>
+                </tr>
+                <tr>
+                  <td>OFGRTYRG</td>
+                  <td>4/2/2024</td>
+                  <td>BURSARY-RECEIPT</td>
+                  <td>0.00</td>
+                  <td>5500.00</td>
+                  <td>-500.00</td>
+                </tr>
+                <tr>
+                  <td>OGTREASI</td>
+                  <td>4/5/2024</td>
+                  <td>FEE-INVOICE</td>
+                  <td>7000.00</td>
+                  <td>0.00</td>
+                  <td>6500.00</td>
+                </tr>
+              </table>
+
+            </div>
+            <!---------FEE STATEMENTS ENDS HERE------------>
+
+            <!---------UPCOMING EVENTS-------------------->
+
             
-             <tr>
-                <th>References</th>
-                <th>Date</th>
-                <th>Description</th>
-                <th>Debit</th>
-                <th>Credit</th>
-                <th>Total</th>
-             </tr>
-             
-             <tr>
-                <td>0DR2RD3</td>
-                <td>7/1/2024</td>
-                <td>FEE-INVOICE</td>
-                <td>10000.00</td>
-                <td>0.00</td>
-                <td>10000</td>
-             </tr>
-              <tr>
-                <td>OBGDHWED</td>
-                <td>25/1/2024</td>
-                <td>MPESA-RECEIPT</td>
-                <td>0.00</td>
-                <td>5000.00</td>
-                <td>5000.00</td>
-             </tr>
-              <tr>
-                <td>OFGRTYRG</td>
-                <td>4/2/2024</td>
-                <td>BURSARY-RECEIPT</td>
-                <td>0.00</td>
-                <td>5500.00</td>
-                <td>-500.00</td>
-             </tr>
-             <tr>
-                <td>OGTREASI</td>
-                <td>4/5/2024</td>
-                <td>FEE-INVOICE</td>
-                <td>7000.00</td>
-                <td>0.00</td>
-                <td>6500.00</td>
-             </tr>
-        </table>
 
+              <!---------UPCOMING EVENTS ENDS HERE-------------------->
+
+
+            
+
+
+          </div>
+          <div class="upcoming_events_container">
+
+              <div class="upcoming-events">
+                <div class="header">
+                  <h2>UPCOMING EVENTS.</h2>
+                </div>
+
+                <div class="contents">
+                  <div class="content-box">
+                    <div class="date">
+                      <h3>3-5 May</h3>
+                      <h3>1900</h3>
+                    </div>
+                    <div class="event">
+                      <h3>Back To School</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum architecto minima quia dolorum
+                        repudiandae temporibus eum officiis rem quas sint.</p>
+                    </div>
+                  </div>
+
+                  <div class="content-box">
+                    <div class="date">
+                      <h3>15-17 May</h3>
+                      <h3>2100</h3>
+                    </div>
+                    <div class="event">
+                      <h3>Parent meeting</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In magnam explicabo illum quod omnis
+                        aut nulla facilis esse fugit at.</p>
+                    </div>
+                  </div>
+
+                  <div class="content-box">
+                    <div class="date">
+                      <h3>4-7 june</h3>
+                      <h3>All day</h3>
+                    </div>
+                    <div class="event">
+                      <h3>Inter Games and music events</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sequi labore quia cum sunt
+                        veniam doloremque ipsum pariatur quaerat fugit.</p>
+                    </div>
+                  </div>
+
+
+                  <div class="newsletter">
+                    <a href="#">Back to Dashboard </a>
+                  </div>
+                </div>
+              </div>
+           </div>
+
+
+    </section>
+
+
+    <!-------FOOTER----------->
+
+    <div class="footer_container">
+      <footer class="footer">
+        <div class="footer-container">
+
+          <div class="footer-box">
+            <h2>School System</h2>
+            <p>Efficient, secure, and easy-to-use school management platform.</p>
+            <p>Empowering education through digital innovation.</p>
+          </div>
+
+          <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="landing.php">Home</a>
+            <a href="#">About Us</a>
+            <a href="portal_login.php">Student Portal</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <div class="footer-box">
+            <h3>Services</h3>
+            <p>Student Registration</p>
+            <p>Grade Management</p>
+            <p>Attendance Tracking</p>
+            <p>Parent Communication</p>
+            <p>Academic Records Management</p>
+
+          </div>
+
+          <div class="footer-box">
+            <h3>Contact</h3>
+            <p>Email: school@example.co.ke</p>
+            <p><a href="tel:+254123456789" target="_blank">Phone: +254 123 456 789</a> </p>
+            <p><a href="https://maps.google.com/?q=school" target="_blank">Location: 123 School Street, City</a> </p>
+          </div>
+
+
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 John Isige Jomo. All rights reserved.</p>
+        </div>
+      </footer>
     </div>
-
-           <!---------FEE STATEMENTS ENDS HERE------------>
-
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-<!-------FOOTER----------->
-
-<div class="footer_container">
-  <footer class="footer">
-    <div class="footer-container">
-
-      <div class="footer-box">
-        <h2>School System</h2>
-        <p>Efficient, secure, and easy-to-use school management platform.</p>
-        <p>Empowering education through digital innovation.</p>
-      </div>
-
-      <div class="footer-box">
-        <h3>Quick Links</h3>
-        <a href="landing.php">Home</a>
-        <a href="#">About Us</a>
-        <a href="portal_login.php">Student Portal</a>
-        <a href="#">Contact</a>
-      </div>
-
-      <div class="footer-box">
-        <h3>Services</h3>
-        <p>Student Registration</p>
-        <p>Grade Management</p>
-        <p>Attendance Tracking</p>
-        <p>Parent Communication</p>
-        <p>Academic Records Management</p>
-
-      </div>
-
-      <div class="footer-box">
-        <h3>Contact</h3>
-        <p>Email: school@example.co.ke</p>
-        <p><a href="tel:+254123456789" target="_blank">Phone: +254 123 456 789</a> </p>
-        <p><a href="https://maps.google.com/?q=school" target="_blank">Location: 123 School Street, City</a> </p>
-      </div>
-
-
-    </div>
-
-    <div class="footer-bottom">
-      <p>© 2026 John Isige Jomo. All rights reserved.</p>
-    </div>
-  </footer>
-</div>
-</div>
+  </div>
 </body>
 
 </html>
