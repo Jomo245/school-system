@@ -342,264 +342,264 @@
               </div>
 
 
-                <!------------END OF RESULTS------------>
+              <!------------END OF RESULTS------------>
 
-                <!---------------KCSE RESULTS----------->
-                <div class="report-container">
-                  <div class="school-header">
-                    <h1>KCSE RESULTS SUMMARY 2026</h1>
-                    <p><strong>School Code:</strong> 12345678</p>
-                  </div>
-
-                  <div class="summary-cards">
-                    <div class="card">
-                      <h3>School Mean Grade</h3>
-                      <p class="stat">B+</p>
-                    </div>
-                    <div class="card">
-                      <h3>School Mean Score</h3>
-                      <p class="stat">9.42</p>
-                    </div>
-                    <div class="card">
-                      <h3>Entry</h3>
-                      <p class="stat">142</p>
-                    </div>
-                  </div>
-
-
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Subject</th>
-                        <th>A</th>
-                        <th>A-</th>
-                        <th>B+</th>
-                        <th>B</th>
-                        <th>C+</th>
-                        <th>C</th>
-                        <th>C-</th>
-                        <th>D+</th>
-                        <th>D</th>
-                        <th>D-</th>
-                        <th>E</th>
-                        <th>Mean Score</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Mathematics</td>
-                        <td>24</td>
-                        <td>30</td>
-                        <td>15</td>
-                        <td>10</td>
-                        <td>5</td>
-                        <td>24</td>
-                        <td>30</td>
-                        <td>15</td>
-                        <td>10</td>
-                        <td>10</td>
-                        <td>5</td>
-                        <td>10.2</td>
-                      </tr>
-                      <tr>
-                        <td>English</td>
-                        <td>12</td>
-                        <td>40</td>
-                        <td>20</td>
-                        <td>12</td>
-                        <td>2</td>
-                        <td>24</td>
-                        <td>30</td>
-                        <td>15</td>
-                        <td>10</td>
-                        <td>10</td>
-                        <td>5</td>
-                        <td>9.8</td>
-                      </tr>
-
-                      <tr>
-                        <td>Kiswahili</td>
-                        <td>12</td>
-                        <td>40</td>
-                        <td>20</td>
-                        <td>12</td>
-                        <td>2</td>
-                        <td>24</td>
-                        <td>30</td>
-                        <td>15</td>
-                        <td>10</td>
-                        <td>10</td>
-                        <td>5</td>
-                        <td>9.8</td>
-                      </tr>
-
-                      <tr>
-                        <td>Chemistry</td>
-                        <td>12</td>
-                        <td>40</td>
-                        <td>20</td>
-                        <td>12</td>
-                        <td>2</td>
-                        <td>24</td>
-                        <td>30</td>
-                        <td>15</td>
-                        <td>10</td>
-                        <td>10</td>
-                        <td>5</td>
-                        <td>9.8</td>
-                      </tr>
-
-                      <tr>
-                        <td>Biology</td>
-                        <td>12</td>
-                        <td>40</td>
-                        <td>20</td>
-                        <td>12</td>
-                        <td>2</td>
-                        <td>24</td>
-                        <td>30</td>
-                        <td>15</td>
-                        <td>10</td>
-                        <td>10</td>
-                        <td>5</td>
-                        <td>9.8</td>
-                      </tr>
-
-                      <tr>
-                        <td>Physics</td>
-                        <td>12</td>
-                        <td>40</td>
-                        <td>20</td>
-                        <td>12</td>
-                        <td>2</td>
-                        <td>24</td>
-                        <td>30</td>
-                        <td>15</td>
-                        <td>10</td>
-                        <td>10</td>
-                        <td>5</td>
-                        <td>9.8</td>
-                      </tr>
-
-                      <tr>
-                        <td>Geography</td>
-                        <td>12</td>
-                        <td>40</td>
-                        <td>20</td>
-                        <td>12</td>
-                        <td>2</td>
-                        <td>24</td>
-                        <td>30</td>
-                        <td>15</td>
-                        <td>10</td>
-                        <td>10</td>
-                        <td>5</td>
-                        <td>9.8</td>
-                      </tr>
-
-                      <tr>
-                        <td>Computer Studies</td>
-                        <td>12</td>
-                        <td>40</td>
-                        <td>20</td>
-                        <td>12</td>
-                        <td>2</td>
-                        <td>24</td>
-                        <td>30</td>
-                        <td>15</td>
-                        <td>10</td>
-                        <td>10</td>
-                        <td>5</td>
-                        <td>9.8</td>
-                    </tbody>
-                  </table>
+              <!---------------KCSE RESULTS----------->
+              <div class="report-container">
+                <div class="school-header">
+                  <h1>KCSE RESULTS SUMMARY 2026</h1>
+                  <p><strong>School Code:</strong> 12345678</p>
                 </div>
-                <!---------------END OF KCSE RESULTS--------->
 
-                <!------------REPORT DISCIPLINE  CASES----------->
-<form>
-
-<h2>Displinary Form</h2>
-
-<div class="input-box">
-<input type="text" required>
-<label>Full Name</label>
-</div>
-
-<div class="input-box">
-<input type="number" required>
-<label>Admission Number </label>
-</div>
-
-<div class="input-box">
-<textarea required></textarea>
-<label>Case Description </label>
-</div>
+                <div class="summary-cards">
+                  <div class="card">
+                    <h3>School Mean Grade</h3>
+                    <p class="stat">B+</p>
+                  </div>
+                  <div class="card">
+                    <h3>School Mean Score</h3>
+                    <p class="stat">9.42</p>
+                  </div>
+                  <div class="card">
+                    <h3>Entry</h3>
+                    <p class="stat">142</p>
+                  </div>
+                </div>
 
 
-<div class="input-box">
-<input type="text" required>
-<label>Punishment type</label>
-</div>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Subject</th>
+                      <th>A</th>
+                      <th>A-</th>
+                      <th>B+</th>
+                      <th>B</th>
+                      <th>C+</th>
+                      <th>C</th>
+                      <th>C-</th>
+                      <th>D+</th>
+                      <th>D</th>
+                      <th>D-</th>
+                      <th>E</th>
+                      <th>Mean Score</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Mathematics</td>
+                      <td>24</td>
+                      <td>30</td>
+                      <td>15</td>
+                      <td>10</td>
+                      <td>5</td>
+                      <td>24</td>
+                      <td>30</td>
+                      <td>15</td>
+                      <td>10</td>
+                      <td>10</td>
+                      <td>5</td>
+                      <td>10.2</td>
+                    </tr>
+                    <tr>
+                      <td>English</td>
+                      <td>12</td>
+                      <td>40</td>
+                      <td>20</td>
+                      <td>12</td>
+                      <td>2</td>
+                      <td>24</td>
+                      <td>30</td>
+                      <td>15</td>
+                      <td>10</td>
+                      <td>10</td>
+                      <td>5</td>
+                      <td>9.8</td>
+                    </tr>
 
-<button type="submit">Report Case</button>
+                    <tr>
+                      <td>Kiswahili</td>
+                      <td>12</td>
+                      <td>40</td>
+                      <td>20</td>
+                      <td>12</td>
+                      <td>2</td>
+                      <td>24</td>
+                      <td>30</td>
+                      <td>15</td>
+                      <td>10</td>
+                      <td>10</td>
+                      <td>5</td>
+                      <td>9.8</td>
+                    </tr>
 
-</form>
+                    <tr>
+                      <td>Chemistry</td>
+                      <td>12</td>
+                      <td>40</td>
+                      <td>20</td>
+                      <td>12</td>
+                      <td>2</td>
+                      <td>24</td>
+                      <td>30</td>
+                      <td>15</td>
+                      <td>10</td>
+                      <td>10</td>
+                      <td>5</td>
+                      <td>9.8</td>
+                    </tr>
 
-                <!------------REPORT DISCIPLINE  CASES ENDS HERE----------->
+                    <tr>
+                      <td>Biology</td>
+                      <td>12</td>
+                      <td>40</td>
+                      <td>20</td>
+                      <td>12</td>
+                      <td>2</td>
+                      <td>24</td>
+                      <td>30</td>
+                      <td>15</td>
+                      <td>10</td>
+                      <td>10</td>
+                      <td>5</td>
+                      <td>9.8</td>
+                    </tr>
 
-               
+                    <tr>
+                      <td>Physics</td>
+                      <td>12</td>
+                      <td>40</td>
+                      <td>20</td>
+                      <td>12</td>
+                      <td>2</td>
+                      <td>24</td>
+                      <td>30</td>
+                      <td>15</td>
+                      <td>10</td>
+                      <td>10</td>
+                      <td>5</td>
+                      <td>9.8</td>
+                    </tr>
+
+                    <tr>
+                      <td>Geography</td>
+                      <td>12</td>
+                      <td>40</td>
+                      <td>20</td>
+                      <td>12</td>
+                      <td>2</td>
+                      <td>24</td>
+                      <td>30</td>
+                      <td>15</td>
+                      <td>10</td>
+                      <td>10</td>
+                      <td>5</td>
+                      <td>9.8</td>
+                    </tr>
+
+                    <tr>
+                      <td>Computer Studies</td>
+                      <td>12</td>
+                      <td>40</td>
+                      <td>20</td>
+                      <td>12</td>
+                      <td>2</td>
+                      <td>24</td>
+                      <td>30</td>
+                      <td>15</td>
+                      <td>10</td>
+                      <td>10</td>
+                      <td>5</td>
+                      <td>9.8</td>
+                  </tbody>
+                </table>
               </div>
-              
+              <!---------------END OF KCSE RESULTS--------->
+
+              <!------------REPORT DISCIPLINE  CASES----------->
+              <form>
+
+                <h2>Disciplinary Form</h2>
+
+                <div class="input-box">
+                  <input type="text" required>
+                  <label>Full Name</label>
+                </div>
+
+                <div class="input-box">
+                  <input type="number" required>
+                  <label>Admission Number </label>
+                </div>
+
+                <div class="input-box">
+                  <textarea required></textarea>
+                  <label>Case Description </label>
+                </div>
+
+
+                <div class="input-box">
+                  <input type="text" required>
+                  <label>Punishment type</label>
+                </div>
+
+                <button type="submit">Report Case</button>
+
+              </form>
+
+              <!------------REPORT DISCIPLINE  CASES ENDS HERE----------->
+
+
             </div>
+
           </div>
-        </section>
       </div>
     </section>
-    <!-------FOOTER----------->
+  </div>
+  </section>
+  <!-------FOOTER----------->
 
-    <div class="footer_container">
-      <footer class="footer">
-        <div class="footer-container">
+  <div class="footer_container">
+    <footer class="footer">
+      <div class="footer-container">
 
-          <div class="footer-box">
-            <h2>School System</h2>
-            <p>Efficient, secure, and easy-to-use school management platform.</p>
-            <p>Empowering education through digital innovation.</p>
-          </div>
+        <div class="footer-box">
+          <h2>School System</h2>
+          <p>Efficient, secure, and easy-to-use school management platform.</p>
+          <p>Empowering education through digital innovation.</p>
+        </div>
 
-          <div class="footer-box">
-            <h3>Quick Links</h3>
-            <a href="landing.php">Home</a>
-            <a href="#">About Us</a>
-            <a href="portal_login.php">Student Portal</a>
-            <a href="#">Contact</a>
-          </div>
+        <div class="footer-box">
+          <h3>Quick Links</h3>
+          <a href="landing.php">Home</a>
+          <a href="#">About Us</a>
+          <a href="portal_login.php">Student Portal</a>
+          <a href="#">Contact</a>
+        </div>
 
-          <div class="footer-box">
-            <h3>Services</h3>
-            <p>Student Registration</p>
-            <p>Grade Management</p>
-            <p>Attendance Tracking</p>
-            <p>Parent Communication</p>
-            <p>Academic Records Management</p>
-
-          </div>
-
-          <div class="footer-box">
-            <h3>Contact</h3>
-            <p>Email: school@example.co.ke</p>
-            <p><a href="tel:+254123456789" target="_blank">Phone: +254 123 456 789</a> </p>
-            <p><a href="https://maps.google.com/?q=school" target="_blank">Location: 123 School Street, City</a> </p>
-          </div>
+        <div class="footer-box">
+          <h3>Services</h3>
+          <p>Student Registration</p>
+          <p>Grade Management</p>
+          <p>Attendance Tracking</p>
+          <p>Parent Communication</p>
+          <p>Academic Records Management</p>
 
         </div>
 
-        <div class="footer-bottom">
-          <p>© 2026 School System. All rights reserved.</p>
+        <div class="footer-box">
+          <h3>Contact</h3>
+          <p>Email: school@example.co.ke</p>
+          <p><a href="tel:+254123456789" target="_blank">Phone: +254 123 456 789</a> </p>
+          <p><a href="https://maps.google.com/?q=school" target="_blank">Location: 123 School Street, City</a> </p>
         </div>
-      </footer>
-    </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 School System. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
   </div>
 </body>
 
