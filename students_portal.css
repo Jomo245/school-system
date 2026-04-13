@@ -630,7 +630,7 @@ margin-bottom:5px;
 }
 
 /* DROPDOWNS */
-select, input[type="file"]{
+select, input[type="file"], input[type="text"], input[type="number"] {
 width:100%;
 padding:10px;
 border-radius:5px;

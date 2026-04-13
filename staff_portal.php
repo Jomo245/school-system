@@ -66,7 +66,7 @@
 
               <div class="dashboard-box">
                 <i class="fa-solid fa-bullhorn"></i>
-                <a href="#">Faculty Announcements</a>
+                <a href="#">Upcoming Events</a>
               </div>
 
               <div class="dashboard-box">
@@ -87,6 +87,11 @@
               <div class="dashboard-box">
                 <i class="fa-brands fa-bitbucket"></i>
                 <a href="#">Repository</a>
+              </div>
+           
+            <div class="dashboard-box">
+                <i class="fa-brands fa-bitbucket"></i>
+                <a href="#">Submitted Assignment</a>
               </div>
             </div>
 
@@ -549,16 +554,25 @@
                 <div class="assignment-container">
                   <form action="#">
                     <div class="create-assignment">
-                      <h2>Create Assignment</h2>
+                      <h2>Upload Assignment</h2>
 
                       <div class="form-input">
-                        <label for="title">Title: </label>
-                        <input type="text" name="title" required>
+                       <label for="Subject">Subject: </label>                 
+                        <select name="subject" id="">
+                          <option value="" name="">Select Subject----</option>
+                          <option value="grade" name="class">Math</option>
+                          <option value="grade" name="class">English</option>
+                          <option value="grade" name="class">Kiswahili</option>
+                          <option value="grade" name="class">Biology</option>
+                          <option value="grade" name="class">Chemistry</option>
+                          <option value="grade" name="class">Geography</option>
+                        </select required>
                       </div>
 
                       <div class="form-input">
                         <label for="grade">Grade: </label>
                         <select name="grade" id="class">
+                          <option value="" name="">Select Grade----</option>
                           <option value="grade" name="class">Grade 10 blue</option>
                           <option value="grade" name="class">Grade 10 green</option>
                           <option value="grade" name="class">Grade 11 blue</option>

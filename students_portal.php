@@ -480,6 +480,16 @@ after several consideration the school closing date would be on 27.July.2026
 
               <!-- FORM DROPDOWN -->
               <div class="input-group">
+                <label>Students Name:</label>
+                <input type="text"  required>
+              </div>
+
+              <div class="input-group">
+                <label>Admission No:</label>
+                <input type="number"  required>
+              </div>
+
+              <div class="input-group">
                 <label for="formSelect">Select Form</label>
                 <select id="formSelect" required>
                   <option value="">-- Select Form --</option>
@@ -518,10 +528,7 @@ after several consideration the school closing date would be on 27.July.2026
                 </select>
               </div>
 
-              <!-- DOWNLOAD -->
-              <button type="button" class="download-btn">
-                Download Assignment
-              </button>
+            
 
               <!-- FILE UPLOAD -->
               <div class="input-group">
@@ -530,7 +537,7 @@ after several consideration the school closing date would be on 27.July.2026
               </div>
 
               <button type="submit" class="upload-btn">
-                Upload Assignment
+                Submit Assignment
               </button>
 
             </form>
