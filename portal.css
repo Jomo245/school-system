@@ -136,7 +136,7 @@ nav ul li a:hover::after {
 
 .main_content {
   flex: 1;
-  background:white;
+  background: white;
   border: 1px solid #ccc;
   border-left: 4px solid #ccc;
 }
@@ -152,15 +152,13 @@ nav ul li a:hover::after {
 table {
   width: 100%;
   border-collapse: collapse;
-
 }
-
 
 .sidebar_result h3 {
   width: 100%;
   color: black;
   margin-bottom: 10px;
-                    }
+}
 
 table th {
   background-color: #3b5aa3;
@@ -186,8 +184,8 @@ td {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   /*------------HIDE KCSE RESULTS SECTION --------*/
-  display:none ;
-               }
+  display: none;
+}
 
 .school-header {
   text-align: center;
@@ -263,131 +261,127 @@ tr:hover {
 
 /*------------END OF RESULTS SECTION STYLE--------*/
 
-
-
 /*------------DISCIPLINE SECTION STYLE--------*/
 
 /* FORM CONTAINER */
-.container{
-    width:100%;
-    background:white;
-    padding:30px;
-    border-radius:10px;
-    box-shadow:0 5px 20px rgba(0,0,0,0.2);
-    /*-------HIDE DISCIPLINE SECTION------*/
-    display: none;
+.container {
+  width: 100%;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  /*-------HIDE DISCIPLINE SECTION------*/
+  display: none;
 }
 
-.newsletter_container{
-   width:100%;
-    background:white;
-    padding:30px;
-    border-radius:10px;
-    box-shadow:0 5px 20px rgba(0,0,0,0.2);
-     /*-------HIDE NEWSLETTER SECTION------*/
-     display: none;
+.newsletter_container {
+  width: 100%;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  /*-------HIDE NEWSLETTER SECTION------*/
+  display: none;
 }
 
 /* TITLE */
-.container h2{
-    text-align:center;
-    color:white;
-    margin-bottom:20px;
+.container h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
 }
 
 /* INPUT GROUP */
-.input-box{
-    margin-bottom:15px;
+.input-box {
+  margin-bottom: 15px;
 }
 
-.input-box label{
-    display:block;
-    font-weight:bold;
-    margin-bottom:5px;
-    color:#333;
+.input-box label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
 }
 
 /* INPUT STYLE */
 .input-box input,
-.input-box textarea{
-    width:100%;
-    padding:10px;
-    border:1px solid #ccc;
-    border-radius:5px;
-    background:#f5f7fa;
-    font-size:14px;
+.input-box textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f5f7fa;
+  font-size: 14px;
 }
 
-.input-box textarea{
-   resize: none;
-
+.input-box textarea {
+  resize: none;
 }
 
 /* READ ONLY LOOK */
 input[readonly],
-textarea[readonly]{
-    background:#e9eef5;
+textarea[readonly] {
+  background: #e9eef5;
 }
 
 /* BUTTON */
-button{
-    width:100%;
-    padding:12px;
-    border:none;
-    background:#0050b4;
-    color:white;
-    font-size:16px;
-    border-radius:5px;
-    cursor:pointer;
-    transition:0.3s;
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #0050b4;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-button:hover{
-    background:#003f8a;
+button:hover {
+  background: #003f8a;
 }
 /*------------DISCIPLINE SECTION STYLE  ENDS HERE--------*/
 
 /*----------FEE STATEMENTS STYLE STARTS HERE----------*/
-.fee_statement_container{
-    width: 100%;
-    /*--------HIDE THE FEE STATEMENT SECTION-------*/
-    display:none ;
-   
+.fee_statement_container {
+  width: 100%;
+  /*--------HIDE THE FEE STATEMENT SECTION-------*/
+  display: none;
 }
 
-.fee_header{width: 100%;
-background-color:#3b5aa3;
-padding: 20px;
-text-align: center;
-color: white;}
+.fee_header {
+  width: 100%;
+  background-color: #3b5aa3;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
 
-.fee-table{
-    width: 100%;
-    margin:20px auto;
-    background-color: white;
+.fee-table {
+  width: 100%;
+  margin: 20px auto;
+  background-color: white;
 }
-table{
-    width: 100%;
-    border: 1px solid black;
-    border-collapse: collapse;
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
-table tr th{
-    background-color: #3b5aa3;
-    color: #fff;
-    text-align: left;
-    padding: 9px;
+table tr th {
+  background-color: #3b5aa3;
+  color: #fff;
+  text-align: left;
+  padding: 9px;
 }
-table tr td{
-    border: 1px solid #8aaff3;
-    text-align: left;
-     padding: 3PX;
+table tr td {
+  border: 1px solid #8aaff3;
+  text-align: left;
+  padding: 3px;
 }
 /*----------FEE STATEMENTS STYLE ENDS HERE----------*/
 
-
-
 /*---------UPCOMING EVENTS--------------------*/
-.upcoming_events_container{
+.upcoming_events_container {
   width: 100%;
   background-color: white;
   display: flex;
@@ -397,97 +391,102 @@ table tr td{
   padding: 20px;
 }
 
-.upcoming-events{
-    width: 100%;
-    margin: auto;
-     border: 1px solid #cecaca;
-    background: #e2e0e0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    display: none;
+.upcoming-events {
+  width: 100%;
+  margin: auto;
+  border: 1px solid #cecaca;
+  background: #e2e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /*--------HIDE THE UPCOMING EVENT SECTION----------*/
+  display: block;
 }
-.header{
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    color: #fff;
+.header {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
 }
 
-.contents{
-    width: 100%;
+.contents {
+  width: 100%;
 }
-.content-box{
-    display: flex;
-    justify-content: flex-start;
-    padding: 20px;
-    background-color: #fff;
-    gap: 30px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+.content-box {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: #fff;
+  gap: 30px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
-.date{
-    width: 10%;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    background-color:  #3b5aa3 ;
-    transition: .3s ease;
-    
-    
+.date {
+  width: 20%;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  color: white;
+  text-align: center;
+  background-color: #3b5aa3;
+  transition: 0.3s ease;
+  flex-direction: column;
   
+  
+
 }
 
-.date h3{ 
-        padding: 10px;
-        border-radius: 10px;}
-
-.date:hover{
-    transform: translateX(4px);
-    opacity: .8;
-}
-.event{
-    width: 80%;
+.date p {
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.newsletter{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-   
+.date:hover {
+  transform: translateX(4px);
+  opacity: 0.8;
 }
-.newsletter a{
-    border-radius: 5px;
-    padding: 15px;
-     background-color: #2742b9;
-    text-decoration: none;
-     text-align: center;
-     color: #fff;
-     font-size: 1.2em;
-     transition: .3s ease;
+.event {
+  width: 80%;
 }
-.newsletter a:hover{
-    opacity: .8;
-    transform: translateX(5px);
+
+.newsletter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.newsletter a {
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #2742b9;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em;
+  transition: 0.3s ease;
+}
+.newsletter a:hover {
+  opacity: 0.8;
+  transform: translateX(5px);
 }
 
 /*---------UPCOMING EVENTS ENDS HERE--------------------*/
 
-
 /*------------PROFILE SECTION STARTS HERE--------------*/
 
-.profile_container{
+.profile_container {
   min-height: 100vh;
+  /*------HIDE THE PROFILE SECTION-----------*/
+  display: none;
 }
 
-.image_and_class{
+.image_and_class {
   padding: 20px;
-   display: flex;
-  align-items: center;   
-  gap: 15px;             
+  display: flex;
+  align-items: center;
+  gap: 15px;
   background-color: #e2e2eb;
   padding: 20px;
   border-radius: 10px;
@@ -495,44 +494,57 @@ table tr td{
   margin: auto;
 }
 
-.edit{display: flex;
+.edit {
+  display: flex;
   width: 95%;
   margin: auto;
-  background-color: #2742b9;
+  background-color: #3b5aa3;
   justify-content: space-between;
   padding: 20px;
 }
 
-.edit h3{
+.profile strong {
+  color: #2742b9;
+}
+
+.edit h3 {
   display: flex;
   align-items: center;
   color: white;
 }
 
-.edit_btn{width:150px;
-  background-color: #2724c0
-
-  ;}
-
-.students_image img{
-  width: 200px;
-  border-radius: 50%;
+.edit_btn {
+  width: 150px;
+  background-color: #2724c0;
 }
 
-.class_container{display: flex;
-gap: 15px;}
+.students_image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 14px 15px rgba(0, 0, 0, 0.8);
+}
 
-.form_and_class li strong{color: white;}
+.class_container {
+  display: flex;
+  gap: 15px;
+}
 
-.form_and_class{background-color:  #2742b9;
+.form_and_class li strong {
+  color: white;
+}
+
+.form_and_class {
+  background-color: #2742b9;
   border-radius: 5px;
   color: white;
-  font-weight: bold;     
-  margin: auto;        
-              }
+  font-weight: bold;
+  margin: auto;
+}
 
-.form_and_class_2{
-  background-color:  #e01717;
+.form_and_class_2 {
+  background-color: #e01717;
   border-radius: 5px;
   color: white;
   font-weight: bold;
@@ -540,42 +552,49 @@ gap: 15px;}
   text-align: center;
   justify-content: center;
   align-items: center;
-  
 }
 
-.students_class ul li span{
+.students_class ul li span {
   color: #0050b4;
   font-weight: bold;
 }
-           
 
-.students_class ul li{list-style-type: none;
-padding: 10px;}
+.students_class ul li {
+  list-style-type: none;
+  padding: 10px;
+}
 
-.profile_and_contact{width: 95%;
+.profile_and_contact {
+  width: 95%;
   margin: auto;
-  padding:20px 0;
+  padding: 20px 0;
   display: flex;
   justify-content: center;
-  gap: 20px;}
+  gap: 20px;
+}
 
-
-  
-.profile{background-color: #dddddd; 
+.profile {
+  background-color: #dddddd;
   width: 100%;
-  border-radius: 10px;}
+  border-radius: 10px;
+  box-shadow: 0 14px 15px rgba(0, 0, 0, 0.8);
+  padding-bottom: 20px;
+}
 
-.profile ul i{padding: 10px;}
+.profile ul i {
+  padding: 10px;
+}
 
-.profile ul li{list-style-type: none;}
+.profile ul{padding: 20px;}
 
+.profile ul li {
+  list-style-type: none;
+}
 
-
-.class_container ul li strong{color:white ;}       
-
-
+.class_container ul li strong {
+  color: white;
+}
 /*------------PROFILE SECTION ENDS HERE HERE--------------*/
-
 
 /*------------FOOTER--------*/
 

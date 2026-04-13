@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="portal.css?v=<?php echo time(); ?>">
-  <title>Portal</title>
+  <title>Students Portal</title>
 </head>
 
 <body>
@@ -64,7 +64,7 @@
             </div>
             <div class="image_and_class">
               <div class="students_image">
-                <img src="images\bus.jpeg" alt="">
+                <img src="images\jomo.jpeg" alt="">
               </div>
               <div class="students_class">
                 <ul>
@@ -82,12 +82,13 @@
               <div class="profile">
                 <h2>Profile</h2>
                 <ul>
-                  <li><i class="fa-sharp fa-solid fa-hashtag"></i> Admission Number <strong>BBITC01/3242/2022</strong></li>
-                  <li><i class="fa-duotone fa-solid fa-person-half-dress"></i> Gender <strong>Male</strong></li>
-                  <li><i class="fa-chisel fa-regular fa-calendar"></i> Date of Birth <strong>March 19, 2001</strong>
+                  <li><i class="fa-sharp fa-solid fa-hashtag"></i> Admission Number: <strong>BBITC01/3242/2022</strong>
                   </li>
-                  <li><i class="fa-solid fa-flag-usa"></i> Nationality <strong>Kenyan</strong></li>
-                  <li><i class="fa-solid fa-address-book"></i> Home Address <strong>123 Nairobi St, Nairobi
+                  <li><i class="fa-duotone fa-solid fa-person-half-dress"></i> Gender: <strong>Male</strong></li>
+                  <li><i class="fa-chisel fa-regular fa-calendar"></i> Date of Birth: <strong>March 19, 2001</strong>
+                  </li>
+                  <li><i class="fa-solid fa-flag-usa"></i> Nationality: <strong>Kenyan</strong></li>
+                  <li><i class="fa-solid fa-address-book"></i> Home Address: <strong>123 Nairobi St, Nairobi
                       Kenya</strong></li>
                 </ul>
               </div>
@@ -95,13 +96,13 @@
               <div class="profile">
                 <h2>Contact Information</h2>
                 <ul>
-                  <li><i class="fa-solid fa-phone"></i>Phone <strong>0741504282</strong></li>
-                  <li><i class="fa-solid fa-envelope"></i>Phone <strong>johnisige2020@gmail.com</strong></li>
-                  <li><i class="fa-sharp fa-solid fa-person-breastfeeding"></i>Parent/Guardian <span>Joseph Jomo</span>
-                    <strong>0728620910</strong></li>
+                  <li><i class="fa-solid fa-phone"></i>Phone: <strong>0741504282</strong></li>
+                  <li><i class="fa-solid fa-envelope"></i>Email: <strong>johnisige2020@gmail.com</strong></li>
+                  <li><i class="fa-sharp fa-solid fa-person-breastfeeding"></i>Parent/Guardian: <span>Joseph Jomo</span>
+                    <strong>0728620910</strong>
+                  </li>
                 </ul>
               </div>
-
             </div>
 
 
@@ -407,21 +408,13 @@ after several consideration the school closing date would be on 27.July.2026
                   <td>6500.00</td>
                 </tr>
               </table>
-
             </div>
-            <!---------FEE STATEMENTS ENDS HERE------------>
-
-            <!---------UPCOMING EVENTS-------------------->
-
-
-
-            <!---------UPCOMING EVENTS ENDS HERE-------------------->
-
-
-
-
-
           </div>
+          <!------------FEE STATEMENTS ENDS HERE----------->
+
+
+          <!---------UPCOMING EVENTS-------------------->
+
           <div class="upcoming_events_container">
 
             <div class="upcoming-events">
@@ -432,8 +425,8 @@ after several consideration the school closing date would be on 27.July.2026
               <div class="contents">
                 <div class="content-box">
                   <div class="date">
-                    <h3>3-5 May</h3>
-                    <h3>1900</h3>
+                    <p>3-5 May <strong>1900</strong></p> 
+                     <span>1pm-2pm</span>                    
                   </div>
                   <div class="event">
                     <h3>Back To School</h3>
@@ -444,8 +437,8 @@ after several consideration the school closing date would be on 27.July.2026
 
                 <div class="content-box">
                   <div class="date">
-                    <h3>15-17 May</h3>
-                    <h3>2100</h3>
+                     <p>7-9 March <strong>2025</strong></p> 
+                      <span>1pm-2pm</span>    
                   </div>
                   <div class="event">
                     <h3>Parent meeting</h3>
@@ -456,8 +449,8 @@ after several consideration the school closing date would be on 27.July.2026
 
                 <div class="content-box">
                   <div class="date">
-                    <h3>4-7 june</h3>
-                    <h3>All day</h3>
+                     <p>13-16 April <strong>2026</strong></p> 
+                     <span>3pm-4pm</span>   
                   </div>
                   <div class="event">
                     <h3>Inter Games and music events</h3>
@@ -474,6 +467,7 @@ after several consideration the school closing date would be on 27.July.2026
             </div>
           </div>
 
+          <!---------UPCOMING EVENTS ENDS HERE-------------------->
 
     </section>
 

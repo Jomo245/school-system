@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="staff_portal.css?v=<?php echo time(); ?>">
-  <title>JOMO School</title>
+  <title>Staff Portal</title>
 </head>
 
 <body>
@@ -83,6 +83,11 @@
                 <i class="fa-solid fa-graduation-cap"></i>
                 <a href="#">School Performance</a>
               </div>
+
+              <div class="dashboard-box">
+                <i class="fa-brands fa-bitbucket"></i>
+                <a href="#">Repository</a>
+              </div>
             </div>
 
             <div class="dashboard-content">
@@ -92,20 +97,6 @@
                   <a href="#">Messages</a>
                 </div>
 
-                <div class="top">
-                  <i class="fa-solid fa-calendar-days"></i>
-                  <a href="#">Upcoming Events</a>
-                </div>
-
-                <div class="top">
-                  <i class="fa-solid fa-hexagon-nodes"></i>
-                  <a href="#">Assignment grading</a>
-                </div>
-
-                <div class="top">
-                  <i class="fa-brands fa-bitbucket"></i>
-                  <a href="#">Repository</a>
-                </div>
 
               </div>
               <div class="dashboard-below">
@@ -516,89 +507,145 @@
               <!---------------END OF KCSE RESULTS--------->
 
               <!------------REPORT DISCIPLINE  CASES----------->
-              <form>
+              <div class="discipline_container">
+                <form>
 
-                <h2>Disciplinary Form</h2>
+                  <h2>Disciplinary Form</h2>
 
-                <div class="input-box">
-                  <input type="text" required>
-                  <label>Full Name</label>
-                </div>
+                  <div class="input-box">
+                    <input type="text" required>
+                    <label>Full Name</label>
+                  </div>
 
-                <div class="input-box">
-                  <input type="number" required>
-                  <label>Admission Number </label>
-                </div>
+                  <div class="input-box">
+                    <input type="number" required>
+                    <label>Admission Number </label>
+                  </div>
 
-                <div class="input-box">
-                  <textarea required></textarea>
-                  <label>Case Description </label>
-                </div>
+                  <div class="input-box">
+                    <textarea required></textarea>
+                    <label>Case Description </label>
+                  </div>
 
 
-                <div class="input-box">
-                  <input type="text" required>
-                  <label>Punishment type</label>
-                </div>
+                  <div class="input-box">
+                    <input type="text" required>
+                    <label>Punishment type</label>
+                  </div>
 
-                <button type="submit">Report Case</button>
+                  <button type="submit">Report Case</button>
 
-              </form>
+                </form>
+              </div>
 
               <!------------REPORT DISCIPLINE  CASES ENDS HERE----------->
 
 
-            </div>
+              <!---------UPLOAD ASSIGNMENT FORM------------->
 
+
+
+              <section class="staff-assignment">
+                <div class="assignment-container">
+                  <form action="#">
+                    <div class="create-assignment">
+                      <h2>Create Assignment</h2>
+
+                      <div class="form-input">
+                        <label for="title">Title: </label>
+                        <input type="text" name="title" required>
+                      </div>
+
+                      <div class="form-input">
+                        <label for="grade">Grade: </label>
+                        <select name="grade" id="class">
+                          <option value="grade" name="class">Grade 10 blue</option>
+                          <option value="grade" name="class">Grade 10 green</option>
+                          <option value="grade" name="class">Grade 11 blue</option>
+                          <option value="grade" name="class">Grade 11 green</option>
+                          <option value="grade" name="class">Grade 12 blue</option>
+                          <option value="grade" name="class">Grade 12 green</option>
+                        </select required>
+                      </div>
+
+                      <div class="form-input">
+                        <label for="date">Due date: </label>
+                        <input type="date" name="date" required>
+                      </div>
+
+                      <div class="form-input">
+                        <label for="file">Choose File:</label>
+                        <input type="file" name="file" required>
+                      </div>
+
+                      <div class="form-input">
+                        <label for="instructions">Instructions:</label>
+                        <textarea id="instructions" name="instructions" rows="5"
+                          placeholder="Enter assignment details here...">
+                       </textarea>
+                      </div>
+
+                      <div class="btn">
+                        <button type="submit">Post Assignment</button>
+                      </div>
+
+                    </div>
+
+                  </form>
+                </div>
+              </section>
+              <!---------UPLOAD ASSIGNMENT FORM ENDS HERE------------->
+
+
+            </div>
           </div>
+        </section>
       </div>
     </section>
-  </div>
-  </section>
-  <!-------FOOTER----------->
+    <!-------FOOTER----------->
 
-  <div class="footer_container">
-    <footer class="footer">
-      <div class="footer-container">
+    <div class="footer_container">
+      <footer class="footer">
+        <div class="footer-container">
 
-        <div class="footer-box">
-          <h2>School System</h2>
-          <p>Efficient, secure, and easy-to-use school management platform.</p>
-          <p>Empowering education through digital innovation.</p>
+          <div class="footer-box">
+            <h2>School System</h2>
+            <p>Efficient, secure, and easy-to-use school management platform.</p>
+            <p>Empowering education through digital innovation.</p>
+          </div>
+
+          <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="landing.php">Home</a>
+            <a href="#">About Us</a>
+            <a href="portal_login.php">Student Portal</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <div class="footer-box">
+            <h3>Services</h3>
+            <p>Student Registration</p>
+            <p>Grade Management</p>
+            <p>Attendance Tracking</p>
+            <p>Parent Communication</p>
+            <p>Academic Records Management</p>
+
+          </div>
+
+          <div class="footer-box">
+            <h3>Contact</h3>
+            <p>Email: school@example.co.ke</p>
+            <p><a href="tel:+254123456789" target="_blank">Phone: +254 123 456 789</a> </p>
+            <p><a href="https://maps.google.com/?q=school" target="_blank">Location: 123 School Street, City</a> </p>
+          </div>
+
         </div>
 
-        <div class="footer-box">
-          <h3>Quick Links</h3>
-          <a href="landing.php">Home</a>
-          <a href="#">About Us</a>
-          <a href="portal_login.php">Student Portal</a>
-          <a href="#">Contact</a>
+        <div class="footer-bottom">
+          <p>© 2026 School System. All rights reserved.</p>
         </div>
-
-        <div class="footer-box">
-          <h3>Services</h3>
-          <p>Student Registration</p>
-          <p>Grade Management</p>
-          <p>Attendance Tracking</p>
-          <p>Parent Communication</p>
-          <p>Academic Records Management</p>
-
-        </div>
-
-        <div class="footer-box">
-          <h3>Contact</h3>
-          <p>Email: school@example.co.ke</p>
-          <p><a href="tel:+254123456789" target="_blank">Phone: +254 123 456 789</a> </p>
-          <p><a href="https://maps.google.com/?q=school" target="_blank">Location: 123 School Street, City</a> </p>
-        </div>
-
-      </div>
-
-      <div class="footer-bottom">
-        <p>© 2026 School System. All rights reserved.</p>
-      </div>
-    </footer>
-  </div>
+      </footer>
+    </div>
   </div>
 </body>
 

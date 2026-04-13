@@ -6,8 +6,6 @@
   font-style: normal;
 }
 
-
-
 .home_container {
   width: 100%;
   background: whitesmoke;
@@ -439,12 +437,14 @@ tr:hover {
 /*----------CASES REPORT STARTS HERE--------------*/
 
 /* FORM CONTAINER */
-form {
+.discipline_container {
   background: white;
   padding: 20px;
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  /*--------HIDE DISCIPLINE FORM----------*/
+  display: none;
   z-index: 0;
 }
 
@@ -520,6 +520,90 @@ button:hover {
 }
 /*----------CASES REPORT ENDS HERE---------------*/
 
+/*----------UPLOAD ASSIGNMENT FORM STYLE STARTS HERE----------*/
+
+.staff-assignment {
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+}
+.assignment-container {
+  width: 95%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.assignment-container form {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.create-assignment {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+}
+.create-assignment h2 {
+  background-color: #2247c2;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+.form-input {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  margin-bottom: 15px;
+}
+.form-input label {
+  font-size: 1.2em;
+}
+.form-input input {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding:  15px;
+  font-size: 1em;
+  outline: none;
+  
+}
+.form-input input[type="file"] {
+  border: none;
+}
+.form-input select {
+  border-radius: 10px;
+  width: 100%;
+}
+.form-input textarea {
+  resize: none;
+}
+.btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.btn button {
+  width: 350px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2247c2;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+.btn button:hover {
+  opacity: 0.9;
+}
+
+/*----------UPLOAD ASSIGNMENT FORM STYLE ENDS HERE----------*/
+
 /*---------FOOTER--------------*/
 .footer {
   width: 100%;
@@ -527,8 +611,6 @@ button:hover {
   background-color: #57b3dd;
   bottom: 0;
 }
-
-/*------------FOOTER--------*/
 
 .footer {
   background-color: rgb(57, 57, 204);
