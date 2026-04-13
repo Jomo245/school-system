@@ -425,8 +425,8 @@ after several consideration the school closing date would be on 27.July.2026
               <div class="contents">
                 <div class="content-box">
                   <div class="date">
-                    <p>3-5 May <strong>1900</strong></p> 
-                     <span>1pm-2pm</span>                    
+                    <p>3-5 May <strong>1900</strong></p>
+                    <span>1pm-2pm</span>
                   </div>
                   <div class="event">
                     <h3>Back To School</h3>
@@ -437,8 +437,8 @@ after several consideration the school closing date would be on 27.July.2026
 
                 <div class="content-box">
                   <div class="date">
-                     <p>7-9 March <strong>2025</strong></p> 
-                      <span>1pm-2pm</span>    
+                    <p>7-9 March <strong>2025</strong></p>
+                    <span>1pm-2pm</span>
                   </div>
                   <div class="event">
                     <h3>Parent meeting</h3>
@@ -449,8 +449,8 @@ after several consideration the school closing date would be on 27.July.2026
 
                 <div class="content-box">
                   <div class="date">
-                     <p>13-16 April <strong>2026</strong></p> 
-                     <span>3pm-4pm</span>   
+                    <p>13-16 April <strong>2026</strong></p>
+                    <span>3pm-4pm</span>
                   </div>
                   <div class="event">
                     <h3>Inter Games and music events</h3>
@@ -471,135 +471,126 @@ after several consideration the school closing date would be on 27.July.2026
 
           <!------------ASSIGNMENT FORM STARTS HERE------------------>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assignment.css">
-    <title>student assignments portal</title>
-</head>
-<body>
-    
 
-<div class="assignment-container">
+          <div class="assignment-container">
 
-<h2>Student Assignment Portal</h2>
+            <h2>Student Assignment Portal</h2>
 
-<form>
+            <form>
 
-<!-- FORM DROPDOWN -->
-<div class="input-group">
-<label for="formSelect">Select Form</label>
-<select id="formSelect" required>
-<option value="">-- Select Form --</option>
-<option>Form 1</option>
-<option>Form 2</option>
-<option>Form 3</option>
-<option>Form 4</option>
-</select>
-</div>
+              <!-- FORM DROPDOWN -->
+              <div class="input-group">
+                <label for="formSelect">Select Form</label>
+                <select id="formSelect" required>
+                  <option value="">-- Select Form --</option>
+                  <option>Form 1</option>
+                  <option>Form 2</option>
+                  <option>Form 3</option>
+                  <option>Form 4</option>
+                </select>
+              </div>
 
-<!-- STREAM -->
-<div class="input-group">
-<label>Select Stream</label>
-<select id="streamSelect" required>
-<option value="">-- Select Form First --</option>
-<option>Stream A</option>
-<option>Stream B</option>
-<option>Stream C</option>
-<option >Stream D</option>
-</select>
-</div>
+              <!-- STREAM -->
+              <div class="input-group">
+                <label>Select Stream</label>
+                <select id="streamSelect" required>
+                  <option value="">-- Select Form First --</option>
+                  <option>Stream A</option>
+                  <option>Stream B</option>
+                  <option>Stream C</option>
+                  <option>Stream D</option>
+                </select>
+              </div>
 
-<!-- SUBJECT DROPDOWN -->
-<div class="input-group">
-<label>Select Subject</label>
-<select required>
-<option value="">-- Choose Subject --</option>
-<option>Mathematics</option>
-<option>English</option>
-<option>Biology</option>
-<option>Chemistry</option>
-<option>Physics</option>
-<option>History</option>
-<option>Geography</option>
-<option>Computer Studies</option>
-</select>
-</div>
+              <!-- SUBJECT DROPDOWN -->
+              <div class="input-group">
+                <label>Select Subject</label>
+                <select required>
+                  <option value="">-- Choose Subject --</option>
+                  <option>Mathematics</option>
+                  <option>English</option>
+                  <option>Biology</option>
+                  <option>Chemistry</option>
+                  <option>Physics</option>
+                  <option>History</option>
+                  <option>Geography</option>
+                  <option>Computer Studies</option>
+                </select>
+              </div>
 
-<!-- DOWNLOAD -->
-<button type="button" class="download-btn">
-Download Assignment
-</button>
+              <!-- DOWNLOAD -->
+              <button type="button" class="download-btn">
+                Download Assignment
+              </button>
 
-<!-- FILE UPLOAD -->
-<div class="input-group">
-<label>Upload Completed Assignment</label>
-<input type="file" required>
-</div>
+              <!-- FILE UPLOAD -->
+              <div class="input-group">
+                <label>Upload Completed Assignment</label>
+                <input type="file" required>
+              </div>
 
-<button type="submit" class="upload-btn">
-Upload Assignment
-</button>
+              <button type="submit" class="upload-btn">
+                Upload Assignment
+              </button>
 
-</form>
+            </form>
 
-</div>
+          </div>
 </body>
+
 </html>
-          
-          <!------------ASSIGNMENT FORM ENDS HERE------------------>
 
-    </section>
+<!------------ASSIGNMENT FORM ENDS HERE------------------>
 
-
-    <!-------FOOTER----------->
-
-    <div class="footer_container">
-      <footer class="footer">
-        <div class="footer-container">
-
-          <div class="footer-box">
-            <h2>School System</h2>
-            <p>Efficient, secure, and easy-to-use school management platform.</p>
-            <p>Empowering education through digital innovation.</p>
-          </div>
-
-          <div class="footer-box">
-            <h3>Quick Links</h3>
-            <a href="landing.php">Home</a>
-            <a href="#">About Us</a>
-            <a href="portal_login.php">Student Portal</a>
-            <a href="#">Contact</a>
-          </div>
-
-          <div class="footer-box">
-            <h3>Services</h3>
-            <p>Student Registration</p>
-            <p>Grade Management</p>
-            <p>Attendance Tracking</p>
-            <p>Parent Communication</p>
-            <p>Academic Records Management</p>
-
-          </div>
-
-          <div class="footer-box">
-            <h3>Contact</h3>
-            <p>Email: school@example.co.ke</p>
-            <p><a href="tel:+254123456789" target="_blank">Phone: +254 123 456 789</a> </p>
-            <p><a href="https://maps.google.com/?q=school" target="_blank">Location: 123 School Street, City</a> </p>
-          </div>
+</section>
 
 
-        </div>
+<!-------FOOTER----------->
 
-        <div class="footer-bottom">
-          <p>© 2026 John Isige Jomo. All rights reserved.</p>
-        </div>
-      </footer>
+<div class="footer_container">
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-box">
+        <h2>School System</h2>
+        <p>Efficient, secure, and easy-to-use school management platform.</p>
+        <p>Empowering education through digital innovation.</p>
+      </div>
+
+      <div class="footer-box">
+        <h3>Quick Links</h3>
+        <a href="landing.php">Home</a>
+        <a href="#">About Us</a>
+        <a href="portal_login.php">Student Portal</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <div class="footer-box">
+        <h3>Services</h3>
+        <p>Student Registration</p>
+        <p>Grade Management</p>
+        <p>Attendance Tracking</p>
+        <p>Parent Communication</p>
+        <p>Academic Records Management</p>
+
+      </div>
+
+      <div class="footer-box">
+        <h3>Contact</h3>
+        <p>Email: school@example.co.ke</p>
+        <p><a href="tel:+254123456789" target="_blank">Phone: +254 123 456 789</a> </p>
+        <p><a href="https://maps.google.com/?q=school" target="_blank">Location: 123 School Street, City</a> </p>
+      </div>
+
+
     </div>
-  </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 John Isige Jomo. All rights reserved.</p>
+    </div>
+  </footer>
+</div>
+</div>
 </body>
 
 </html>
