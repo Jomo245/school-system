@@ -401,7 +401,7 @@ table tr td {
   flex-direction: column;
   gap: 20px;
   /*--------HIDE THE UPCOMING EVENT SECTION----------*/
-  display: block;
+  display: none;
 }
 .header {
   width: 100%;
@@ -595,6 +595,12 @@ table tr td {
   color: white;
 }
 /*------------PROFILE SECTION ENDS HERE HERE--------------*/
+
+
+/*-----------ASSIGNMENT UPLOAD AND ACCESS STYLE STARTS HERE----------------*/
+
+
+/*-----------ASSIGNMENT UPLOAD AND ACCESS STYLE ENDS HERE----------------*/
 
 /*------------FOOTER--------*/
 

@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="portal.css?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="students_portal.css?v=<?php echo time(); ?>">
   <title>Students Portal</title>
 </head>
 
@@ -466,8 +466,90 @@ after several consideration the school closing date would be on 27.July.2026
               </div>
             </div>
           </div>
-
           <!---------UPCOMING EVENTS ENDS HERE-------------------->
+
+
+          <!------------ASSIGNMENT FORM STARTS HERE------------------>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment.css">
+    <title>student assignments portal</title>
+</head>
+<body>
+    
+
+<div class="assignment-container">
+
+<h2>Student Assignment Portal</h2>
+
+<form>
+
+<!-- FORM DROPDOWN -->
+<div class="input-group">
+<label for="formSelect">Select Form</label>
+<select id="formSelect" required>
+<option value="">-- Select Form --</option>
+<option>Form 1</option>
+<option>Form 2</option>
+<option>Form 3</option>
+<option>Form 4</option>
+</select>
+</div>
+
+<!-- STREAM -->
+<div class="input-group">
+<label>Select Stream</label>
+<select id="streamSelect" required>
+<option value="">-- Select Form First --</option>
+<option>Stream A</option>
+<option>Stream B</option>
+<option>Stream C</option>
+<option >Stream D</option>
+</select>
+</div>
+
+<!-- SUBJECT DROPDOWN -->
+<div class="input-group">
+<label>Select Subject</label>
+<select required>
+<option value="">-- Choose Subject --</option>
+<option>Mathematics</option>
+<option>English</option>
+<option>Biology</option>
+<option>Chemistry</option>
+<option>Physics</option>
+<option>History</option>
+<option>Geography</option>
+<option>Computer Studies</option>
+</select>
+</div>
+
+<!-- DOWNLOAD -->
+<button type="button" class="download-btn">
+Download Assignment
+</button>
+
+<!-- FILE UPLOAD -->
+<div class="input-group">
+<label>Upload Completed Assignment</label>
+<input type="file" required>
+</div>
+
+<button type="submit" class="upload-btn">
+Upload Assignment
+</button>
+
+</form>
+
+</div>
+</body>
+</html>
+          
+          <!------------ASSIGNMENT FORM ENDS HERE------------------>
 
     </section>
 
