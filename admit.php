@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="admit.css?v=<?php echo time(); ?>">
-  <title>JOMO School</title>
+  <title>Admit</title>
 </head>
 
 <body>
@@ -26,7 +26,7 @@
             <li><a href="contact.php">CONTACT</a></li>
             <li><a href="#">STAFF</a></li>
             <li><a href="#">SERVICES</a></li>
-            <li><a href="portal_login.php" class="signIn">SignIn</a></li>
+            <li><a href="students_portal.php" class="signIn">SignIn</a></li>
           </ul>
         </nav>
       </div>

@@ -4,7 +4,7 @@
 $HOSTNAME="localhost";
 $USERNAME="root";
 $PASSWORD="";
-$DATABASE="chamaa db";
+$DATABASE="";
 
 
 

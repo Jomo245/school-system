@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="portal_login.css?v=<?php echo time(); ?>">
   <title>Portal</title>
 </head>
+
 <body>
   <div class="home_container">
     <div class="portal_login">
@@ -23,11 +24,11 @@
           <label for="password">Index Number</label>
           <input type="password" name="password" placeholder="Index Number" required>
           <p class="forget"><a href="forgot_password.php">Forget Password?</a></p>
-          <button type="submit">Login</button>
+          <button type="submit"><a href="students_portal.php">Login</a></button>
           <p>Do you have an account? <a href="register.php">Register here</a></p>
         </form>
+      </div>
     </div>
-  </div>
 </body>
 
 </html>

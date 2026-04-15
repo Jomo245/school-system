@@ -184,7 +184,7 @@ td {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   /*------------HIDE KCSE RESULTS SECTION --------*/
-  display: none;
+  display: block;
 }
 
 .school-header {
@@ -281,7 +281,7 @@ tr:hover {
   border-radius: 10px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   /*-------HIDE NEWSLETTER SECTION------*/
-  display: none;
+  display: block;
 }
 
 /* TITLE */
@@ -346,7 +346,7 @@ button:hover {
 .fee_statement_container {
   width: 100%;
   /*--------HIDE THE FEE STATEMENT SECTION-------*/
-  display: none;
+  display: block;
 }
 
 .fee_header {
@@ -401,7 +401,7 @@ table tr td {
   flex-direction: column;
   gap: 20px;
   /*--------HIDE THE UPCOMING EVENT SECTION----------*/
-  display: none;
+  display: block;
 }
 .header {
   width: 100%;
@@ -479,7 +479,7 @@ table tr td {
 .profile_container {
   min-height: 100vh;
   /*------HIDE THE PROFILE SECTION-----------*/
-  display: none;
+  display: block;
 }
 
 .image_and_class {

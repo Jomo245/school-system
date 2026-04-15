@@ -54,11 +54,8 @@
     width: 100%;
   }
 
-  
-
-
 .content_section {
-  min-height: 500px;
+  min-height: 100vh;
   padding: 30px;
   width: 100%;
   display: flex;
@@ -70,7 +67,8 @@
 .container {
   margin: 120px auto;
   background-color: whitesmoke;
-  display: block;
+  display: flex;
+  flex-direction: column;
 
 }
 
@@ -233,14 +231,14 @@ select option {
 /*------------HIDE THE OTHER FORMS--------*/
 
 .admin_login {
-  display: none;
+  display: block;
 }
 .driver_login {
-  display: none;
+  display: block;
 }
 
 .staff_login{
-  display: none;
+  display: block;
 }
 
 
@@ -256,7 +254,8 @@ select option {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  display: none;
+  /*--------HIDE FORGET PASSWORD-------*/
+  display: block;
 }
 
 .forgot_password h2 {

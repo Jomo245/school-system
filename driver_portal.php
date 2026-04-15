@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="driver_portal.css?v=<?php echo time(); ?>">
-  <title>JOMO School</title>
+  <title>Driver Portal</title>
 </head>
 
 <body>
