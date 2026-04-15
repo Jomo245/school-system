@@ -46,8 +46,8 @@
             <li><a href="#"><i class="fas fa-graduation-cap"></i> Results</a></li>
             <li><a href="#"><i class="fas fa-newspaper"></i> Newsletter</a></li>
             <li><a href="#"><i class="fas fa-graduation-cap"></i> KCSE</a></li>
-            <li><a href="#"><i class="fa-solid fa-file-pen"></i> Assignments</a></li>
-            <li><a href="#"><i class="fa-solid fa-money-bill"></i> Fee Payment</a></li>
+            <li><a href="assignment.php"><i class="fa-solid fa-file-pen"></i> Assignments</a></li>
+            <li><a href="payment.php"><i class="fa-solid fa-money-bill"></i> Fee Payment</a></li>
           </ul>
         </aside>
 
@@ -467,6 +467,7 @@ after several consideration the school closing date would be on 27.July.2026
           <!---------UPCOMING EVENTS ENDS HERE-------------------->
 
     </section>
+
 
     <!-------FOOTER----------->
 

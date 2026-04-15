@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="assignment.css?v=<?php echo time(); ?>">
@@ -34,114 +35,122 @@
 
     <!-----------CONTENT----------->
     <section class="content_section">
-          
-    <div class="assignment-portal">
-  <h1>My Assignments</h1>
+      <div class="assignment-portal">
+        <h1>My Assignments</h1>
 
- <nav class="tabs">
-  <button class="tab active" onclick="switchTab(event, 'open-list')">Upcoming/Open</button>
-  <button class="tab" onclick="switchTab(event, 'closed-list')">Closed/Complete</button>
-</nav>
-
-
-  <section class="assignment-section">
-    <h2>Open Assignments</h2>
-    <table class="assignment-table">
-      <thead>
-        <tr>
-          <th>Class</th>
-          <th>Assignment</th>
-          <th>Submissions</th>
-          <th>Feedback</th>
-          <th>State</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Grade 10 west</td>
-          <td>Mathematics</td>
-          <td>
-            <div class="due-date">Due: Fri 30 June 2023 @ 00:10</div>
-            <div class="status-note">Not submitted</div>
-          </td>
-          <td>Due: Fri 1 September 2023 @ 00:40</td>
-          <td><button class="btn btn-submit">Submit <span class="upload-icon">⬆</span></button></td>
-        </tr>
-      </tbody>
-
-       <tbody>
-        <tr>
-          <td>Grade 11 East</td>
-          <td>Chemistry</td>
-          <td>
-            <div class="due-date">Due: Fri 30 June 2023 @ 00:10</div>
-            <div class="status-note">Not submitted</div>
-          </td>
-          <td>Due: Fri 1 September 2023 @ 00:40</td>
-          <td><button class="btn btn-submit">Submit <span class="upload-icon">⬆</span></button></td>
-        </tr>
-      </tbody>
-
-       <tbody>
-        <tr>
-          <td>Grade 12 west</td>
-          <td>Chemistry</td>
-          <td>
-            <div class="due-date">Due: Fri 30 June 2023 @ 00:10</div>
-            <div class="status-note">Not submitted</div>
-          </td>
-          <td>Due: Fri 1 September 2023 @ 00:40</td>
-          <td><button class="btn btn-submit">Submit <span class="upload-icon">⬆</span></button></td>
-        </tr>
-      </tbody>
+        <nav class="tabs">
+          <button class="tab active" onclick="switchTab(event, 'open-list')">Assignments</button>
+          <button class="tab" onclick="switchTab(event, 'closed-list')">Past Papers</button>
+        </nav>
 
 
-       <tbody>
-        <tr>
-          <td>Grade 10 west</td>
-          <td>Physics</td>
-          <td>
-            <div class="due-date">Due: Fri 30 June 2023 @ 00:10</div>
-            <div class="status-note">Not submitted</div>
-          </td>
-          <td>Due: Fri 1 September 2023 @ 00:40</td>
-          <td><button class="btn btn-submit">Submit <span class="upload-icon">⬆</span></button></td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
+        <section class="assignment-section">
+          <h2>Open Assignments</h2>
+          <div class="assignment-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Class</th>
+                  <th>Assignment</th>
+                  <th>Submissions</th>
+                  <th>Instructions</th>
+                  <th>Download Assignment</th>
+                  <th>State</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Grade 10 west</td>
+                  <td>Mathematics</td>
+                  <td>
+                    <div class="due-date">Due: Fri 30 June 2023 @ 00:10</div>
+                    <div class="status-note">Not submitted</div>
+                  </td>
+                  <td>Due: Fri 1 September 2023 @ 00:40</td>
+                  <td><button class="btn btn-submit" download> <i class="fa-solid fa-download"></i> Download</button>
+                  </td>
+                  <td><button class="btn btn-submit"> <a href="submit_assignment.php"><i class="fa-solid fa-paper-plane"></i> Submit</a></button></td>
+                </tr>
+              </tbody>
 
-  <section class="assignment-section">
-    <h2>Submitted Assignments</h2>
-    <table class="assignment-table">
-        <thead>
-        <tr>
-          <th>Name</th>
-          <th>Addmission number</th>
-          <th>Subject</th>
-          <th>Assignment uploaded</th>
-          <th>Grading</th>
-          <th>Review</th>
-        </tr>
-      </thead>
+              <tbody>
+                <tr>
+                  <td>Grade 11 East</td>
+                  <td>Chemistry</td>
+                  <td>
+                    <div class="due-date">Due: Fri 30 June 2023 @ 00:10</div>
+                    <div class="status-note">Not submitted</div>
+                  </td>
+                  <td>Due: Fri 1 September 2023 @ 00:40</td>
+                  <td><button class="btn btn-submit" download> <i class="fa-solid fa-download"></i> Download</button>
+                  </td>
+                  <td><button class="btn btn-submit"> <a href="submit_assignment.php"><i class="fa-solid fa-paper-plane"></i> Submit</a></button></td>
+              </tbody>
 
-      <tbody>
-        <tr>
-          <td>John Doe</td>
-          <td>12345</td>
-          <td>Chemistry</a></td>
-          <td>
-            <div class="assignment-file">pdf</div>
-            <div class="status-note">submitted</div>
-          </td>
-          <td>B+</td>
-          <td><a href="#">Review</a></td>
-        </tr>
-      </tbody>
-      </table>
-  </section>
-</div>
-</body>
+              <tbody>
+                <tr>
+                  <td>Grade 12 west</td>
+                  <td>Chemistry</td>
+                  <td>
+                    <div class="due-date">Due: Fri 30 June 2023 @ 00:10</div>
+                    <div class="status-note">Not submitted</div>
+                  </td>
+                  <td>Due: Fri 1 September 2023 @ 00:40</td>
+                  <td><button class="btn btn-submit" download> <i class="fa-solid fa-download"></i> Download</button>
+                  </td>
+                  <td><button class="btn btn-submit"> <a href="submit_assignment.php"><i class="fa-solid fa-paper-plane"></i> Submit</a></button></td>
+                </tr>
+              </tbody>
+
+
+              <tbody>
+                <tr>
+                  <td>Grade 10 west</td>
+                  <td>Physics</td>
+                  <td>
+                    <div class="due-date">Due: Fri 30 June 2023 @ 00:10</div>
+                    <div class="status-note">Not submitted</div>
+                  </td>
+                  <td>Due: Fri 1 September 2023 @ 00:40</td>
+                  <td><button class="btn btn-submit" download> <i class="fa-solid fa-download"></i> Download</button>
+                  </td>
+                 <td><button class="btn btn-submit"> <a href="submit_assignment.php"><i class="fa-solid fa-paper-plane"></i> Submit</a></button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        
+
+        <section class="assignment-section">
+          <h2>Submitted Assignments</h2>
+          <table class="assignment-table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Addmission number</th>
+                <th>Subject</th>
+                <th>Assignment uploaded</th>
+                <th>Grading</th>
+                <th>Review</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>John Doe</td>
+                <td>12345</td>
+                <td>Chemistry</a></td>
+                <td>
+                  <div class="assignment-file">pdf</div>
+                  <div class="status-note">submitted</div>
+                </td>
+                <td>B+</td>
+                <td><a href="#">Review</a></td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+    </section>
     </section>
 
 

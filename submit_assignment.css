@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.home_container {
+  width: 100%;
+  background: whitesmoke;
+  min-height: 100vh;
+}
+
+.header_section {
+  width: 100%;
+  background-color: rgb(57, 57, 204);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px;
+  position: fixed;
+  z-index: 1000;
+}
+
+.logo h3 {
+  color: white;
+  cursor: pointer;
+}
+
+.nav nav ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.nav nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  transition: 0.5s;
+}
+
+.nav nav ul li .signIn {
+  color: orangered;
+}
+
+.nav nav ul li a::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: whitesmoke;
+  transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+
+/*------------CONTENT------------*/
+
+.content_section {
+  min-height:100vh;
+  padding: 30px;
+  width: 100%;
+  margin: auto;
+  flex: 1;
+}
+
+
+/*-----------ASSIGNMENT UPLOAD AND ACCESS STYLE STARTS HERE----------------*/
+
+
+
+/* CONTAINER */
+.assignment-container{
+background:white;
+padding:50px;
+width:100%;
+border-radius:10px;
+text-align:center;
+margin: 100px auto;
+}
+
+.header{width: 100%;
+  background-color: #0a4ea3;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* TITLE */
+.assignment-container h2{
+color:white;
+}
+
+/* INPUT GROUP */
+.input-group{
+margin-bottom:20px;
+text-align:left;}
+
+
+label{
+font-weight:bold;
+display:block;
+margin-bottom:5px;
+}
+
+/* DROPDOWNS */
+select, input[type="file"], input[type="text"], input[type="number"] {
+width:100%;
+padding:10px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+/* BUTTONS */
+button{
+width:300px;
+padding:12px;
+margin-top:10px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+font-size:16px;
+transition:0.3s;
+}
+
+/* DOWNLOAD BUTTON */
+.download-btn{
+background:#0a4ea3;
+color:white;
+margin-bottom: 20px;
+}
+
+.download-btn:hover{
+background:#083a7a;
+}
+
+/* UPLOAD BUTTON */
+.upload-btn{
+background:#0a4ea3;
+color:white;
+}
+
+.upload-btn:hover{
+background:#083a7a;
+}
+
+/*-----------ASSIGNMENT UPLOAD AND ACCESS STYLE ENDS HERE----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------FOOTER--------*/
+.footer {
+  background-color: rgb(57, 57, 204);
+  color: #ccc;
+  padding: 40px 20px;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin: auto;
+}
+
+.footer-box h2,
+.footer-box h3 {
+  color: white;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-box a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.footer-box a:hover {
+  color: #3b82f6;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+i {
+  color: orangered;
+  font-size: 28px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+i:hover {
+  opacity: 0.5;
+  transform: translateY(5px);
+}
+
+.socials {
+  display: flex;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.paragraph {
+  margin-top: 20px;
+  padding-top: 15px;
+}
+
+.content_information {
+  transform: translateY(40px);
+  animation: float 8s ease-in-out infinite;
+}
