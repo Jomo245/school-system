@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="staff_portal.css?v=<?php echo time(); ?>">
@@ -43,7 +44,6 @@
           <div class="dashboard">
             <div class="boxes">
               <div class="dashboard-box_h2">
-                <i class="fa-solid fa-chart-bar"></i>
                 <h2>Dashboard</h2>
               </div>
 
@@ -88,8 +88,8 @@
                 <i class="fa-brands fa-bitbucket"></i>
                 <a href="#">Repository</a>
               </div>
-           
-            <div class="dashboard-box">
+
+              <div class="dashboard-box">
                 <i class="fa-brands fa-bitbucket"></i>
                 <a href="#">Submitted Assignment</a>
               </div>
@@ -101,40 +101,84 @@
                   <i class="fa-solid fa-envelope"></i>
                   <a href="#">Messages</a>
                 </div>
-
-
               </div>
+
               <div class="dashboard-below">
-                <div class="profile">
-
-                  <div class="profile-pic">
-                    <img src="" alt="">
+                <!---TEACHERS PROFILE STARTS HERE------>
+                <div class="teachers_profile_container">
+                  <div class="edit">
+                    <h3>Teachers Profile</h3>
+                    <button type="" class="edit_btn"><i class="fa-solid fa-pen-to-square"></i> Edit Profile</button>
+                  </div>
+                  <div class="image_and_class">
+                    <div class="students_image">
+                      <img src="images\jomo.jpeg" alt="">
+                    </div>
+                    <div class="students_class">
+                      <ul>
+                        <li>NAME: <span>JOHN JOMO</span></li>
+                        <li>TSC NO: <span>TSC/123456</span></li>
+                        <div class="class_container">
+                          <li class="form_and_class"><i class="fa-solid fa-layer-group"></i>FORM: <strong>3</strong>
+                          </li>
+                          <li class="form_and_class_2">CLASS: <strong>3 RED </strong></li>
+                        </div>
+                      </ul>
+                    </div>
                   </div>
 
-                  <div class="profile-info">
-                    <div class="info">
-                      <h3>PERSONAL INFO:</h3>
+                  <div class="profile_and_contact">
+
+                  <!-----------PROFILE SECTION--------->
+                    <div class="profile">
+                      <h2>Profile</h2>
+                      <ul>                      
+                        <li><i class="fa-duotone fa-solid fa-person-half-dress"></i> Gender: <strong>Male</strong>
+                        </li>
+                        
+                        <li><i class="fa-duotone fa-solid fa-person-half-dress"></i>Subjects: <strong>English</strong>
+                        </li>
+                        <li><i class="fa-solid fa-flag-usa"></i> Nationality: <strong>Kenyan</strong></li>
+                        
+                      </ul>
+                    </div>
+                    <!---------CONTACT SECTION--------------->
+                    <div class="profile">
+                      <h2>Contact Information</h2>
+                      <ul>
+                        <li><i class="fa-solid fa-phone"></i>Phone: <strong>0741504282</strong></li>
+                        <li><i class="fa-solid fa-envelope"></i>Email: <strong>johnisige2020@gmail.com</strong></li> 
+                        <li><i class="fa-solid fa-address-book"></i> Home Address: <strong>123 Nairobi St, Nairobi
+                            Kenya</strong></li>                      
+                      </ul>
                     </div>
 
-                    <div class="info">
-                      <h3>CONTACT:</h3>
+
+                    <div class="profile">
+                      <h2>Academic & Professional Qualifications</h2>
+                      <ul>
+                        <li><i class="fa-solid fa-phone"></i>Highest Level of Education: <strong>DIPLOMA</strong></li>
+                        <li><i class="fa-solid fa-envelope"></i>Teaching Subjects: <strong>CHEMISTRY & BIO</strong></li>
+                        <li><i class="fa-sharp fa-solid fa-person-breastfeeding"></i>Specialization Area: <span> CHEMISTRY</span>              
+                        </li>
+                      </ul>
                     </div>
 
-                    <div class="info">
-                      <h3>ACADEMIC BACKGROUND:</h3>
-                    </div>
 
-                    <div class="info">
-                      <h3>SUBJECTS ASSIGNED:</h3>
-                    </div>
+                     <div class="profile">
+                      <h2>Employment Details</h2>
+                      <ul>
+                        <li><i class="fa-solid fa-phone"></i>Date of Employment: <strong>DIPLOMA</strong></li>
+                        <li><i class="fa-solid fa-envelope"></i>Employment Type : <strong>(Permanent, Contract, Intern)</strong></li>
+                        <li><i class="fa-sharp fa-solid fa-person-breastfeeding"></i>Department : <span> (e.g., Science, Humanities) </span></li>
+                        <li><i class="fa-solid fa-phone"></i>Current Position : <strong>(Teacher, HOD, Deputy Principal)</strong></li>
 
-                    <div class="info">
-                      <h3>EMPLOYMENT STATUS:</h3>
+                      </ul>
                     </div>
-
                   </div>
-
                 </div>
+
+
 
 
                 <!----------RESULT REPORT----------->
@@ -335,8 +379,6 @@
                   </form>
                 </div>
               </div>
-
-
               <!------------END OF RESULTS------------>
 
               <!---------------KCSE RESULTS----------->
@@ -548,8 +590,6 @@
 
               <!---------UPLOAD ASSIGNMENT FORM------------->
 
-
-
               <section class="staff-assignment">
                 <div class="assignment-container">
                   <form action="#">
@@ -557,7 +597,7 @@
                       <h2>Upload Assignment</h2>
 
                       <div class="form-input">
-                       <label for="Subject">Subject: </label>                 
+                        <label for="Subject">Subject: </label>
                         <select name="subject" id="">
                           <option value="" name="">Select Subject----</option>
                           <option value="grade" name="class">Math</option>

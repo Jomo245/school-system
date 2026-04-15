@@ -103,9 +103,11 @@ nav ul li a:hover::after {
   border: 1px solid rgb(118, 126, 129);
 }
 
+
+
 .dashboard-box:hover {
-  transform: translateX(3px);
-  background-color: #517396;
+  transform: translateX(1px);
+  background-color: #a4abb3;
 }
 
 .dashboard-box a {
@@ -115,10 +117,7 @@ nav ul li a:hover::after {
 .dashboard-box h3 {
   font-size: 0.9em;
 }
-.fa-solid {
-  color: #161616;
-  font-size: 1em;
-}
+
 .dashboard-box:nth-child(1) {
   background-color: #1565b4;
   color: #fff;
@@ -126,7 +125,7 @@ nav ul li a:hover::after {
 .dashboard-content {
   width: 84%;
   height: 100%;
-  background-color: #f0f8ff;
+
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -143,7 +142,7 @@ nav ul li a:hover::after {
 .top {
   border: 1px solid black;
   width: 23%;
-  padding: 10px;
+  padding: 15px;
   background-color: #1565b4;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   display: flex;
@@ -153,11 +152,8 @@ nav ul li a:hover::after {
   border-radius: 10px;
 }
 
-.top .fa-solid {
-  color: #000000;
-  font-size: 2em;
-  height: 70%;
-}
+.boxes h2{background:transparent;}
+
 
 .top a {
   text-decoration: none;
@@ -169,41 +165,141 @@ nav ul li a:hover::after {
   background-color: white;
   border: 1px solid rgb(37, 39, 39);
 }
-
 /*------------HIDE----------*/
 
-.profile {
-  width: 98%;
+
+/*----------TEACHERS PROFILE STARTS HERE---------*/
+.teachers_profile_container {
+  min-height: 100vh;
+  /*------HIDE THE PROFILE SECTION-----------*/
+  display: block;
+}
+
+.image_and_class {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #e2e2eb;
+  padding: 20px;
+  border-radius: 10px;
+  width: 95%;
   margin: auto;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  display: none;
 }
 
-.profile-pic {
-  width: 25%;
-  margin-top: 10px;
-  background-color: #161616;
+h2{margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(#3b5aa3, #2e4a8f);
+  padding: 10px;
+  color: white;}
+
+.edit {
+  display: flex;
+  width: 95%;
+  margin:20px auto;
+  background-color: #3b5aa3;
+  justify-content: space-between;
+  padding: 20px;
 }
-.profile-pic img {
-  width: 250px;
-  height: 300px;
+
+.profile strong {
+  color: #2742b9;
 }
-.profile-info {
+
+.edit h3 {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.edit_btn {
+  width: 150px;
+  background-color: #2724c0;
+}
+
+.students_image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 14px 15px rgba(0, 0, 0, 0.8);
+}
+
+.class_container {
+  display: flex;
+  gap: 15px;
+}
+
+.form_and_class li strong {
+  color: white;
+}
+
+.form_and_class {
+  background-color: #2742b9;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin: auto;
+}
+
+.form_and_class_2 {
+  background-color: #e01717;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.students_class ul li span {
+  color: #0050b4;
+  font-weight: bold;
+}
+
+.students_class ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.profile_and_contact {
+  width: 95%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile {
+  background-color: #dddddd;
   width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 14px 15px rgba(0, 0, 0, 0.8);
+  padding-bottom: 20px;
 }
 
-.info {
-  display: flex;
-  justify-content: flex-start;
-  gap: 10px;
-  align-items: center;
-  padding: 5px;
+.profile ul i, .dashboard-box i {
+  padding: 10px;
+  color:orangered;
 }
-.info:nth-child(odd) {
-  background-color: #d7d9da;
+
+.top i{
+  color: orangered;
 }
+.profile ul{padding: 20px;}
+
+.profile ul li {
+  list-style-type: none;
+}
+
+.class_container ul li strong {
+  color: white;
+}
+/*------------PROFILE SECTION ENDS HERE HERE--------------*/
 
 /*------------RESULT REPORT STYLE-----------*/
 
@@ -215,7 +311,7 @@ nav ul li a:hover::after {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   /*---HIDE RESULTS UPDATE----*/
-  display: none;
+  display: block;
 }
 
 header {
@@ -223,6 +319,7 @@ header {
   border-bottom: 2px solid #341d9b;
   margin-bottom: 20px;
   background-color: #2724c0;
+  color: white;
 }
 
 fieldset {
@@ -358,7 +455,7 @@ th {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   /*------------HIDE KCSE RESULTS SECTION --------*/
-  display: none;
+  display: block;
 }
 
 .school-header {
@@ -444,7 +541,7 @@ tr:hover {
   border-radius: 10px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   /*--------HIDE DISCIPLINE FORM----------*/
-  display: none;
+  display: block;
   z-index: 0;
 }
 
@@ -452,7 +549,7 @@ tr:hover {
 form h2 {
   text-align: center;
   margin-bottom: 25px;
-  color: #0a4fa3;
+  color: white;
 }
 
 /* INPUT BOX */
@@ -631,6 +728,7 @@ button:hover {
   color: white;
   margin-bottom: 10px;
   text-decoration: underline;
+  background: transparent;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -652,7 +750,7 @@ button:hover {
   padding-top: 10px;
 }
 
-i {
+footer i {
   color: orangered;
   font-size: 28px;
   cursor: pointer;
