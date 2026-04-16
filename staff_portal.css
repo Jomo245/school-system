@@ -716,6 +716,9 @@ font-size:22px;
 font-weight:bold;
 border-radius:6px;
 margin-bottom:20px;
+border: none;
+width: 97%;
+margin: auto;
 }
 
 /* FORM SECTION */
