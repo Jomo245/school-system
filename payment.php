@@ -3,14 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="payment.php?v=<?php echo time(); ?>">
+  <link rel="stylesheet" href="payment.css?v=<?php echo time(); ?>">
   <title>Payment</title>
 </head>
 <body>
   <div class="fee-container">
 
     <!-- Payment Form -->
-
     <div class="mpesa-box">
       <form action="">
         <h2><i class="fa-solid fa-mobile-screen"></i> M-Pesa Payment</h2>
@@ -24,8 +23,8 @@
         <button type="button"onclick="startSTK()">Pay Now</button>
       </form>
     </div>
-
     <!-- Popup -->
+
     <div class="popup" id="popup">
       <div class="popup-content">
         <i class="fa-solid fa-spinner fa-spin"></i>
@@ -34,7 +33,7 @@
     </div>
     
   </div>
-<script src="index.js?v=<?php echo time(); ?>"></script>
+<script src="payment.js?v=<?php echo time(); ?>"></script>
 </body>
 </body>
 </html>

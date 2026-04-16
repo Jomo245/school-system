@@ -99,8 +99,8 @@
           </div>
 
           <div class="footer-box">
-            <h3>Contact</h3>
-            <p>Email: school@example.co.ke</p>
+            <h3>Contact</h3>          
+            <p><a href="mailto:school@example.co.ke" target="_blank">Email:school@example.co.ke</a> </p>
             <p><a href="tel:+254123456789" target="_blank">Phone: +254 123 456 789</a> </p>
             <p><a href="https://maps.google.com/?q=school" target="_blank">Location: 123 School Street, City</a> </p>
           </div>

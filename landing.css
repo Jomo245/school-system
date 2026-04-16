@@ -74,7 +74,8 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;}
+            align-items: center;
+            }
 
   .content h1{
    font-size: 48px;
@@ -129,7 +130,32 @@
     text-align: center;
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgba(151, 109, 109, 0.5);
+     animation: display_mission 1s ease forwards;
     }
+
+ 
+@keyframes display_mission{
+  from{
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(-9px);
+
+  }
+
+}
+
+.mission_box{
+  animation-name:display_mission;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-range: entry 10% cover 70%;
+  animation-timeline: view();
+}
+    
 
 .mission_box:hover{
       background-color: #555;
@@ -176,6 +202,29 @@
   font-family: "Montserrat", sans-serif;
 }
 
+
+.footer-box{
+   animation: display 1s ease forwards;
+}
+
+@keyframes display{
+  from{
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(-0px);
+  }
+}
+.footer-box{
+  animation-name: display;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-timeline: view();
+  animation-range:entry 0% cover 30%;
+}
 .footer-box a {
   display: block;
   color: #ccc;

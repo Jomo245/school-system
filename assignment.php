@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -127,7 +126,7 @@
             <thead>
               <tr>
                 <th>Name</th>
-                <th>Addmission number</th>
+                <th>Admission number</th>
                 <th>Subject</th>
                 <th>Assignment uploaded</th>
                 <th>Grading</th>

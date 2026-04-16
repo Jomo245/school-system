@@ -70,7 +70,7 @@ nav ul li a:hover::after {
 }
 
 .contact-header {
-  margin:80px auto;
+  margin: 80px auto;
   height: 60vh;
   background:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(143, 137, 137, 0.6)),
@@ -88,7 +88,7 @@ nav ul li a:hover::after {
 
 .contact-header h1 {
   font-size: 48px;
-  color: rgb(57, 57, 204);;
+  color: rgb(57, 57, 204);
   margin-bottom: 15px;
 }
 
@@ -116,6 +116,26 @@ nav ul li a:hover::after {
   border-radius: 10px;
   transition: 0.3s;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  animation: show 1s ease forwards;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translateX(-90px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.contact-box {
+   animation-name: show;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
 }
 
 .contact-box:hover {
@@ -124,20 +144,18 @@ nav ul li a:hover::after {
 
 .contact-box i {
   font-size: 40px;
-  color: rgb(57, 57, 204);;
+  color: rgb(57, 57, 204);
   margin-bottom: 20px;
 }
 
 .contact-box span {
-  color: rgb(57, 57, 204);;
+  color: rgb(57, 57, 204);
   font-weight: bold;
-
 }
 
 .contact-box span a {
-  color: rgb(57, 57, 204);;
+  color: rgb(57, 57, 204);
   text-decoration: none;
-  
 }
 
 .form-area {
@@ -147,10 +165,29 @@ nav ul li a:hover::after {
   padding: 80px 20px;
   background: #ffffff;
   border-radius: 10px;
+  animation: scroll 1s ease forwards;
+}
+
+@keyframes scroll {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.form-area {
+  animation-name: scroll;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
 }
 
 .container {
-
   width: 1000px;
   display: flex;
   border-radius: 20px;
@@ -167,11 +204,11 @@ nav ul li a:hover::after {
 
 .form-section h2 {
   margin-bottom: 25px;
-  color:rgb(57, 57, 204);;
+  color: rgb(57, 57, 204);
 }
 
 .input-box {
-  position:relative;
+  position: relative;
   margin-bottom: 25px;
 }
 
@@ -226,7 +263,7 @@ button:hover {
   width: 50%;
   padding: 40px;
   color: white;
-  background: rgb(57, 57, 204);;
+  background: rgb(57, 57, 204);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -248,7 +285,7 @@ button:hover {
   margin-top: 20px;
 }
 
-.social i{
+.social i {
   color: white;
   font-size: 18px;
   margin-right: 10px;
@@ -319,6 +356,31 @@ footer {
   gap: 15px;
   margin: auto;
 }
+
+.footer-box{
+   animation: display 1s ease forwards;
+}
+
+@keyframes display{
+  from{
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(-0px);
+  }
+}
+
+.footer-box{
+  animation-name: display;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-timeline: view();
+  animation-range:entry 0% cover 30%;
+}
+
 
 .footer-box h2,
 .footer-box h3 {

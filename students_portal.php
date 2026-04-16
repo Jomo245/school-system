@@ -414,7 +414,6 @@ after several consideration the school closing date would be on 27.July.2026
           <!---------UPCOMING EVENTS-------------------->
 
           <div class="upcoming_events_container">
-
             <div class="upcoming-events">
               <div class="header">
                 <h2>UPCOMING EVENTS.</h2>
@@ -428,8 +427,11 @@ after several consideration the school closing date would be on 27.July.2026
                   </div>
                   <div class="event">
                     <h3>Back To School</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum architecto minima quia dolorum
-                      repudiandae temporibus eum officiis rem quas sint.</p>
+                    <p>
+                      Most Kenyan schools reopened around January 5–6, 2026 for Term 1.
+                      The term runs about 13 weeks, ending in early April.
+                      Students are experiencing a tight academic calendar with shorter breaks.
+                    </p>
                   </div>
                 </div>
 
@@ -440,8 +442,13 @@ after several consideration the school closing date would be on 27.July.2026
                   </div>
                   <div class="event">
                     <h3>Parent meeting</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In magnam explicabo illum quod omnis
-                      aut nulla facilis esse fugit at.</p>
+                    <p>
+                      All parents are invited to attend a meeting scheduled as follows:
+
+                      Date: [Insert Date]
+                      Time: 1:00 PM – 2:00 PM
+                      Venue: [School Hall/Classroom]
+                    </p>
                   </div>
                 </div>
 
@@ -452,8 +459,20 @@ after several consideration the school closing date would be on 27.July.2026
                   </div>
                   <div class="event">
                     <h3>Inter Games and music events</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sequi labore quia cum sunt
-                      veniam doloremque ipsum pariatur quaerat fugit.</p>
+                    <p>The school will hold Inter Games and Music Events as scheduled below:
+
+                      Date: [Insert Date]
+                      Time: [Insert Time]
+                      Venue: School Field & Hall
+
+                      Activities Include:
+
+                      Football, Athletics, Volleyball
+                      Choir Performances
+                      Traditional & Modern Dance
+                      Instrumental Music
+
+                      Note: All students are expected to participate and maintain discipline.</p>
                   </div>
                 </div>
 
@@ -465,12 +484,10 @@ after several consideration the school closing date would be on 27.July.2026
             </div>
           </div>
           <!---------UPCOMING EVENTS ENDS HERE-------------------->
-
     </section>
 
 
     <!-------FOOTER----------->
-
     <div class="footer_container">
       <footer class="footer">
         <div class="footer-container">
@@ -506,9 +523,7 @@ after several consideration the school closing date would be on 27.July.2026
             <p><a href="https://maps.google.com/?q=school" target="_blank">Location: 123 School Street, City</a> </p>
           </div>
 
-
         </div>
-
         <div class="footer-bottom">
           <p>© 2026 John Isige Jomo. All rights reserved.</p>
         </div>
