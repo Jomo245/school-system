@@ -129,17 +129,17 @@
 
                   <div class="profile_and_contact">
 
-                  <!-----------PROFILE SECTION--------->
+                    <!-----------PROFILE SECTION--------->
                     <div class="profile">
                       <h2>Profile</h2>
-                      <ul>                      
+                      <ul>
                         <li><i class="fa-duotone fa-solid fa-person-half-dress"></i> Gender: <strong>Male</strong>
                         </li>
-                        
+
                         <li><i class="fa-duotone fa-solid fa-person-half-dress"></i>Subjects: <strong>English</strong>
                         </li>
                         <li><i class="fa-solid fa-flag-usa"></i> Nationality: <strong>Kenyan</strong></li>
-                        
+
                       </ul>
                     </div>
                     <!---------CONTACT SECTION--------------->
@@ -147,9 +147,9 @@
                       <h2>Contact Information</h2>
                       <ul>
                         <li><i class="fa-solid fa-phone"></i>Phone: <strong>0741504282</strong></li>
-                        <li><i class="fa-solid fa-envelope"></i>Email: <strong>johnisige2020@gmail.com</strong></li> 
+                        <li><i class="fa-solid fa-envelope"></i>Email: <strong>johnisige2020@gmail.com</strong></li>
                         <li><i class="fa-solid fa-address-book"></i> Home Address: <strong>123 Nairobi St, Nairobi
-                            Kenya</strong></li>                      
+                            Kenya</strong></li>
                       </ul>
                     </div>
 
@@ -159,19 +159,23 @@
                       <ul>
                         <li><i class="fa-solid fa-phone"></i>Highest Level of Education: <strong>DIPLOMA</strong></li>
                         <li><i class="fa-solid fa-envelope"></i>Teaching Subjects: <strong>CHEMISTRY & BIO</strong></li>
-                        <li><i class="fa-sharp fa-solid fa-person-breastfeeding"></i>Specialization Area: <span> CHEMISTRY</span>              
+                        <li><i class="fa-sharp fa-solid fa-person-breastfeeding"></i>Specialization Area: <span>
+                            CHEMISTRY</span>
                         </li>
                       </ul>
                     </div>
 
 
-                     <div class="profile">
+                    <div class="profile">
                       <h2>Employment Details</h2>
                       <ul>
                         <li><i class="fa-solid fa-phone"></i>Date of Employment: <strong>DIPLOMA</strong></li>
-                        <li><i class="fa-solid fa-envelope"></i>Employment Type : <strong>(Permanent, Contract, Intern)</strong></li>
-                        <li><i class="fa-sharp fa-solid fa-person-breastfeeding"></i>Department : <span> (e.g., Science, Humanities) </span></li>
-                        <li><i class="fa-solid fa-phone"></i>Current Position : <strong>(Teacher, HOD, Deputy Principal)</strong></li>
+                        <li><i class="fa-solid fa-envelope"></i>Employment Type : <strong>(Permanent, Contract,
+                            Intern)</strong></li>
+                        <li><i class="fa-sharp fa-solid fa-person-breastfeeding"></i>Department : <span> (e.g., Science,
+                            Humanities) </span></li>
+                        <li><i class="fa-solid fa-phone"></i>Current Position : <strong>(Teacher, HOD, Deputy
+                            Principal)</strong></li>
 
                       </ul>
                     </div>
@@ -650,6 +654,128 @@
               </section>
               <!---------UPLOAD ASSIGNMENT FORM ENDS HERE------------->
 
+
+              <!------------SUBMITTED ASSIGNMENT STARTS HERE-------------->
+
+              <header>
+                Teacher Assignment Management Portal
+              </header>
+
+              <!-- ================= FORM 1 ================= -->
+              <div class="form-section">
+                <div class="form-title">Form 1 Submitted Assignments</div>
+
+                <table>
+                  <tr>
+                    <th>Name</th>
+                    <th>Adm No</th>
+                    <th>Stream</th>
+                    <th>Subject</th>
+                    <th>Assignment</th>
+                    <th>Grade</th>
+                    <th>Action</th>
+                  </tr>
+
+                  <tr>
+                    <td>Brian Kariuki</td>
+                    <td>0117423D</td>
+                    <td>Blue</td>
+                    <td>Math</td>
+                    <td><button class="download-btn">Download</button></td>
+                    <td><input type="text" class="grade" placeholder="Score"></td>
+                    <td><button class="save-btn">Save</button></td>
+                  </tr>
+
+                </table>
+              </div>
+
+
+              <!-- ================= FORM 2 ================= -->
+              <div class="form-section">
+                <div class="form-title">Form 2 Submitted Assignments</div>
+
+                <table>
+                  <tr>
+                    <th>Name</th>
+                    <th>Adm No</th>
+                    <th>Stream</th>
+                    <th>Subject</th>
+                    <th>Assignment</th>
+                    <th>Grade</th>
+                    <th>Action</th>
+                  </tr>
+
+                  <tr>
+                    <td>Mary Wanjiku</td>
+                    <td>0117423C</td>
+                    <td>Red</td>
+                    <td>English</td>
+                    <td><button class="download-btn">Download</button></td>
+                    <td><input type="text" class="grade" placeholder="Score"></td>
+                    <td><button class="save-btn">Save</button></td>
+                  </tr>
+
+                </table>
+              </div>
+
+
+              <!-- ================= FORM 3 ================= -->
+              <div class="form-section">
+                <div class="form-title">Form 3 Submitted Assignments</div>
+
+                <table>
+                  <tr>
+                    <th>Name</th>
+                    <th>Adm No</th>
+                    <th>Stream</th>
+                    <th>Subject</th>
+                    <th>Assignment</th>
+                    <th>Grade</th>
+                    <th>Action</th>
+                  </tr>
+
+                  <tr>
+                    <td>John Mwangi</td>
+                    <td>0117423A</td>
+                    <td>White</td>
+                    <td>Biology</td>
+                    <td><button class="download-btn">Download</button></td>
+                    <td><input type="text" class="grade" placeholder="Score"></td>
+                    <td><button class="save-btn">Save</button></td>
+                  </tr>
+
+                </table>
+              </div>
+
+
+              <!-- ================= FORM 4 ================= -->
+              <div class="form-section">
+                <div class="form-title">Form 4 Submitted Assignments</div>
+
+                <table>
+                  <tr>
+                    <th>Name</th>
+                    <th>Adm No</th>
+                    <th>Stream</th>
+                    <th>Subject</th>
+                    <th>Assignment</th>
+                    <th>Grade</th>
+                    <th>Action</th>
+                  </tr>
+
+                  <tr>
+                    <td>Peter Wayne</td>
+                    <td>0117423B</td>
+                    <td>Blue</td>
+                    <td>Chemistry</td>
+                    <td><button class="download-btn">Download</button></td>
+                    <td><input type="text" class="grade" placeholder="Score"></td>
+                    <td><button class="save-btn">Save</button></td>
+                  </tr>
+
+                </table>
+              </div>
+              <!------------SUBMITTED ASSIGNMENT ENDS HERE-------------->
 
             </div>
           </div>

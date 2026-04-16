@@ -701,6 +701,104 @@ button:hover {
 
 /*----------UPLOAD ASSIGNMENT FORM STYLE ENDS HERE----------*/
 
+
+/*-------------SUBMITTED ASSIGNMENT STYLE STARTS HERE------------------*/
+
+
+
+/* HEADER */
+header{
+background:#1e56a0;
+color:white;
+padding:15px;
+text-align:center;
+font-size:22px;
+font-weight:bold;
+border-radius:6px;
+margin-bottom:20px;
+}
+
+/* FORM SECTION */
+.form-section{
+background:white;
+margin-bottom:25px;
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
+padding:20px;
+}
+
+/* FORM TITLE */
+.form-title{
+font-size:20px;
+font-weight:bold;
+color:#1e56a0;
+margin-bottom:15px;
+}
+
+/* TABLE */
+table{
+width:100%;
+border-collapse:collapse;
+padding: 20px;
+}
+
+/* HEADERS */
+th{
+background:#1e56a0;
+color:white;
+padding:12px;
+text-align:left;
+}
+
+/* CELLS */
+td{
+padding:10px;
+border-bottom:1px solid #ddd;
+}
+
+/* HOVER */
+tr:hover{
+background:#f1f6ff;
+}
+
+/* BUTTONS */
+.download-btn{
+background:#28a745;
+color:white;
+border:none;
+padding:6px 12px;
+border-radius:4px;
+cursor:pointer;
+}
+
+.download-btn:hover{
+background:#218838;
+}
+
+/* GRADE INPUT */
+.grade{
+width:80px;
+padding:6px;
+border:1px solid #ccc;
+border-radius:4px;
+}
+
+/* SAVE BUTTON */
+.save-btn{
+background:#1e56a0;
+color:white;
+border:none;
+padding:6px 12px;
+border-radius:4px;
+cursor:pointer;
+}
+
+.save-btn:hover{
+background:#163d73;
+}
+
+/*-------------SUBMITTED ASSIGNMENT STYLE ENDS HERE------------------*/
+
 /*---------FOOTER--------------*/
 .footer {
   width: 100%;
