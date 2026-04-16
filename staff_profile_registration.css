@@ -1,0 +1,314 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+  .home_container{
+    width: 100%;
+    background:whitesmoke;
+    min-height: 100vh;
+                 }
+
+  .header_section{
+    width: 100%;
+    background-color: rgb(57, 57, 204);
+    display: flex;
+    justify-content: space-between;
+    padding:30px 30px ;
+    position: fixed;
+   
+                  }
+
+  .logo h3{
+    color: white;
+    cursor: pointer;
+          }
+
+  .nav nav ul{display: flex;
+              gap: 30px;
+              list-style-type: none;}
+
+   .nav nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    transition: 0.5s;}
+
+
+   .nav nav ul li .signIn{color: orangered;}
+
+  .nav nav ul li a::after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width:0;
+    height: 2px;
+    background-color: whitesmoke;
+    transition: width 0.3s ease;
+            } 
+
+  nav ul li a:hover::after{
+    width: 100%;
+  }
+
+  
+
+  .content_section{
+    min-height: 100vh;
+    padding: 30px;
+    width: 100%;
+    margin: auto;
+        }
+
+
+.staff_form {
+    width: 100%;;
+    margin: 100px auto;
+    background: white;
+    padding-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.staff_form h2 {
+    text-align: center;
+    color: #333;
+    padding: 20px;
+}
+
+
+.form-section h3 {
+    background-color: #2b579a;
+    color: white;
+    padding: 10px 15px;
+    margin: 0;
+    font-size: 16px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 15px 30px;
+    padding: 15px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    width: 160px; 
+    font-size: 13px;
+    color: #444;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="email"] {
+    flex: 1;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 32px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+
+
+.form-section {
+    width:100%;
+    background: white;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+
+.form-section h3 {
+    background-color: #2b579a; /* Dark blue */
+    color: white;
+    margin: 0;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates two equal columns */
+    gap: 10px 30px;
+    padding: 15px;
+}
+
+
+.form-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-item label {
+    width: 180px;
+    font-size: 13px;
+    color: #333;
+}
+
+.form-item input, .form-item select {
+    flex: 1;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.upload-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.upload-row:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+.upload-row label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #444;
+    width: 200px;
+}
+
+
+.declaration-box {
+    padding: 20px;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+
+
+.submit-btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #3d8b40;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #2e6b30;
+}       
+
+  
+
+  /*------------FOOTER--------*/
+
+  .footer {
+  background-color: rgb(57, 57, 204);
+  color: #ccc;
+  padding: 40px 20px;
+         }
+
+.footer-container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin: auto;
+}
+
+.footer-box h2,
+.footer-box h3 {
+  color: white;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.footer-box{
+   animation: display 1s ease forwards;
+}
+
+@keyframes display{
+  from{
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(-0px);
+  }
+}
+.footer-box{
+  animation-name: display;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-timeline: view();
+  animation-range:entry 0% cover 30%;
+}
+.footer-box a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.footer-box a:hover {
+  color: #3b82f6;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+i {
+  color: orangered;
+  font-size: 28px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+i:hover {
+  opacity: 0.5;
+  transform: translateY(5px);
+}
+
+.socials {
+  display: flex;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.paragraph {
+  margin-top: 20px;
+  padding-top: 15px;
+}
+
+.content_information {
+  transform: translateY(40px);
+  animation: float 8s ease-in-out infinite;}
