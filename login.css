@@ -73,7 +73,7 @@
 }
 
 .login-form, .admin_form, .driver_form{
-  background: linear-gradient(rgba(131, 40, 40, 0.7), rgba(26, 20, 20, 0.7));
+  background: linear-gradient(rgba(131, 40, 40, 0.7), rgba(131, 123, 123, 0.7));
   padding: 40px;
   color: #ffff;
   border-bottom-right-radius: 10px;
@@ -96,7 +96,9 @@
   display: flex;
   justify-content: center;
   width: 900px;
-  height: 500px;
+  height: 520px;
+  display: none;
+ 
 }
 
 .login-container h2 {
@@ -108,6 +110,7 @@
   font-weight: bold;
   display: block;
   margin-bottom: 5px;
+
 }
 
 span {
@@ -122,51 +125,15 @@ span {
   background-repeat: no-repeat;
   background-size: cover;
   width: 450px;
-  height: 500px;
+  height: 520px;;
   justify-content: center;
   text-align: center;
   display: flex;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
+  
 }
 
-.admin-image {
-  background:
-    linear-gradient(rgba(7, 1, 1, 0.7), rgba(7, 6, 6, 0.7)),
-    url("./images/admin.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 450px;
-  height: 500px;
-  justify-content: center;
-  text-align: center;
-  display: flex;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-}
-
-.admin_form{ background: linear-gradient(rgba(131, 40, 40, 0.7), rgba(26, 20, 20, 0.7));
-  padding: 40px;
-  color: #ffff;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;}
-
-.driver-image {
-  background:
-    linear-gradient(rgba(7, 1, 1, 0.7), rgba(7, 6, 6, 0.7)),
-    url("./images/bus.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 450px;
-  height: 500px;
-  justify-content: center;
-  text-align: center;
-  display: flex;
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-}
 
 .image_content {
   margin: auto;
@@ -223,24 +190,16 @@ select option {
   font-weight: bold;
 }
 
+.or p{
+  margin-top: 10px;
+}
+
 .login-form a {
   text-decoration: none;
-  color: rgb(0, 60, 255);
+  color: rgb(59, 59, 209);
 }
 
 /*------------HIDE THE OTHER FORMS--------*/
-
-.admin_login {
-  display: block;
-}
-.driver_login {
-  display: block;
-}
-
-.staff_login{
-  display: block;
-}
-
 
 
 .forgot_password {

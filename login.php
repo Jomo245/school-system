@@ -78,6 +78,7 @@
               </div>
               <div class="or">
                 <p>Do you have account? <a href="#" id="registerLink">Register</a></p>
+                <p><a href="#" id="registerLink">Forgot Password?</a></p>
               </div>
             </form>
           </div>
@@ -90,10 +91,11 @@
             <h2>Forgot Password</h2>
             <form action="" method="post">
               <div class="input-group">
-                <label for="index">Enter your Index Number:</label>
-                <input type="number" id="index" name="index" required>
+                <label for="email">Enter your Email:</label>
+                <input type="email" id="email" name="email" required>
               </div>
               <button type="submit" class="sbt_btn">Reset Password</button>
+              
             </form>
           </div>
         </div>
