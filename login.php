@@ -82,136 +82,8 @@
             </form>
           </div>
         </div>
-        <!--------STUDENTS LOGIN SECTION ENDS HERE----------->
-
-<br>
-        <!-------------ADMIN LOGIN STARTS HERE------------>
-
-        <div class="admin_login">
-          <div class="login-container" id="loginContainer">
-            <div class="admin-image">
-              <div class="image_content ">
-                <h1>School Management System</h1>
-                <p>Admin Login</p>
-                <p>Manage Students • Teachers • Records</p>
-              </div>
-            </div>
-            <div class="admin_form">
-              <h2>Admin Login</h2>
-              <form id="loginForm" action="login.php" method="post">
-                <div class="input-group">
-                  <label for="username">Username</label>
-                  <input type="text" id="username" name="username" autocomplete="off">
-                </div>
-
-
-                <div class="input-group">
-                  <label for="password">Password</label>
-                  <input type="password" id="password" name="password" autocomplete="off">
-                </div>
-
-                <div class="role">
-                  <p>Login as <a href="#" onclick="showAdminLogin()" id="adminLink">Admin </a> Or <a href="#"
-                      onclick="showUserLogin()" id="userLink"> User </a></p>
-                </div>
-                <button type="submit" class="sbt_btn">Login</button>
-                <div class="error">
-                  <p id="errorMessage"></p>
-                </div>
-                <div class="or">
-                  <p>Do you have account? <a href="#" id="registerLink">Register</a></p>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <!-------------ADMIN LOGIN ENDS HERE------------>
- <br>
-        <!----------DRIVER LOGIN STARTS HERE------------>
-        <div class="driver_login">
-          <div class="login-container" id="loginContainer">
-            <div class="driver-image">
-              <div class="image_content ">
-                <h1>School Management System</h1>
-                <p>Driver Login</p>
-                <p>Manage Bus Routes • Drivers • Students</p>
-              </div>
-            </div>
-            <div class="driver_form">
-              <h2>Driver Login</h2>
-              <form id="loginForm" action="login.php" method="post">
-                <div class="input-group">
-                  <label for="driver_name">Driver Name</label>
-                  <input type="text" id="driver_name" name="driver_name" autocomplete="off">
-                </div>
-
-                <div class="input-group">
-                  <label for="password">Password</label>
-                  <input type="password" id="password" name="password" autocomplete="off">
-                </div>
-
-                <div class="role">
-                  <p>Login as <a href="#" onclick="showAdminLogin()" id="adminLink">Admin </a> Or <a href="#"
-                      onclick="showUserLogin()" id="userLink"> User </a></p>
-                </div>
-                <button type="submit" class="sbt_btn">Login</button>
-                <div class="error">
-                  <p id="errorMessage"></p>
-                </div>
-                <div class="or">
-                  <p>Do you have account? <a href="#" id="registerLink">Register</a></p>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <!----------DRIVER LOGIN ENDS HERE------------>
-<br>
-        <!----------------STAFF LOGINS STARTS HERE------------->
-        <div class="staff_login">
-          <div class="login-container" id="loginContainer">
-            <div class="driver-image">
-              <div class="image_content ">
-                <h1>School Management System</h1>
-                <p>Login As Staff</p>
-                <p>Manage Bus Routes • Drivers • Students</p>
-              </div>
-            </div>
-            <div class="driver_form">
-              <h2>Staff Login</h2>
-              <form id="loginForm" action="login.php" method="post">
-                <div class="input-group">
-                  <label for="driver_name">Username</label>
-                  <input type="text" id="driver_name" name="driver_name" autocomplete="off">
-                </div>
-
-                <div class="input-group">
-                  <label for="driver_name">TSE NO:</label>
-                  <input type="number" id="tse_number" name="tse_number" autocomplete="off">
-                </div>
-
-                <div class="input-group">
-                  <label for="password">Password</label>
-                  <input type="password" id="password" name="password" autocomplete="off">
-                </div>
-
-                <div class="role">
-                  <p>Login as <a href="#" onclick="showAdminLogin()" id="adminLink">Admin </a> Or <a href="#"
-                      onclick="showUserLogin()" id="userLink"> User </a>Or</p>
-                </div>
-                <button type="submit" class="sbt_btn">Login</button>
-                <div class="error">
-                  <p id="errorMessage"></p>
-                </div>
-                <div class="or">
-                  <p>Do you have account? <a href="#" id="registerLink">Register</a></p>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <!----------------STAFF LOGINS ENDS HERE------------->
-  <br>
+        
+        <br><br>
         <!-- --------FORGOT PASSWORD STARTS HERE------------>
         <div class="forgot_password">
           <div class="forgot_password_container">
@@ -229,7 +101,6 @@
       </div>
   </div>
   </section>
-
 
   <!-------FOOTER----------->
   <div class="footer_container">
