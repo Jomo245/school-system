@@ -12,6 +12,7 @@
   min-height: 100vh;
 }
 
+
 .header_section {
   width: 100%;
   background-color: rgb(57, 57, 204);
@@ -70,6 +71,7 @@ nav ul li a:hover::after {
   background-position: center;
   margin: auto;
   animation: fadeIn;
+    overflow-x: hidden;
 }
 
 @keyframes fadeIn {
@@ -128,20 +130,44 @@ span {
   transition: background-color 0.3s ease;
 }
 
+.mission_container{
+  display: flex;
+  z-index: 1000;
+gap: 20px;
+}
+
 .btn a:hover {
   opacity: 0.6;
 }
 
-.mission_container {
+.group {
   margin-top: 20px;
   width: 100%;
   color: white;
   padding: 40px 20px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: transparent;
+  animation: spin 30s infinite linear;
+   
 }
+
+@keyframes spin{
+  from{
+    translate: 0;
+  }
+  to{
+    translate: -100%;
+  }
+}
+
+.group:hover {
+  animation-play-state: paused; /* pauses instead of removing */
+  transform: scale(1.2);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+
 
 .mission_box {
   width: 300px;
@@ -170,7 +196,7 @@ span {
   animation-timing-function: linear;
   animation-duration: 1s;
   animation-fill-mode: both;
-  animation-range: entry 10% cover 70%;
+  animation-range: entry 10% cover 30%;
   animation-timeline: view();
 }
 
@@ -179,6 +205,8 @@ span {
   transform: translateY(-5px);
   transition: 0.5s;
   cursor: pointer;
+  animation-play-state: paused;
+  transform: scale(1.2);
 }
 
 .mission_box h2 {

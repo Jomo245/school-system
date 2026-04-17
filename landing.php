@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="landing.css?v=<?php echo time(); ?>">
@@ -35,7 +36,7 @@
     <!-----------CONTENT----------->
     <section class="content_section">
       <div class="content">
-       
+
         <h1><span>WELCOME</span> TO OUR SCHOOL</h1>
         <p>We are here to help you succeed in your educational journey.</p>
         <p>Feel free to reach out if you have any questions or need assistance.</p>
@@ -45,23 +46,67 @@
         </div>
 
         <div class="mission_container">
-          <div class="mission_box">
-            <h2>Our Mission</h2>
-            <p>To provide quality education and support to our students, fostering a nurturing environment for growth
-              and
-              learning.</p>
+          <div class="group">
+            <div class="mission_box">
+              <h2>Our Mission</h2>
+              <p>To provide quality education and support to our students, fostering a nurturing environment for growth
+                and
+                learning.</p>
+            </div>
+
+            <div class="mission_box">
+              <h2>Our Vision</h2>
+              <p>To be a leading institution in providing innovative and accessible education to empower students for
+                future
+                success.</p>
+
+                <a href="contact.php"> Contact</a>
+            </div>
+
+            <div class="mission_box">
+              <h2>Our Motto</h2>
+              <p>Excellence in Education</p>
+            </div>
+
+            <div class="mission_box">
+              <i class="fa-solid fa-calendar-days"></i>
+              <h2>Events</h2>
+              <p>Stay updated with school activities and events.</p>
+            </div>
+            
           </div>
 
-          <div class="mission_box">
-            <h2>Our Vision</h2>
-            <p>To be a leading institution in providing innovative and accessible education to empower students for
-              future
-              success.</p>
-          </div>
+          <div aria-hidden class="group">
+            <div class="mission_box">
+              <i class="fa-solid fa-envelope"></i>
+              <h2>Contact</h2>
+              <p>Reach school administration for support and inquiries.</p>
+            </div>
 
-          <div class="mission_box">
-            <h2>Our Motto</h2>
-            <p>Excellence in Education</p>
+            <div class="mission_box">
+              <i class="fa-solid fa-book-open"></i>
+              <h2>Services</h2>
+              <p>Access learning materials, e-learning tools and support.</p>
+            </div>
+
+            <div class="mission_box">
+              <i class="fa-solid fa-chart-line"></i>
+              <h2>Results</h2>
+              <p>Check academic performance and examination results.</p>
+            </div>
+
+            <div class="mission_box">
+              <i class="fa-solid fa-bus"></i>
+              <h2>Transport</h2>
+              <p>Track school buses and transport schedules easily.</p>
+            </div>
+            </h2>
+
+            <div class="mission_box">
+              <i class="fa-solid fa-coins"></i>
+              <h2>Fees</h2>
+              <p>View and manage school fee statements and payments.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -99,7 +144,7 @@
           </div>
 
           <div class="footer-box">
-            <h3>Contact</h3>          
+            <h3>Contact</h3>
             <p><a href="mailto:school@example.co.ke" target="_blank">Email:school@example.co.ke</a> </p>
             <p><a href="tel:+254123456789" target="_blank">Phone: +254 123 456 789</a> </p>
             <p><a href="https://maps.google.com/?q=school" target="_blank">Location: 123 School Street, City</a> </p>
