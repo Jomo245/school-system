@@ -55,43 +55,43 @@
 
               <div class="dashboard-box">
                 <i class="fa-solid fa-calendar-days"></i>
-                <a href="#"onclick="ShowSection">Class Schedule</a>
+                <a href="#" onclick="ShowSection">Class Schedule</a>
               </div>
 
               <div class="dashboard-box">
                 <i class="fas fa-clipboard-check"></i>
-                <a href="#"onclick="ShowSection ('ResultsSection')">Update Grades</a>
+                <a href="#" onclick="ShowSection ('ResultsSection')">Update Grades</a>
               </div>
 
 
               <div class="dashboard-box">
                 <i class="fa-solid fa-bullhorn"></i>
-                <a href="#"onclick="ShowSection">Upcoming Events</a>
+                <a href="#" onclick="ShowSection">Upcoming Events</a>
               </div>
 
               <div class="dashboard-box">
-               <i class="fas fa-newspaper"></i>
-                <a href="#"onclick="ShowSection">Newsletter</a>
+                <i class="fas fa-newspaper"></i>
+                <a href="#" onclick="ShowSection ('NewsletterSection')">Newsletter</a>
               </div>
 
               <div class="dashboard-box">
                 <i class="fas fa-gavel"></i>
-                <a href="#"onclick="ShowSection('DisciplineSection')">Indiscipline Report</a>
+                <a href="#" onclick="ShowSection('DisciplineSection')">Indiscipline Report</a>
               </div>
 
               <div class="dashboard-box">
                 <i class="fa-solid fa-graduation-cap"></i>
-                <a href="#"onclick="ShowSection ('kcseResultsSection')">School Performance</a>
+                <a href="#" onclick="ShowSection ('kcseResultsSection')">School Performance</a>
               </div>
 
               <div class="dashboard-box">
                 <i class="fa-brands fa-bitbucket"></i>
-                <a href="#"onclick="ShowSection">Repository</a>
+                <a href="#" onclick="ShowSection">Repository</a>
               </div>
 
               <div class="dashboard-box">
                 <i class="fas fa-check-circle"></i>
-                <a href="#"onclick="ShowSection">Submitted Assignment</a>
+                <a href="#" onclick="ShowSection ('submitted_assignment_section')">Submitted Assignment</a>
               </div>
             </div>
 
@@ -99,13 +99,13 @@
               <div class="dashboard-top">
                 <div class="top">
                   <i class="fa-solid fa-envelope"></i>
-                  <a href="#"onclick="ShowSection">Messages</a>
+                  <a href="#" onclick="ShowSection">Messages</a>
                 </div>
               </div>
 
               <div class="dashboard-below">
                 <!---TEACHERS PROFILE STARTS HERE------>
-                <div class="section teachers_profile_container" id="profileSection">
+                <div class="section teachers_profile_container active" id="profileSection">
                   <div class="edit">
                     <h3>Teachers Profile</h3>
                     <button type="" class="edit_btn"><i class="fa-solid fa-pen-to-square"></i> Edit Profile</button>
@@ -385,6 +385,44 @@
               </div>
               <!------------END OF RESULTS------------>
 
+
+              <!--------NEWSLETTER SECTION STARTS HERE--------->
+
+          <div class="section newsletter_container" id="NewsletterSection">
+
+            <h2>Newsletter</h2>
+
+            <form>
+
+              <div class="input-box">
+                <label>From</label>
+                <input type="text" value="John Mwangi" readonly>
+              </div>
+
+
+              <div class="input-box">
+                <label>Subject</label>
+                <input type="text" value="School Closing date" readonly>
+              </div>
+
+              <div class="input-box">
+                <label>Context</label>
+                <textarea rows="5" readonly>
+We are glad to inform both the teachers, parents and students that
+after several consideration the school closing date would be on 27.July.2026
+               </textarea>
+              </div>
+
+
+
+              <button type="button">Back to Dashboard</button>
+
+            </form>
+
+          </div>
+
+          <!--------NEWSLETTER SECTION ENDS HERE--------->
+
               <!---------------KCSE RESULTS----------->
               <div class="section report-container" id="kcseResultsSection">
                 <div class="school-header">
@@ -558,7 +596,7 @@
               <!---------------END OF KCSE RESULTS--------->
 
               <!------------REPORT DISCIPLINE  CASES----------->
-              <div  class="section discipline_container" id="DisciplineSection">
+              <div class="section discipline_container" id="DisciplineSection">
                 <form>
 
                   <h2>Disciplinary Form</h2>
@@ -657,128 +695,131 @@
 
               <!------------SUBMITTED ASSIGNMENT STARTS HERE-------------->
 
-              <header>
-                Teacher Assignment Management Portal
-              </header>
 
-              <!-- ================= FORM 1 ================= -->
-              <div class="form-section">
-                <div class="form-title">Form 1 Submitted Assignments</div>
+              <div class=" section submitted_assignment" id="submitted_assignment_section">
 
-                <table>
-                  <tr>
-                    <th>Name</th>
-                    <th>Adm No</th>
-                    <th>Stream</th>
-                    <th>Subject</th>
-                    <th>Assignment</th>
-                    <th>Grade</th>
-                    <th>Action</th>
-                  </tr>
 
-                  <tr>
-                    <td>Brian Kariuki</td>
-                    <td>0117423D</td>
-                    <td>Blue</td>
-                    <td>Math</td>
-                    <td><button class="download-btn">Download</button></td>
-                    <td><input type="text" class="grade" placeholder="Score"></td>
-                    <td><button class="save-btn">Save</button></td>
-                  </tr>
+                <header>
+                  Teacher Assignment Management Portal
+                </header>
 
-                </table>
+                <!-- ================= FORM 1 ================= -->
+                <div class="form-section">
+                  <div class="form-title">Form 1 Submitted Assignments</div>
+
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th>Adm No</th>
+                      <th>Stream</th>
+                      <th>Subject</th>
+                      <th>Assignment</th>
+                      <th>Grade</th>
+                      <th>Action</th>
+                    </tr>
+
+                    <tr>
+                      <td>Brian Kariuki</td>
+                      <td>0117423D</td>
+                      <td>Blue</td>
+                      <td>Math</td>
+                      <td><button class="download-btn">Download</button></td>
+                      <td><input type="text" class="grade" placeholder="Score"></td>
+                      <td><button class="save-btn">Save</button></td>
+                    </tr>
+
+                  </table>
+                </div>
+
+
+                <!-- ================= FORM 2 ================= -->
+                <div class="form-section">
+                  <div class="form-title">Form 2 Submitted Assignments</div>
+
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th>Adm No</th>
+                      <th>Stream</th>
+                      <th>Subject</th>
+                      <th>Assignment</th>
+                      <th>Grade</th>
+                      <th>Action</th>
+                    </tr>
+
+                    <tr>
+                      <td>Mary Wanjiku</td>
+                      <td>0117423C</td>
+                      <td>Red</td>
+                      <td>English</td>
+                      <td><button class="download-btn">Download</button></td>
+                      <td><input type="text" class="grade" placeholder="Score"></td>
+                      <td><button class="save-btn">Save</button></td>
+                    </tr>
+
+                  </table>
+                </div>
+
+
+                <!-- ================= FORM 3 ================= -->
+                <div class="form-section">
+                  <div class="form-title">Form 3 Submitted Assignments</div>
+
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th>Adm No</th>
+                      <th>Stream</th>
+                      <th>Subject</th>
+                      <th>Assignment</th>
+                      <th>Grade</th>
+                      <th>Action</th>
+                    </tr>
+
+                    <tr>
+                      <td>John Mwangi</td>
+                      <td>0117423A</td>
+                      <td>White</td>
+                      <td>Biology</td>
+                      <td><button class="download-btn">Download</button></td>
+                      <td><input type="text" class="grade" placeholder="Score"></td>
+                      <td><button class="save-btn">Save</button></td>
+                    </tr>
+
+                  </table>
+                </div>
+
+
+                <!-- ================= FORM 4 ================= -->
+                <div class="form-section">
+                  <div class="form-title">Form 4 Submitted Assignments</div>
+
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <th>Adm No</th>
+                      <th>Stream</th>
+                      <th>Subject</th>
+                      <th>Assignment</th>
+                      <th>Grade</th>
+                      <th>Action</th>
+                    </tr>
+
+                    <tr>
+                      <td>Peter Wayne</td>
+                      <td>0117423B</td>
+                      <td>Blue</td>
+                      <td>Chemistry</td>
+                      <td><button class="download-btn">Download</button></td>
+                      <td><input type="text" class="grade" placeholder="Score"></td>
+                      <td><button class="save-btn">Save</button></td>
+                    </tr>
+
+                  </table>
+                </div>
+                <!------------SUBMITTED ASSIGNMENT ENDS HERE-------------->
               </div>
-
-
-              <!-- ================= FORM 2 ================= -->
-              <div class="form-section">
-                <div class="form-title">Form 2 Submitted Assignments</div>
-
-                <table>
-                  <tr>
-                    <th>Name</th>
-                    <th>Adm No</th>
-                    <th>Stream</th>
-                    <th>Subject</th>
-                    <th>Assignment</th>
-                    <th>Grade</th>
-                    <th>Action</th>
-                  </tr>
-
-                  <tr>
-                    <td>Mary Wanjiku</td>
-                    <td>0117423C</td>
-                    <td>Red</td>
-                    <td>English</td>
-                    <td><button class="download-btn">Download</button></td>
-                    <td><input type="text" class="grade" placeholder="Score"></td>
-                    <td><button class="save-btn">Save</button></td>
-                  </tr>
-
-                </table>
-              </div>
-
-
-              <!-- ================= FORM 3 ================= -->
-              <div class="form-section">
-                <div class="form-title">Form 3 Submitted Assignments</div>
-
-                <table>
-                  <tr>
-                    <th>Name</th>
-                    <th>Adm No</th>
-                    <th>Stream</th>
-                    <th>Subject</th>
-                    <th>Assignment</th>
-                    <th>Grade</th>
-                    <th>Action</th>
-                  </tr>
-
-                  <tr>
-                    <td>John Mwangi</td>
-                    <td>0117423A</td>
-                    <td>White</td>
-                    <td>Biology</td>
-                    <td><button class="download-btn">Download</button></td>
-                    <td><input type="text" class="grade" placeholder="Score"></td>
-                    <td><button class="save-btn">Save</button></td>
-                  </tr>
-
-                </table>
-              </div>
-
-
-              <!-- ================= FORM 4 ================= -->
-              <div class="form-section">
-                <div class="form-title">Form 4 Submitted Assignments</div>
-
-                <table>
-                  <tr>
-                    <th>Name</th>
-                    <th>Adm No</th>
-                    <th>Stream</th>
-                    <th>Subject</th>
-                    <th>Assignment</th>
-                    <th>Grade</th>
-                    <th>Action</th>
-                  </tr>
-
-                  <tr>
-                    <td>Peter Wayne</td>
-                    <td>0117423B</td>
-                    <td>Blue</td>
-                    <td>Chemistry</td>
-                    <td><button class="download-btn">Download</button></td>
-                    <td><input type="text" class="grade" placeholder="Score"></td>
-                    <td><button class="save-btn">Save</button></td>
-                  </tr>
-
-                </table>
-              </div>
-              <!------------SUBMITTED ASSIGNMENT ENDS HERE-------------->
-
             </div>
-          </div>
         </section>
       </div>
     </section>

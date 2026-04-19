@@ -446,6 +446,78 @@ th {
 
 /*------------RESULT REPORT STYLE-----------*/
 
+
+/*-------NEWSLETTER STARTS HERE----------*/
+
+.newsletter_container {
+  width: 100%;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  /*-------HIDE NEWSLETTER SECTION------*/
+  display: block;
+}
+
+/* TITLE */
+.container h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* INPUT GROUP */
+.input-box {
+  margin-bottom: 15px;
+}
+
+.input-box label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* INPUT STYLE */
+.input-box input,
+.input-box textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f5f7fa;
+  font-size: 14px;
+}
+
+.input-box textarea {
+  resize: none;
+}
+
+/* READ ONLY LOOK */
+input[readonly],
+textarea[readonly] {
+  background: #e9eef5;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #0050b4;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #003f8a;
+}
+/*-------NEWSLETTER ENDS HERE----------*/
+
+
 /*--------------KCSE RESULTS---------------*/
 .report-container {
   width: 100%;
