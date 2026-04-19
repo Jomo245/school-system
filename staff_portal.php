@@ -49,49 +49,49 @@
 
               <div class="dashboard-box">
                 <i class="fa-solid fa-circle-user"></i>
-                <a href="#">Profile</a>
+                <a href="#" onclick="ShowSection ('profileSection')">Profile</a>
               </div>
 
 
               <div class="dashboard-box">
                 <i class="fa-solid fa-calendar-days"></i>
-                <a href="#">Class Schedule</a>
+                <a href="#"onclick="ShowSection">Class Schedule</a>
               </div>
 
               <div class="dashboard-box">
-                <i class="fa-solid fa-jxl"></i>
-                <a href="#">Update Grades</a>
+                <i class="fas fa-clipboard-check"></i>
+                <a href="#"onclick="ShowSection ('ResultsSection')">Update Grades</a>
               </div>
 
 
               <div class="dashboard-box">
                 <i class="fa-solid fa-bullhorn"></i>
-                <a href="#">Upcoming Events</a>
+                <a href="#"onclick="ShowSection">Upcoming Events</a>
               </div>
 
               <div class="dashboard-box">
-                <i class="fa-solid fa-arrow-trend-up"></i>
-                <a href="#">Newsletter</a>
+               <i class="fas fa-newspaper"></i>
+                <a href="#"onclick="ShowSection">Newsletter</a>
               </div>
 
               <div class="dashboard-box">
-                <i class="fa-solid fa-arrow-trend-up"></i>
-                <a href="#">Indiscipline Report</a>
+                <i class="fas fa-gavel"></i>
+                <a href="#"onclick="ShowSection('DisciplineSection')">Indiscipline Report</a>
               </div>
 
               <div class="dashboard-box">
                 <i class="fa-solid fa-graduation-cap"></i>
-                <a href="#">School Performance</a>
+                <a href="#"onclick="ShowSection ('kcseResultsSection')">School Performance</a>
               </div>
 
               <div class="dashboard-box">
                 <i class="fa-brands fa-bitbucket"></i>
-                <a href="#">Repository</a>
+                <a href="#"onclick="ShowSection">Repository</a>
               </div>
 
               <div class="dashboard-box">
-                <i class="fa-brands fa-bitbucket"></i>
-                <a href="#">Submitted Assignment</a>
+                <i class="fas fa-check-circle"></i>
+                <a href="#"onclick="ShowSection">Submitted Assignment</a>
               </div>
             </div>
 
@@ -99,13 +99,13 @@
               <div class="dashboard-top">
                 <div class="top">
                   <i class="fa-solid fa-envelope"></i>
-                  <a href="#">Messages</a>
+                  <a href="#"onclick="ShowSection">Messages</a>
                 </div>
               </div>
 
               <div class="dashboard-below">
                 <!---TEACHERS PROFILE STARTS HERE------>
-                <div class="teachers_profile_container">
+                <div class="section teachers_profile_container" id="profileSection">
                   <div class="edit">
                     <h3>Teachers Profile</h3>
                     <button type="" class="edit_btn"><i class="fa-solid fa-pen-to-square"></i> Edit Profile</button>
@@ -186,7 +186,7 @@
 
 
                 <!----------RESULT REPORT----------->
-                <div class="form-container">
+                <div class="section form-container" id="ResultsSection">
                   <header>
                     <h1>Academic Performance Report</h1>
                     <p>EXAM RESULTS - 2026</p>
@@ -386,7 +386,7 @@
               <!------------END OF RESULTS------------>
 
               <!---------------KCSE RESULTS----------->
-              <div class="report-container">
+              <div class="section report-container" id="kcseResultsSection">
                 <div class="school-header">
                   <h1>KCSE RESULTS SUMMARY 2026</h1>
                   <p><strong>School Code:</strong> 12345678</p>
@@ -558,7 +558,7 @@
               <!---------------END OF KCSE RESULTS--------->
 
               <!------------REPORT DISCIPLINE  CASES----------->
-              <div class="discipline_container">
+              <div  class="section discipline_container" id="DisciplineSection">
                 <form>
 
                   <h2>Disciplinary Form</h2>
@@ -594,7 +594,7 @@
 
               <!---------UPLOAD ASSIGNMENT FORM------------->
 
-              <section class="staff-assignment">
+              <section class=" section staff-assignment" id="AssignmentSection">
                 <div class="assignment-container">
                   <form action="#">
                     <div class="create-assignment">
