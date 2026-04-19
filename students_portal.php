@@ -39,13 +39,13 @@
         <aside class="sidebar">
           <h3>Dashboard</h3>
           <ul>
-            <li><a href="#"><i class="fas fa-user"></i> My Profile</a></li>
-            <li><a href="#"><i class="fas fa-file-invoice-dollar"></i> Fees Statement</a></li>
-            <li><a href="#"><i class="fas fa-gavel"></i> Discipline</a></li>
-            <li><a href="#"><i class="fas fa-calendar-alt"></i>Upcoming Events</a></li>
-            <li><a href="#"><i class="fas fa-graduation-cap"></i> Results</a></li>
-            <li><a href="#"><i class="fas fa-newspaper"></i> Newsletter</a></li>
-            <li><a href="#"><i class="fas fa-graduation-cap"></i> KCSE</a></li>
+            <li><a href="#"><i class="fas fa-user" onclick="showSection ('profileSection')"></i> My Profile</a></li>
+            <li><a href="#"><i class="fas fa-file-invoice-dollar" onclick="showSection ('FeeSection')" ></i> Fees Statement</a></li>
+            <li><a href="#"><i class="fas fa-gavel"onclick="showSection ('DisciplineSection')"></i> Discipline</a></li>
+            <li><a href="#"><i class="fas fa-calendar-alt" onclick="showSection ('EventsSection')"></i>Upcoming Events</a></li>
+            <li><a href="#"><i class="fas fa-graduation-cap" onclick="showSection ('ResultsSection')"></i> Results</a></li>
+            <li><a href="#"><i class="fas fa-newspaper" onclick="showSection ('NewsletterSection')"></i> Newsletter</a></li>
+            <li><a href="#"><i class="fas fa-graduation-cap" onclick="showSection ('profileSection')"></i> KCSE</a></li>
             <li><a href="assignment.php"><i class="fa-solid fa-file-pen"></i> Assignments</a></li>
             <li><a href="payment.php"><i class="fa-solid fa-money-bill"></i> Fee Payment</a></li>
           </ul>
@@ -57,7 +57,7 @@
 
           <!-------PROFILE SECTION STARTS HERE------------>
 
-          <div class="profile_container">
+          <div class="profile_container" id="profileSection">
             <div class="edit">
               <h3>Student Profile</h3>
               <button type="" class="edit_btn"><i class="fa-solid fa-pen-to-square"></i> Edit Profile</button>
@@ -110,7 +110,7 @@
 
 
           <!------RESULT FOR STUDENTS------>
-          <div class="report-container">
+          <div class="report-container" id="ResultsSection" >
             <div class="school-header">
               <h1>KCSE RESULTS SUMMARY 2026</h1>
               <p><strong>School Code:</strong> 12345678</p>
@@ -283,7 +283,7 @@
 
           <!------DISCIPLINE REPORT FROM ADMIN-------->
 
-          <div class="container">
+          <div class="container" id="DisciplineSection">
 
             <h2>Student Discipline Record</h2>
 
@@ -320,7 +320,7 @@
 
           <!--------NEWSLETTER SECTION STARTS HERE--------->
 
-          <div class="newsletter_container">
+          <div class="newsletter_container" id="NewsletterSection">
 
             <h2>Newsletter</h2>
 
@@ -357,7 +357,7 @@ after several consideration the school closing date would be on 27.July.2026
 
 
           <!---------FEE STATEMENTS STARTS HERE---------->
-          <div class="fee_statement_container">
+          <div class="fee_statement_container" id="FeeSection">
             <div class="fee-table">
               <div class="fee_header">
                 <h3>FEE STATEMENTS</h3>
@@ -413,7 +413,7 @@ after several consideration the school closing date would be on 27.July.2026
 
           <!---------UPCOMING EVENTS-------------------->
 
-          <div class="upcoming_events_container">
+          <div class="upcoming_events_container" id="EventsSection">
             <div class="upcoming-events">
               <div class="header">
                 <h2>UPCOMING EVENTS.</h2>
