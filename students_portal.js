@@ -1,9 +1,12 @@
-//VARIABLES DECLARATION
 
-const profileSection=document.getElementById("profileSection");
-const ResultsSection=document.getElementById("ResultsSection");
-const DisciplineSection=document.getElementById("DisciplineSection");
-const NewsletterSection=document.getElementById("NewsletterSection");
-const FeeSection=document.getElementById("FeeSection");
-const EventsSection=document.getElementById("EventsSection");
+// FUNCTION TO HIDE ADD DISPLAY THE SIDEBAR
 
+function showSection(sectionId) {
+  const sections = document.querySelectorAll('.section');
+
+  sections.forEach(section => {
+    section.classList.remove('active');
+  });
+
+  document.getElementById(sectionId).classList.add('active');
+}
