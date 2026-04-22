@@ -7,8 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="students_portal.css?v=<?php echo time(); ?>">
   <title>Students Portal</title>
 </head>
@@ -40,12 +39,15 @@
           <h3>Dashboard</h3>
           <ul>
             <li><a href="#" onclick="showSection ('profileSection')"><i class="fas fa-user"></i> My Profile</a></li>
-            <li><a href="#" onclick="showSection ('FeeSection')"><i class="fas fa-file-invoice-dollar" ></i> Fees Statement</a></li>
+            <li><a href="#" onclick="showSection ('FeeSection')"><i class="fas fa-file-invoice-dollar"></i> Fees
+                Statement</a></li>
             <li><a href="#" onclick="showSection ('DisciplineSection')"><i class="fas fa-gavel"></i> Discipline</a></li>
-            <li><a href="#" onclick="showSection ('EventsSection')"><i class="fas fa-calendar-alt"></i>Upcoming Events</a></li>
-            <li><a href="#" onclick="showSection ('')"><i class="fas fa-graduation-cap" ></i> Results</a></li>
-            <li><a href="#"onclick="showSection ('NewsletterSection')"><i class="fas fa-newspaper" ></i> Newsletter</a></li>
-            <li><a href="#"onclick="showSection ('ResultsSection')"><i class="fas fa-graduation-cap" ></i> KCSE</a></li>
+            <li><a href="#" onclick="showSection ('EventsSection')"><i class="fas fa-calendar-alt"></i>Upcoming
+                Events</a></li>
+            <li><a href="#" onclick="showSection ('')"><i class="fas fa-graduation-cap"></i> Results</a></li>
+            <li><a href="#" onclick="showSection ('NewsletterSection')"><i class="fas fa-newspaper"></i> Newsletter</a>
+            </li>
+            <li><a href="#" onclick="showSection ('ResultsSection')"><i class="fas fa-graduation-cap"></i> KCSE</a></li>
             <li><a href="assignment.php"><i class="fa-solid fa-file-pen"></i> Assignments</a></li>
             <li><a href="payment.php"><i class="fa-solid fa-money-bill"></i> Fee Payment</a></li>
           </ul>
@@ -110,7 +112,7 @@
 
 
           <!------RESULT FOR STUDENTS------>
-          <div class="section report-container" id="ResultsSection" >
+          <div class="section report-container" id="ResultsSection">
             <div class="school-header">
               <h1>KCSE RESULTS SUMMARY 2026</h1>
               <p><strong>School Code:</strong> 12345678</p>
@@ -531,6 +533,7 @@ after several consideration the school closing date would be on 27.July.2026
     </div>
   </div>
 
-<script src="students_portal.js?v=<?php echo time(); ?>"></script>
+  <script src="students_portal.js?v=<?php echo time(); ?>"></script>
 </body>
+
 </html>

@@ -614,7 +614,7 @@ table tr td {
   display: block;
   opacity: 1;
   transform: translateX(0);
-    pointer-events: auto;
+  pointer-events: auto;
 }
 
 /*------------FOOTER--------*/

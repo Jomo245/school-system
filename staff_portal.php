@@ -49,49 +49,49 @@
 
               <div class="dashboard-box">
                 <i class="fa-solid fa-circle-user"></i>
-                <a href="#" onclick="ShowSection ('profileSection')">Profile</a>
+                <a href="#" onclick="showSection ('profileSection')">Profile</a>
               </div>
 
 
               <div class="dashboard-box">
                 <i class="fa-solid fa-calendar-days"></i>
-                <a href="#" onclick="ShowSection">Class Schedule</a>
+                <a href="#" onclick="showSection">Class Schedule</a>
               </div>
 
               <div class="dashboard-box">
                 <i class="fas fa-clipboard-check"></i>
-                <a href="#" onclick="ShowSection ('ResultsSection')">Update Grades</a>
+                <a href="#" onclick="showSection ('ResultsSection')">Update Grades</a>
               </div>
 
 
               <div class="dashboard-box">
                 <i class="fa-solid fa-bullhorn"></i>
-                <a href="#" onclick="ShowSection">Upcoming Events</a>
+                <a href="#" onclick="showSection">Upcoming Events</a>
               </div>
 
               <div class="dashboard-box">
                 <i class="fas fa-newspaper"></i>
-                <a href="#" onclick="ShowSection ('NewsletterSection')">Newsletter</a>
+                <a href="#" onclick="showSection ('NewsletterSection')">Newsletter</a>
               </div>
 
               <div class="dashboard-box">
                 <i class="fas fa-gavel"></i>
-                <a href="#" onclick="ShowSection('DisciplineSection')">Indiscipline Report</a>
+                <a href="#" onclick="showSection('DisciplineSection')">Indiscipline Report</a>
               </div>
 
               <div class="dashboard-box">
                 <i class="fa-solid fa-graduation-cap"></i>
-                <a href="#" onclick="ShowSection ('kcseResultsSection')">School Performance</a>
+                <a href="#" onclick="showSection ('kcseResultsSection')">KCSE</a>
               </div>
 
               <div class="dashboard-box">
                 <i class="fa-brands fa-bitbucket"></i>
-                <a href="#" onclick="ShowSection">Repository</a>
+                <a href="#" onclick="showSection ('AssignmentSection')">Upload Assignment</a>
               </div>
 
               <div class="dashboard-box">
                 <i class="fas fa-check-circle"></i>
-                <a href="#" onclick="ShowSection ('submitted_assignment_section')">Submitted Assignment</a>
+                <a href="#" onclick="showSection ('submitted_assignment_section')">Submitted Assignment</a>
               </div>
             </div>
 
@@ -696,7 +696,7 @@ after several consideration the school closing date would be on 27.July.2026
               <!------------SUBMITTED ASSIGNMENT STARTS HERE-------------->
 
 
-              <div class=" section submitted_assignment" id="submitted_assignment_section">
+              <div class="section submitted_assignment" id="submitted_assignment_section">
 
 
                 <header>
@@ -868,6 +868,7 @@ after several consideration the school closing date would be on 27.July.2026
       </footer>
     </div>
   </div>
+  <script src="staff_portal.js?v=<?php echo time(); ?>"></script>
 </body>
 
 </html>

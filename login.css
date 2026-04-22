@@ -83,7 +83,9 @@
 }
 
 .login-form, .admin_form, .driver_form{
-  background: linear-gradient(rgba(131, 40, 40, 0.7), rgba(131, 123, 123, 0.7));
+  width: 100%;
+  max-width: 420px;
+  background-color: white;
   padding: 40px;
   color: #ffff;
   border-bottom-right-radius: 10px;
@@ -106,8 +108,8 @@
   display: flex;
   justify-content: center;
   width: 900px;
-  height: 520px;
-  display: none;
+  height: auto;
+  
  
 }
 
@@ -135,7 +137,7 @@ span {
   background-repeat: no-repeat;
   background-size: cover;
   width: 450px;
-  height: 520px;;
+  height:auto;
   justify-content: center;
   text-align: center;
   display: flex;
@@ -209,23 +211,32 @@ select option {
   color: rgb(59, 59, 209);
 }
 
+.login-form h2{
+  color: #333;
+}
+
+#errorMessage{
+margin-top: 10px;}
+
 /*------------HIDE THE OTHER FORMS--------*/
 
 
 .forgot_password {
-  background-color: rgb(47, 47, 146);
+  background: white;
   padding: 40px;
-  color: #ffff;
+  color: black;
   border-radius: 10px;
   width: 300px;
-  height: 350px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   /*--------HIDE FORGET PASSWORD-------*/
-  display: block;
+   display: none;
 }
+
+
 
 .forgot_password h2 {
   margin-bottom: 20px;
@@ -239,6 +250,188 @@ select option {
   border: none;
   outline: none;
 }
+
+#forgot{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#forgot .sbt_btn {
+  margin-top: 10px;
+  background: #1565b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*----------REGISTER FORM----------*/
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MAIN CONTAINER */
+.register-container {
+  display: none; /* Hidden by default, shown when "Register" is clicked */
+  min-height: 100vh;
+  width: 100%;
+}
+
+
+
+/* LEFT IMAGE SECTION */
+.register_image {
+  flex: 1;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('./images/school.jpeg'); /* replace with your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.image_content h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.image_content p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* RIGHT FORM SECTION */
+.register-form {
+ 
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+#registerFormContainer {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* INPUT GROUP */
+.input-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #444;
+}
+
+.input-group input,
+.role select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-group input:focus,
+.role select:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+/* ROLE */
+.role {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.role label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+/* BUTTON */
+.sbt_btn {
+  width: 100%;
+  padding: 12px;
+  background: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sbt_btn:hover {
+  background: #45a049;
+}
+
+/* ERROR TEXT */
+.error p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* LOGIN LINK */
+.or {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.or a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.or-text {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  color: black;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .register-container {
+    flex-direction: column;
+  }
+
+  .register_image {
+    min-height: 200px;
+  }
+}
+
+
 
 /*------------FOOTER--------*/
 

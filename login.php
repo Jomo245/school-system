@@ -36,7 +36,7 @@
     <section class="content_section">
 
       <div class="container">
-        <!----------STUDENT LOGIN------------>
+        <!----------LOGIN------------>
         <div class="login-container" id="loginContainer">
           <div class="image">
             <div class="image_content">
@@ -45,7 +45,7 @@
             </div>
           </div>
           <div class="login-form">
-            <h2>Student Login</h2>
+            <h2>Login</h2>
             <form id="loginForm" action="login.php" method="post">
               <div class="input-group">
                 <label for="username">Username</label>
@@ -63,9 +63,9 @@
               </div>
 
               <div class="role">
-                <label for="login_us">Select Role</label>
-                <select name="role" id="role">
-                  <option value="">Select Role</option>
+                <label for="login_us" id="roles" re>Select Role</label>
+                <select name="role" id="role" required>
+                  <option value="">Select Role----</option>
                   <option value="student">Student</option>
                   <option value="admin">Admin</option>
                   <option value="driver">Driver</option>
@@ -77,25 +77,91 @@
                 <p id="errorMessage"></p>
               </div>
               <div class="or">
-                <p>Do you have account? <a href="#" id="registerLink">Register</a></p>
-                <p><a href="#" id="registerLink">Forgot Password?</a></p>
+                <p class="or-text">Do you have account? <a href="#" id="registerLink">Register</a></p>
+                <p><a href="#" id="forgotPasswordLink">Forgot Password?</a></p>
               </div>
             </form>
           </div>
         </div>
-        
+
+<!---REGISTER STARTS HERE---->
+
+        <div class="register-container" id="registerContainer">
+          <div class="register_image">
+            <div class="image_content">
+              <h1>School Management System</h1>
+              <p>Register, Access Courses, and Manage Your Academic Journey Easily</p>
+            </div>
+          </div>
+          <div class="register-form" id="registerFormContainer">  
+            <h2>Register</h2>       
+            <form id="registerForm" action="" method="post">
+
+              <div class="input-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" required autocomplete="off">
+              </div>
+
+              <div class="input-group">
+                <label for="reg_username">Username</label>
+                <input type="text" id="reg_username" name="username" required autocomplete="off">
+              </div>
+
+              <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="reg_email" name="email" required autocomplete="off">
+              </div>
+
+              <div class="input-group">
+                <label for="reg_index">Index Number</label>
+                <input type="text" id="reg_index" name="index" required autocomplete="off">
+              </div>
+
+              <div class="input-group">
+                <label for="reg_password">Password</label>
+                <input type="password" id="reg_password" name="password" required>
+              </div>
+
+              <div class="input-group">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+              </div>
+
+              <div class="role">
+                <label for="reg_role">Select Role</label>
+                <select id="reg_role" name="role" required>
+                  <option value="">Select Role</option>
+                  <option value="student">Student</option>
+                  <option value="admin">Admin</option>
+                  <option value="staff">Staff</option>
+                  <option value="driver">Driver</option>
+                </select>
+              </div>
+
+              <button type="submit" class="sbt_btn">Register</button>
+
+              <div class="error">
+                <p id="registerError"></p>
+              </div>
+
+              <p class="or">
+                Already have an account?
+                <a href="#" id="backToLoginFromRegister">Login</a>
+              </p>
+            </form>
+          </div>
+        </div>
         <br><br>
         <!-- --------FORGOT PASSWORD STARTS HERE------------>
-        <div class="forgot_password">
+        <div class="forgot_password" id="forgot_password">
           <div class="forgot_password_container">
             <h2>Forgot Password</h2>
-            <form action="" method="post">
+            <form action="" method="post" id="forgot">
               <div class="input-group">
                 <label for="email">Enter your Email:</label>
                 <input type="email" id="email" name="email" required>
               </div>
               <button type="submit" class="sbt_btn">Reset Password</button>
-              
             </form>
           </div>
         </div>
@@ -140,7 +206,6 @@
           <p><a href="https://maps.google.com/?q=school" target="_blank">Location: 123 School Street, City</a> </p>
         </div>
 
-
       </div>
 
       <div class="footer-bottom">
@@ -149,7 +214,8 @@
     </footer>
   </div>
   </div>
-
 </body>
 
+<script src="login.js?v=<?php echo time(); ?>"></script>
 </html>
+forgotPasswordLink
