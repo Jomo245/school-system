@@ -48,23 +48,23 @@
             <h2>Login</h2>
             <form id="loginForm" action="login.php" method="post">
               <div class="input-group">
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" autocomplete="off">
+                <label for="login_us">Username</label>
+                <input type="text" id="login_us" name="username" autocomplete="off">
               </div>
 
               <div class="input-group">
-                <label for="Index">Index</label>
-                <input type="text" id="index" name="index" autocomplete="off">
+                <label for="login_index">Index</label>
+                <input type="text" id="login_index" name="index" autocomplete="off">
               </div>
 
               <div class="input-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" autocomplete="off">
+                <label for="login_pass">Password</label>
+                <input type="password" id="login_pass" name="password" autocomplete="off">
               </div>
 
               <div class="role">
-                <label for="login_us" id="roles" re>Select Role</label>
-                <select name="role" id="role" required>
+                <label for="login_role" id="roles">Select Role</label>
+                <select name="role" id="login_role">
                   <option value="">Select Role----</option>
                   <option value="student">Student</option>
                   <option value="admin">Admin</option>
@@ -74,7 +74,7 @@
               </div>
               <button type="submit" class="sbt_btn">Login</button>
               <div class="error">
-                <p id="errorMessage"></p>
+                <p id="Login_error_Message"></p>
               </div>
               <div class="or">
                 <p class="or-text">Do you have account? <a href="#" id="registerLink">Register</a></p>
@@ -84,7 +84,7 @@
           </div>
         </div>
 
-<!---REGISTER STARTS HERE---->
+        <!---REGISTER STARTS HERE---->
 
         <div class="register-container" id="registerContainer">
           <div class="register_image">
@@ -93,9 +93,9 @@
               <p>Register, Access Courses, and Manage Your Academic Journey Easily</p>
             </div>
           </div>
-          <div class="register-form" id="registerFormContainer">  
-            <h2>Register</h2>       
-            <form id="registerForm" action="" method="post">
+          <div class="register-form" id="registerFormContainer">
+            <h2>Register</h2>
+            <form id="register_Form" action="" method="post">
 
               <div class="input-group">
                 <label for="fullname">Full Name</label>
@@ -140,14 +140,13 @@
 
               <button type="submit" class="sbt_btn">Register</button>
 
-              <div class="error">
-                <p id="registerError"></p>
-              </div>
 
               <p class="or">
                 Already have an account?
                 <a href="#" id="backToLoginFromRegister">Login</a>
               </p>
+
+              <p id="register_error_message"></p>
             </form>
           </div>
         </div>
@@ -158,10 +157,11 @@
             <h2>Forgot Password</h2>
             <form action="" method="post" id="forgot">
               <div class="input-group">
-                <label for="email">Enter your Email:</label>
-                <input type="email" id="email" name="email" required>
+                <label for="forgot_email">Enter your Email:</label>
+                <input type="email" id="forgot_email" name="email">
               </div>
               <button type="submit" class="sbt_btn">Reset Password</button>
+              <p id="forgotPasswordMessage"></p>
             </form>
           </div>
         </div>
@@ -217,5 +217,5 @@
 </body>
 
 <script src="login.js?v=<?php echo time(); ?>"></script>
+
 </html>
-forgotPasswordLink
