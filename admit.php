@@ -36,14 +36,14 @@
 
       <div class="container">
         <h2>Student Registration Form</h2>
-        <form action="" method="post">
+        <form action="" id="registration_form"method="post">
 
           <div class="form-section">
             <h3>Student Personal Details</h3>
             <div class="form-grid">
               <div class="form-group">
                 <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="full_name" name="name" required>
               </div>
 
               <div class="form-group">
@@ -53,7 +53,7 @@
 
               <div class="form-group">
                 <label>Gender:</label>
-                <div class="radio-group">
+                <div class="radio-group" id="gender">
                   <input type="radio" id="male" name="gender" value="male" required> <label for="male">Male</label>
                   <input type="radio" id="female" name="gender" value="female" required> <label for="female">Female</label>
                 </div>
@@ -102,7 +102,7 @@
 
               <div class="form-item">
                 <label for="email">Email Address:</label>
-                <input type="email" id="email"  required>
+                <input type="email" id="guardian_email"  required>
               </div>
 
             </div>
@@ -136,7 +136,7 @@
             <div class="upload-container">
               <div class="upload-row">
                 <label>Student Photo:</label>
-                <input type="file" id="my_  photo" name="student_photo" required>
+                <input type="file" id="my_photo" name="student_photo" required>
               </div>
               <div class="upload-row">
                 <label>Birth Certificate:</label>
@@ -162,6 +162,10 @@
               </div>
 
             </div>
+          </div>
+
+          <div class="error">
+            <p class="error" id="error_message"> All Fields Are Required</p>
           </div>
 
           <div class="buttons">
@@ -222,6 +226,8 @@
   </footer>
 </div>
 </div>
+
+<script src="admit.js?v=<?php echo time(); ?>"></script>
 </body>
 
 </html>

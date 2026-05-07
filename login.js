@@ -5,6 +5,7 @@ const loginContainer = document.getElementById("loginContainer");
 const registerContainer = document.getElementById("registerContainer");
 const forgotContainer = document.getElementById("forgot_password");
 
+
 const registerLink = document.getElementById("registerLink");
 const forgotPasswordLink = document.getElementById("forgotPasswordLink");
 const backToLoginFromRegister = document.getElementById("backToLoginFromRegister");
@@ -80,7 +81,6 @@ registerForm.addEventListener("submit", function (e) {
     setTimeout(() => {
       register_error_message.textContent = "";
     }, 3000);
-
 
   }
 
@@ -289,8 +289,6 @@ loginForm.addEventListener("submit", function (e) {
   else{
     loginErrorMessage.textContent = "Login successful!";
     loginErrorMessage.style.color = "green";
-
-    
   }
 })
 
