@@ -42,36 +42,36 @@
             <h3>Student Personal Details</h3>
             <div class="form-grid">
               <div class="form-group">
-                <label for="name">Full Name:</label>
-                <input type="text" id="full_name" name="name" required>
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="name" autocomplete="off">
               </div>
 
               <div class="form-group">
                 <label for="dob">Date of Birth:</label>
-                <input type="date" id="dob" name="dob" required>
+                <input type="date" id="dob" name="dob" autocomplete="off">
               </div>
 
               <div class="form-group">
                 <label>Gender:</label>
                 <div class="radio-group" id="gender">
-                  <input type="radio" id="male" name="gender" value="male" required> <label for="male">Male</label>
-                  <input type="radio" id="female" name="gender" value="female" required> <label for="female">Female</label>
+                  <input type="radio" id="male" name="gender" value="male" autocomplete="off"> <label for="male">Male</label>
+                  <input type="radio" id="female" name="gender" value="female" autocomplete="off "> <label for="female">Female</label>
                 </div>
               </div>
 
               <div class="form-group">
                 <label for="postal_address">Postal Address:</label>
-                <input type="text" id="postal_address" name="postal_address" required>
+                <input type="text" id="postal_address" name="postal_address" autocomplete="off">
               </div>
 
               <div class="form-group">
                 <label for="birth_certificate">ID / Birth Cert No:</label>
-                <input type="number" id="birth_certificate" name="birth_certificate"  required>
+                <input type="number" id="birth_certificate" name="birth_certificate" autocomplete="off">
               </div>
 
               <div class="form-group">
                 <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" autocomplete="off">
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@
             <div class="grid-container">
               <div class="form-item">
                 <label for="guardian">Parent/Guardian Name:</label>
-                <input type="text" id="guardian">
+                <input type="text" id="guardian" autocomplete="off">
               </div>
 
               <div class="form-item">
@@ -97,12 +97,12 @@
 
               <div class="form-item">
                 <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" required>
+                <input type="tel" id="phone" autocomplete="off">
               </div>
 
               <div class="form-item">
-                <label for="email">Email Address:</label>
-                <input type="email" id="guardian_email"  required>
+                <label for="guardian_email">Email Address:</label>
+                <input type="email" id="guardian_email" autocomplete="off">
               </div>
 
             </div>
@@ -113,20 +113,20 @@
             <div class="grid-container">
               <div class="form-item">
                 <label for="prev_school">Previous School:</label>
-                <input type="text" id="prev_school" required>
+                <input type="text" id="prev_school" autocomplete="off">
               </div>
               <div class="form-item">
-                <label for="last-grade">KPSEA Index Number:</label>
-                <input type="number" id="kpsea_index" required>
+                <label for="kpsea_index">KPSEA Index Number:</label>
+                <input type="number" id="kpsea_index" autocomplete="off">
               </div>
 
               <div class="form-item">
                 <label for="course_pathway">Course Pathway:</label>
-                <input type="text" id="course_pathway" required>
+                <input type="text" id="course_pathway" autocomplete="off">
               </div>
               <div class="form-item">
                 <label for="admission_year">Year of Admission:</label>
-                <input type="text" id="admission_year" required>
+                <input type="text" id="admission_year" autocomplete="off">
               </div>
             </div>
           </div>
@@ -135,20 +135,20 @@
             <h3>Document Uploads</h3>
             <div class="upload-container">
               <div class="upload-row">
-                <label>Student Photo:</label>
-                <input type="file" id="my_photo" name="student_photo" required>
+                <label for="my_photo">Student Photo:</label>
+                <input type="file" id="my_photo" name="student_photo" autocomplete="off">
               </div>
               <div class="upload-row">
-                <label>Birth Certificate:</label>
-                <input type="file" id="birth_cert" name="birth_cert" required>
+                <label for="birth_cert">Birth Certificate:</label>
+                <input type="file" id="birth_cert" name="birth_cert" autocomplete="off">
               </div>
               <div class="upload-row">
-                <label>Results Slip:</label>
-                <input type="file" id="results_slip" name="results_slip" required>
+                <label for="results_slip">Results Slip:</label>
+                <input type="file" id="results_slip" name="results_slip" autocomplete="off">
               </div>
               <div class="upload-row">
-                <label>Medical Report:</label>
-                <input type="file" id="medical_report" name="medical_report" required>
+                <label for="medical_report">Medical Report:</label>
+                <input type="file" id="medical_report" name="medical_report" autocomplete="off  ">
               </div>
             </div>
           </div>
@@ -157,7 +157,7 @@
             <h3>Declaration</h3>
             <div class="declaration-box">
               <div class="checkbox-row">
-                <input type="checkbox" id="confirm" required>
+                <input type="checkbox" id="confirm" name="confirm">
                 <label for="confirm">I confirm that the information provided is true and correct.</label>
               </div>
 
@@ -165,7 +165,7 @@
           </div>
 
           <div class="error">
-            <p class="error" id="error_message"> All Fields Are Required</p>
+            <p class="error" id="error_message"> </p>
           </div>
 
           <div class="buttons">
@@ -226,7 +226,6 @@
   </footer>
 </div>
 </div>
-
 <script src="admit.js?v=<?php echo time(); ?>"></script>
 </body>
 
