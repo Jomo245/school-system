@@ -124,5 +124,9 @@ registration_form.addEventListener("submit",  function (e){
 
 else{ error_message.innerHTML="Form submitted successfully!";
     error_message.style.color="green";}
-    
+
+
+    setTimeout(function() {
+      error_message.innerHTML = "";
+    }, 10000);
   } )

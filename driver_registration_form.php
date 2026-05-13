@@ -39,23 +39,24 @@
         <div class="driver-registration-container">
           <h2>School Driver's registration form</h2>
 
-          <form id="driver_registration" >
+          <form action="" id="driver_registration" method="post">
             <h3>Personal details</h3>
             <div class="form-container personal">
 
               <div class="inputs">
-                <label for="name">Full Name</label>
-                <input type="text" name="myname" id="my_name" required>
+                <label for="myname">Full Name</label>
+                <input type="text" name="myname" id="myname" autocomplete="off">
               </div>
 
               <div class="inputs">
-                <label for="national-id">National Id</label>
-                <input type="number" name="ID_number" id="my_id_number" required>
+                <label for="my_id_number">National Id</label>
+                <input type="number" name="ID_number" id="my_id_number" autocomplete="off">
               </div>
 
               <div class="radio">
-                <label for="gender">Gender:</label>
+
                 <div class="gender-option">
+                  <label>Gender:</label>
                   <label for="male">Male</label>
                   <input type="radio" id="male" name="gender" value="male">
 
@@ -65,28 +66,28 @@
               </div>
 
               <div class="inputs">
-                <label for="birth">Date of birth</label>
-                <input type="date" id="my_date_of_birth" name="my_date_of_birth" required>
+                <label for="my_date_of_birth">Date of birth</label>
+                <input type="date" id="my_date_of_birth" name="my_date_of_birth" autocomplete="off">
               </div>
 
               <div class="inputs">
-                <label for="phone">Phone Number</label>
-                <input type="number" id="phone_number" name="phone_number" required>
+                <label for="phone_number">Phone Number</label>
+                <input type="number" id="phone_number" name="phone_number" autocomplete="off">
               </div>
 
               <div class="inputs">
-                <label for="email">Email</label>
-                <input type="email" id="my_email" name="my_email" required>
+                <label for="my_email">Email</label>
+                <input type="email" id="my_email" name="my_email" autocomplete="off">
               </div>
 
               <div class="inputs">
-                <label for="passport">Attach Passport</label>
-                <input type="file" id="my_passport" name="my_passport" required>
+                <label for="my_passport">Attach Passport</label>
+                <input type="file" id="my_passport" name="my_passport" autocomplete="off">
               </div>
 
               <div class="inputs">
-                <label for="address">Home Address<Address></Address></label>
-                <input type="text" id="my_home_address" name="my_home_address" required>
+                <label for="my_home_address">Home Address</label>
+                <input type="text" id="my_home_address" name="my_home_address" autocomplete="off">
               </div>
 
             </div>
@@ -96,18 +97,18 @@
             <div class="form-container employment-details">
 
               <div class="inputs">
-                <label for="employee-id">Employee Id</label>
-                <input type="number" id="employee_Id" name="employee_Id" required>
+                <label for="employee_id">Employee Id</label>
+                <input type="number" id="employee_id" name="employee_Id" autocomplete="off">
               </div>
 
               <div class="inputs">
-                <label for="employment-date">Employment Date</label>
-                <input type="date" id="employment-date" name="employment-date" required>
+                <label for="employment_date">Employment Date</label>
+                <input type="date" id="employment_date" name="employment-date" autocomplete="off">
               </div>
 
               <div class="inputs">
                 <label for="position">Position Employed</label>
-                <input type="text" required>
+                <input type="text" id="position" name="position" autocomplete="off">
               </div>
 
               <div class="inputs">
@@ -125,18 +126,18 @@
             <div class="form-container driving-credentials">
 
               <div class="inputs">
-                <label for="driving-license">Driving License Number</label>
-                <input type="number" required>
+                <label for="driving_license">Driving License Number</label>
+                <input type="number" id="driving_license" name="driving_license" autocomplete="off">
               </div>
 
               <div class="inputs">
-                <label for="license-expiry">Driving License Expiry</label>
-                <input type="date" required>
+                <label for="license_expiry">Driving License Expiry</label>
+                <input type="date" id="license_expiry" name="license_expiry" autocomplete="off">
               </div>
 
               <div class="inputs">
-                <label for="license-category">License Category</label>
-                <select name="dl-category">
+                <label for="license_category">License Category</label>
+                <select name="dl-category" id="license_category">
                   <option value="dl-category">--Choose Your Category</option>
                   <option value="dl-category">D1</option>
                   <option value="dl-category">D2</option>
@@ -146,7 +147,7 @@
 
               <div class="inputs">
                 <label for="vehicle">Vehicle Assigned </label>
-                <select name="vehicle">
+                <select name="vehicle" id="vehicle">
                   <option value="vehicle">---Choose Vehicle Assigned---</option>
                   <option value="vehicle">School Bus Only</option>
                   <option value="vehicle">School Van Only</option>
@@ -156,17 +157,19 @@
               </div>
 
               <div class="inputs">
-                <label for="medical-record">Medical Report</label>
-                <input type="file" required>
+                <label for="medical_record">Medical Report</label>
+                <input type="file" id="medical_record" name="medical_record" autocomplete="off">
               </div>
 
               <div class="inputs">
-                <label for="police-clearance">Police Clearance Certificate</label>
-                <input type="file" required>
+                <label for="police_clearance">Police Clearance Certificate</label>
+                <input type="file" id="police_clearance" name="police_clearance" autocomplete="off">
+              </div>
               </div>
 
+            <div class="error">
+              <p id="error_message">All Field Required</p>
             </div>
-
 
             <div class="btn">
               <button type="reset" class="reset_btn" id="reset_btn">Reset</button>
@@ -205,7 +208,6 @@
               <p>Attendance Tracking</p>
               <p>Parent Communication</p>
               <p>Academic Records Management</p>
-
             </div>
 
             <div class="footer-box">
@@ -223,6 +225,8 @@
         </footer>
       </div>
   </div>
-</body>
+  </section>
 
+  <script src="driver_registration_form.js?v=<?php echo time(); ?>"></script>
+</body>
 </html>
