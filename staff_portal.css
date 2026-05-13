@@ -6,6 +6,11 @@
   font-style: normal;
 }
 
+.error p{
+  text-align: center;
+  padding: 20px;
+}
+
 .home_container {
   width: 100%;
   background: whitesmoke;
@@ -666,8 +671,8 @@ form h2 {
 .input-box input:valid + label,
 .input-box textarea:focus + label,
 .input-box textarea:valid + label {
-  top: -8px;
-  font-size: 12px;
+  top: -1px;
+  font-size: 15px;
   color: #0a4fa3;
 }
 

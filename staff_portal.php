@@ -597,29 +597,33 @@ after several consideration the school closing date would be on 27.July.2026
 
               <!------------REPORT DISCIPLINE  CASES----------->
               <div class="section discipline_container" id="DisciplineSection">
-                <form>
+                <form id="disciplinary_form" method="post">
 
                   <h2>Disciplinary Form</h2>
 
                   <div class="input-box">
-                    <input type="text" required>
-                    <label>Full Name</label>
+                    <input type="text" id="full_name" name="full_name">
+                    <label for="full_name">Full Name</label>
                   </div>
 
                   <div class="input-box">
-                    <input type="number" required>
-                    <label>Admission Number </label>
+                    <input type="number" id="admission_number" name="admission_number">
+                    <label for="admission_number">Admission Number </label>
                   </div>
 
                   <div class="input-box">
-                    <textarea required></textarea>
-                    <label>Case Description </label>
+                    <textarea id="case_description" name="case_description"></textarea>
+                    <label for="case_description">Case Description </label>
                   </div>
 
 
                   <div class="input-box">
-                    <input type="text" required>
-                    <label>Punishment type</label>
+                    <input type="text" id="punishment_type" name="punishment_type">
+                    <label for="punishment_type">Punishment type</label>
+                  </div>
+
+                  <div class="error">
+                    <p id="error_message"></p>
                   </div>
 
                   <button type="submit">Report Case</button>
@@ -869,6 +873,7 @@ after several consideration the school closing date would be on 27.July.2026
     </div>
   </div>
   <script src="staff_portal.js?v=<?php echo time(); ?>"></script>
+  
 </body>
 
 </html>
