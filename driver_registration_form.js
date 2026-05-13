@@ -1,9 +1,9 @@
 //  VARIABLES DECLARATION
 
-const registration_form=document.getElementById("driver_registration");
+const driver_registration=document.getElementById("driver_registration");
 const error_message=document.getElementById("error_message");
 
-registration_form.addEventListener("submit",  function (e){
+driver_registration.addEventListener("submit",  function (e){
   let full_name=document.getElementById("myname").value.trim();
   let my_id_number=document.getElementById("my_id_number").value.trim();
   let gender=document.querySelector('input[name="gender"]:checked');
@@ -26,7 +26,7 @@ registration_form.addEventListener("submit",  function (e){
   let license_expiry=document.getElementById("license_expiry").value.trim();
   let license_category=document.getElementById("license_category").value.trim();
   let vehicle=document.getElementById("vehicle").value.trim();
-  let medical_record=document.getAnimations("medical_record").fils.length;
+  let medical_record=document.getElementById("medical_record").files.length;
   let police_clearance=document.getElementById("police_clearance").files.length;
 
 
@@ -36,6 +36,7 @@ registration_form.addEventListener("submit",  function (e){
     e.preventDefault();
     error_message.innerHTML="Please fill in all the required fields.";
     error_message.style.color="red";  
+
 
     setTimeout(function() {
       error_message.innerHTML = "";
@@ -123,19 +124,10 @@ registration_form.addEventListener("submit",  function (e){
     }, 5000); 
   }
 
-  else if(status.toLowerCase()!="active"){
-    e.preventDefault();
-    error_message.innerHTML="Status must be 'Active'.";
-    error_message.style.color="red";  
 
-    setTimeout(function() {
-      error_message.innerHTML = "";
-    } , 5000);
-  }
-
-  else if(license_category.toUpperCase()!="A" && license_category.toUpperCase()!="B" && license_category.toUpperCase()!="C" && license_category.toUpperCase()!="D" && license_category.toUpperCase()!="E"){
+  else if(license_category.toUpperCase()!="D1" && license_category.toUpperCase()!="D2" && license_category.toUpperCase()!="D3"){
     e.preventDefault();
-    error_message.innerHTML="License category must be A, B, C, D, or E.";
+    error_message.innerHTML="License category must be D1, D2, or D3.";
     error_message.style.color="red";  
 
     setTimeout(function() {
@@ -214,6 +206,8 @@ else if(my_home_address.length<10 || my_home_address.length>100){
     } , 5000);
   }
 
+  
+
 else if(vehicle.length<2 || vehicle.length>50){
     e.preventDefault();
     error_message.innerHTML="Vehicle must be between 2 and 50 characters.";
@@ -226,7 +220,6 @@ else if(vehicle.length<2 || vehicle.length>50){
 
 
 else{
-    e.preventDefault();
     error_message.innerHTML="Registration successful!";
     error_message.style.color="green";  
 
@@ -235,6 +228,4 @@ else{
     }, 5000); 
 }
 }
-
-);
-
+)

@@ -39,7 +39,7 @@
         <div class="driver-registration-container">
           <h2>School Driver's registration form</h2>
 
-          <form action="" id="driver_registration" method="post">
+          <form id="driver_registration" method="post" enctype="multipart/form-data">
             <h3>Personal details</h3>
             <div class="form-container personal">
 
@@ -72,7 +72,7 @@
 
               <div class="inputs">
                 <label for="phone_number">Phone Number</label>
-                <input type="number" id="phone_number" name="phone_number" autocomplete="off">
+                <input type="tel" id="phone_number" name="phone_number" autocomplete="off">
               </div>
 
               <div class="inputs">
@@ -113,10 +113,10 @@
 
               <div class="inputs">
                 <label for="status">Status</label>
-                <select name="status" id="status" name="my_status">
-                  <option value="status">---Choose Status---</option>
+                <select name="status" id="status">
+                  <option value="">---Choose Status---</option>
                   <option value="status">Active</option>
-                  <option value="status">Inactive</option>
+                  <option value="inactive">Inactive</option>
                 </select>
               </div>
             </div>
@@ -138,21 +138,21 @@
               <div class="inputs">
                 <label for="license_category">License Category</label>
                 <select name="dl-category" id="license_category">
-                  <option value="dl-category">--Choose Your Category</option>
-                  <option value="dl-category">D1</option>
-                  <option value="dl-category">D2</option>
-                  <option value="dl-category">D3</option>
+                  <option value="">--Choose Your Category</option>
+                  <option value="D1">D1</option>
+                  <option value="D2">D2</option>
+                  <option value="D3">D3</option>
                 </select required>
               </div>
 
               <div class="inputs">
                 <label for="vehicle">Vehicle Assigned </label>
                 <select name="vehicle" id="vehicle">
-                  <option value="vehicle">---Choose Vehicle Assigned---</option>
-                  <option value="vehicle">School Bus Only</option>
-                  <option value="vehicle">School Van Only</option>
-                  <option value="vehicle">Both School Bus and Van</option>
-                  <option value="vehicle">School Staff Vehicle</option>
+                  <option value="">---Choose Vehicle Assigned---</option>
+                  <option value="School Bus Only">School Bus Only</option>
+                  <option value="School Van Only">School Van Only</option>
+                  <option value="Both School Bus and Van">Both School Bus and Van</option>
+                  <option value="School Staff Vehicle">School Staff Vehicle</option>
                 </select required>
               </div>
 
@@ -165,10 +165,10 @@
                 <label for="police_clearance">Police Clearance Certificate</label>
                 <input type="file" id="police_clearance" name="police_clearance" autocomplete="off">
               </div>
-              </div>
+            </div>
 
             <div class="error">
-              <p id="error_message">All Field Required</p>
+              <p id="error_message"></p>
             </div>
 
             <div class="btn">
@@ -227,6 +227,8 @@
   </div>
   </section>
 
+
   <script src="driver_registration_form.js?v=<?php echo time(); ?>"></script>
 </body>
+
 </html>
