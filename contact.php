@@ -79,26 +79,30 @@
 
             <h2>Send Us a Message</h2>
 
-            <form onsubmit="return validateForm()">
+            <form id="contact_form" method="post" enctype="multipart/form-data">
 
               <div class="input-box">
-                <input type="text" required>
-                <label>Full Name</label>
+                <input type="text" id="fullname" name="fullname"autocomplete="off">
+                <label for="fullname">Full Name</label>
               </div>
 
               <div class="input-box">
-                <input type="email" required>
-                <label>Email Address</label>
+                <input type="email" id="email" name="email" autocomplete="off">
+                <label for="email">Email Address</label>
               </div>
 
               <div class="input-box">
-                <input type="tel" required>
-                <label>Phone Number</label>
+                <input type="tel" id="phone" name="phone" autocomplete="off" >
+                <label for="phone">Phone Number</label>
               </div>
 
               <div class="input-box">
-                <textarea required></textarea>
-                <label>Your Message</label>
+                <textarea id="message" name="message" autocomplete="off" ></textarea>
+                <label for="message">Your Message</label>
+              </div>
+
+              <div class="error">
+                <p id="error_message"></p>
               </div>
 
               <button type="submit">Send Message</button>
@@ -189,6 +193,8 @@
       </footer>
     </div>
   </div>
+
+  <script src="contact.js?v=<?php echo time(); ?>"></script>
 </body>
 
 </html>
