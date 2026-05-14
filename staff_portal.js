@@ -60,7 +60,7 @@ disciplinaryForm.addEventListener("submit", function(e) {
     
       setTimeout(function() {
         error_message.innerHTML = "";
-      }, 5000);
+      }, 7000);
     }
     }
      )

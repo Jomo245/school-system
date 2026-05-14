@@ -186,7 +186,7 @@
 
 
                 <!----------RESULT REPORT----------->
-                <div class="section form-container" id="ResultsSection">
+                 <div class="section form-container" id="ResultsSection">
                   <header>
                     <h1>Academic Performance Report</h1>
                     <p>EXAM RESULTS - 2026</p>
@@ -194,7 +194,7 @@
 
                   <form>
                     <fieldset>
-                      <legend>Student Information</legend>
+                      <legend>Teacher's Information</legend>
                       <div class="row">
                         <div class="input-group">
                           <label>Full Name:</label>
@@ -202,12 +202,17 @@
                         </div>
 
                         <div class="input-group">
-                          <label>Admission Number:</label>
-                          <input type="text" placeholder="">
+                          <label>Grade:</label>
+                            <Select>
+                            <option value="">Select Class---</option>
+                            <option value="grade">Grade 10</option>
+                            <option value="grade">Grade 11</option>
+                            <option value="grade">Grade 12</option>
+                          </Select></Select>
                         </div>
 
                         <div class="input-group">
-                          <label>Class:</label>
+                          <label>stream:</label>
                           <Select>
                             <option value="">Select Class---</option>
                             <option value="red">Red</option>
@@ -235,34 +240,32 @@
                       <table>
                         <thead>
                           <tr>
-                            <th>Subject</th>
-                            <th>Score (100)</th>
-                            <th>Grade</th>
+                            <th>Student Names</th>
+                            <th>Admission</th>
+                            <th>Mathematics</th>
+                            <th>English</th>
+                            <th>Kiswahili</th>
+                            <th>Chemistry</th>
+                            <th>Biology</th>
+                            <th>Physics</th>
+                            <th>Computer Studies</th>
+                            <th>Total</th>
                             <th>Remarks</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td>MATHEMATICS</td>
+                            <td>Alexander Muita</td>
+                            <td>C0122</td>
                             <td><input type="number" min="0" max="100"></td>
-                            <td><input type="text" class="small-input"></td>
-                            <td>
-                              <select name="remark" id="my_remark">
-                                <option value="">Select Remark---</option>
-                                <option value="Excellent">Excellent</option>
-                                <option value="Good">Good</option>
-                                <option value="Fair">Fair</option>
-                                <option value="Pass">Pass</option>
-                                <option value="Fail">Fail</option>
-                                <option value="Missing Marks">Missing Marks</option>
-                              </select>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>ENGLISH</td>
                             <td><input type="number" min="0" max="100"></td>
-                            <td><input type="text" class="small-input"></td>
-                            <td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                             <td><input type="number" min="0" max="100"></td>
+                             <td>
                               <select name="remark" id="my_remark">
                                 <option value="">Select Remark---</option>
                                 <option value="Excellent">Excellent</option>
@@ -272,13 +275,20 @@
                                 <option value="Fail">Fail</option>
                               </select>
                             </td>
+                            
                           </tr>
-
                           <tr>
-                            <td>KISWAHILI</td>
+                            <td>John Isige</td>
+                            <td>C0123</td>
+                             <td><input type="number" min="0" max="100"></td>
                             <td><input type="number" min="0" max="100"></td>
-                            <td><input type="text" class="small-input"></td>
-                            <td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                             <td><input type="number" min="0" max="100"></td>
+                             <td>
                               <select name="remark" id="my_remark">
                                 <option value="">Select Remark---</option>
                                 <option value="Excellent">Excellent</option>
@@ -291,10 +301,17 @@
                           </tr>
 
                           <tr>
-                            <td>CHEMISTRY</td>
+                            <td>Brian okot</td>
+                            <td>C0124</td>
                             <td><input type="number" min="0" max="100"></td>
-                            <td><input type="text" class="small-input"></td>
-                            <td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                             <td><input type="number" min="0" max="100"></td>
+                             <td>
                               <select name="remark" id="my_remark">
                                 <option value="">Select Remark---</option>
                                 <option value="Excellent">Excellent</option>
@@ -307,10 +324,17 @@
                           </tr>
 
                           <tr>
-                            <td>BIOLOGY</td>
+                            <td>Ken munene</td>
+                            <td>C0125</td>
+                             <td><input type="number" min="0" max="100"></td>
                             <td><input type="number" min="0" max="100"></td>
-                            <td><input type="text" class="small-input"></td>
-                            <td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                            <td><input type="number" min="0" max="100"></td>
+                             <td><input type="number" min="0" max="100"></td>
+                             <td>
                               <select name="remark" id="my_remark">
                                 <option value="">Select Remark---</option>
                                 <option value="Excellent">Excellent</option>
@@ -320,39 +344,7 @@
                                 <option value="Fail">Fail</option>
                               </select>
                             </td>
-                          </tr>
 
-                          <tr>
-                            <td>PHYSICS</td>
-                            <td><input type="number" min="0" max="100"></td>
-                            <td><input type="text" class="small-input"></td>
-                            <td>
-                              <select name="remark" id="my_remark">
-                                <option value="">Select Remark---</option>
-                                <option value="Excellent">Excellent</option>
-                                <option value="Good">Good</option>
-                                <option value="Fair">Fair</option>
-                                <option value="Pass">Pass</option>
-                                <option value="Fail">Fail</option>
-                              </select>
-                            </td>
-                          </tr>
-
-
-                          <tr>
-                            <td>COMPUTER STUDIES</td>
-                            <td><input type="number" min="0" max="100"></td>
-                            <td><input type="text" class="small-input"></td>
-                            <td>
-                              <select name="remark" id="my_remark">
-                                <option value="">Select Remark---</option>
-                                <option value="Excellent">Excellent</option>
-                                <option value="Good">Good</option>
-                                <option value="Fair">Fair</option>
-                                <option value="Pass">Pass</option>
-                                <option value="Fail">Fail</option>
-                              </select>
-                            </td>
                           </tr>
                         </tbody>
                       </table>
