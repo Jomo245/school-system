@@ -192,19 +192,19 @@
                     <p>EXAM RESULTS - 2026</p>
                   </header>
 
-                  <form>
+                  <form id="update_grade_form" method="post">
                     <fieldset>
                       <legend>Teacher's Information</legend>
                       <div class="row">
                         <div class="input-group">
-                          <label>Full Name:</label>
-                          <input type="text" placeholder="">
+                          <label for="students_full_name">Full Name:</label>
+                          <input type="text" id="students_full_name" placeholder="">
                         </div>
 
                         <div class="input-group">
-                          <label>Grade:</label>
-                            <Select>
-                            <option value="">Select Class---</option>
+                          <label for="grade">Grade:</label>
+                            <Select id="grade">
+                            <option value="">Select Grade---</option>
                             <option value="grade">Grade 10</option>
                             <option value="grade">Grade 11</option>
                             <option value="grade">Grade 12</option>
@@ -212,8 +212,8 @@
                         </div>
 
                         <div class="input-group">
-                          <label>stream:</label>
-                          <Select>
+                          <label for="stream">Stream:</label>
+                          <Select id="stream">
                             <option value="">Select Class---</option>
                             <option value="red">Red</option>
                             <option value="green">Green</option>
@@ -222,8 +222,8 @@
                         </div>
 
                         <div class="input-group">
-                          <label>Term:</label>
-                          <Select>
+                          <label for="term">Term:</label>
+                          <Select id="term">
                             <option value="">Select Term---</option>
                             <option value="term one">Term One</option>
                             <option value="term two">Term Two</option>
@@ -353,20 +353,20 @@
                     <div class="summary-footer">
                       <div class="summary_row">
                         <div class="summary_group">
-                          <label>Mean Grade:</label>
-                          <input type="text" placeholder="Grade">
+                          <label for="mean_grade">Mean Grade:</label>
+                          <input type="text" id="mean_grade" placeholder="Grade">
                         </div>
                         <div class="summary_group">
-                          <label>Total Marks:</label>
-                          <input type="text" placeholder="Total">
+                          <label for="total_marks">Total Marks:</label>
+                          <input type="text" id="total_marks" placeholder="Total">
                         </div>
                         <div class="summary_group">
-                          <label>Class Position:</label>
-                          <input type="text" placeholder="Pos">
+                          <label for="class_position">Class Position:</label>
+                          <input type="text" id="class_position" placeholder="Pos">
                         </div>
                         <div class="summary_group">
-                          <label>Stream Position:</label>
-                          <input type="text" placeholder="Pos">
+                          <label for="stream_position">Stream Position:</label>
+                          <input type="text" id="stream_position" placeholder="Pos">
                         </div>
                       </div>
 
